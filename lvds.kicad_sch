@@ -2015,6 +2015,72 @@
         )
       )
     )
+    (symbol "antmicroPMICVoltageRegulatorsLinear:TLV76701_WSON6" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 35.56 -2.54 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Value" "TLV76701_WSON6" (at 35.56 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Footprint" "antmicro-footprints:WSON-6-1EP_2x2mm_P0.65mm" (at 35.56 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv767.pdf?ts=1707279652940&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV767" (at 35.56 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "MPN" "TLV76701DRVT" (at 35.56 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Manufacturer" "Texas Instruments" (at 35.56 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (at 35.56 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (at 35.56 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "ki_keywords" "LDO, POWER, SMT, LINEAR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "LDO voltage regulator 1A, Vin: 2.5V-16V, Vout: 0.8V-14.6V; Iq: 50uA; Vdrop@200mA: 200mV; Vdrop@1A: 900mV; " (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TLV76701_WSON6_1_1"
+        (rectangle (start 2.54 2.54) (end 12.7 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin power_out line (at 15.24 0 180) (length 2.54)
+          (name "OUT" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 15.24 -5.08 180) (length 2.54)
+          (name "FB" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -5.08 0) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -2.54 0) (length 2.54)
+          (name "EN" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -5.08 0) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 0 0) (length 2.54)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -5.08 0) (length 2.54) hide
+          (name "PAD" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2707,60 +2773,6 @@
         )
       )
       (symbol "R_590k_0402_1_1"
-        (pin passive line (at 0 0 0) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 0.635)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "antmicroResistors0402:R_680k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 20.32 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Value" "R_680k_0402" (at 20.32 -12.7 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 20.32 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 20.32 -17.78 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "MPN" "CR0402-FX-6803GLF" (at 20.32 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Manufacturer" "Bourns" (at 20.32 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 20.32 -25.4 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 20.32 -27.94 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "680k" (at 20.32 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Tolerance" "1%" (at 20.32 -10.16 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "SMD Chip Resistor, 680 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, Sulfur Resistant" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_680k_0402_0_1"
-        (rectangle (start 0.635 0.889) (end 4.445 -0.889)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_680k_0402_1_1"
         (pin passive line (at 0 0 0) (length 0.635)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -3512,59 +3524,19 @@
         )
       )
     )
-    (symbol "antmicropower:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
+  (junction (at 229.87 124.46) (diameter 0) (color 0 0 0 0)
+    (uuid 07aa6103-808b-4b90-8ef9-ea736062b865)
+  )
   (junction (at 190.5 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 091e0730-0388-4c0f-a3af-00e179971cd2)
   )
   (junction (at 218.44 213.36) (diameter 0) (color 0 0 0 0)
     (uuid 0bebbd7a-b8b8-4658-b04d-bdc9ca4403d6)
+  )
+  (junction (at 262.89 124.46) (diameter 0) (color 0 0 0 0)
+    (uuid 0db47399-a938-4ba7-ba1c-5a358c437eb3)
   )
   (junction (at 393.7 200.66) (diameter 0) (color 0 0 0 0)
     (uuid 1109186d-563c-4c4c-94a9-164edf0ac3ca)
@@ -3683,6 +3655,9 @@
   (junction (at 185.42 58.42) (diameter 0) (color 0 0 0 0)
     (uuid 93d052c3-4e10-47d7-b81c-07f19d848d73)
   )
+  (junction (at 267.97 124.46) (diameter 0) (color 0 0 0 0)
+    (uuid 9d939526-8989-4796-af97-2c5d54a45a4e)
+  )
   (junction (at 218.44 224.79) (diameter 0) (color 0 0 0 0)
     (uuid 9ef77c39-ee79-48ee-b560-785f43818826)
   )
@@ -3692,8 +3667,14 @@
   (junction (at 97.79 222.25) (diameter 0) (color 0 0 0 0)
     (uuid a32a6793-82a2-407b-8c85-138c081da6e2)
   )
+  (junction (at 238.76 124.46) (diameter 0) (color 0 0 0 0)
+    (uuid a910d588-db64-40fa-b25c-662bbbce9f24)
+  )
   (junction (at 214.63 76.2) (diameter 0) (color 0 0 0 0)
     (uuid ab4752d6-b073-4f8a-b3ea-2d9254e51516)
+  )
+  (junction (at 262.89 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid ada1bd24-73cb-49f3-a4c1-a06b39f12e3f)
   )
   (junction (at 214.63 49.53) (diameter 0) (color 0 0 0 0)
     (uuid b57a1961-e121-4d87-9c07-f437fec1bfdb)
@@ -3980,6 +3961,10 @@
     (stroke (width 0) (type default))
     (uuid 10941098-9338-4fc7-8249-c881a47f99ea)
   )
+  (wire (pts (xy 224.79 124.46) (xy 229.87 124.46))
+    (stroke (width 0) (type default))
+    (uuid 10e7307b-85ec-4f88-ab85-7f6ecd013669)
+  )
   (polyline (pts (xy 193.04 69.85) (xy 143.51 69.85))
     (stroke (width 0) (type default))
     (uuid 10f00ace-a40b-4f14-9ba7-1579b57add88)
@@ -4064,11 +4049,15 @@
     (stroke (width 0) (type default))
     (uuid 21a52937-d292-4105-908a-98f2e3b1c54d)
   )
-  (polyline (pts (xy 201.93 102.87) (xy 201.93 114.3))
+  (polyline (pts (xy 93.98 132.08) (xy 93.98 143.51))
     (stroke (width 0) (type default))
     (uuid 2260b4f4-3070-4574-93a7-38558e1c5392)
   )
 
+  (wire (pts (xy 262.89 137.16) (xy 262.89 135.89))
+    (stroke (width 0) (type default))
+    (uuid 240af146-5349-4323-8f21-d7def3d36231)
+  )
   (wire (pts (xy 346.71 85.09) (xy 346.71 87.63))
     (stroke (width 0) (type default))
     (uuid 24b4bff7-8dd7-4236-b534-38682094ae53)
@@ -4084,6 +4073,10 @@
   (wire (pts (xy 186.69 224.79) (xy 187.96 224.79))
     (stroke (width 0) (type default))
     (uuid 25faf527-620d-44a5-92a1-604d38698b49)
+  )
+  (wire (pts (xy 267.97 132.08) (xy 267.97 137.16))
+    (stroke (width 0) (type default))
+    (uuid 2685e365-75d0-4f9d-bd80-fb159c0a3fa5)
   )
   (wire (pts (xy 173.99 201.93) (xy 173.99 203.2))
     (stroke (width 0) (type default))
@@ -4347,6 +4340,10 @@
     (stroke (width 0) (type default))
     (uuid 49734b55-22b1-41c6-be68-305504ae3dbc)
   )
+  (wire (pts (xy 238.76 124.46) (xy 240.03 124.46))
+    (stroke (width 0) (type default))
+    (uuid 49f2d6d4-1661-43e0-a7b2-2d505443f8ee)
+  )
   (wire (pts (xy 166.37 49.53) (xy 175.26 49.53))
     (stroke (width 0) (type default))
     (uuid 4a303cac-68aa-431f-b627-148db4406c70)
@@ -4467,7 +4464,7 @@
     (uuid 566c90ad-0e77-414a-b17c-11bfbd44566f)
   )
 
-  (polyline (pts (xy 297.18 88.9) (xy 297.18 68.58))
+  (polyline (pts (xy 297.18 96.52) (xy 297.18 76.2))
     (stroke (width 0) (type default))
     (uuid 5682630a-b880-44f6-b569-b73f6f4c89f8)
   )
@@ -4497,6 +4494,10 @@
   (wire (pts (xy 233.68 49.53) (xy 238.76 49.53))
     (stroke (width 0) (type default))
     (uuid 590de968-9f07-4084-8b4d-6eb6771a6878)
+  )
+  (wire (pts (xy 255.27 124.46) (xy 262.89 124.46))
+    (stroke (width 0) (type default))
+    (uuid 5924a3d2-3479-4d0b-9b1f-2a0907868e4d)
   )
   (wire (pts (xy 190.5 76.2) (xy 193.04 76.2))
     (stroke (width 0) (type default))
@@ -4545,7 +4546,7 @@
     (stroke (width 0) (type default))
     (uuid 5ed25c8c-681d-4018-a6e5-d2ba91749b49)
   )
-  (polyline (pts (xy 251.46 88.9) (xy 297.18 88.9))
+  (polyline (pts (xy 251.46 96.52) (xy 297.18 96.52))
     (stroke (width 0) (type default))
     (uuid 5f9a7312-e407-49df-a686-76c555eceaf9)
   )
@@ -4553,6 +4554,10 @@
   (wire (pts (xy 121.92 195.58) (xy 165.1 195.58))
     (stroke (width 0) (type default))
     (uuid 614bbc3e-ce0c-445f-a260-371c194974b1)
+  )
+  (wire (pts (xy 255.27 129.54) (xy 262.89 129.54))
+    (stroke (width 0) (type default))
+    (uuid 620087da-e43f-47ec-ba17-cb0742b6b94d)
   )
   (wire (pts (xy 378.46 87.63) (xy 388.62 87.63))
     (stroke (width 0) (type default))
@@ -4574,10 +4579,6 @@
   (wire (pts (xy 179.07 201.93) (xy 179.07 203.2))
     (stroke (width 0) (type default))
     (uuid 64e4a158-cb2c-4b33-ae65-81b9472a630c)
-  )
-  (wire (pts (xy 82.55 194.31) (xy 82.55 195.58))
-    (stroke (width 0) (type default))
-    (uuid 65db7125-c934-47d0-a554-6360ca384dcc)
   )
   (wire (pts (xy 186.69 214.63) (xy 187.96 214.63))
     (stroke (width 0) (type default))
@@ -4655,6 +4656,10 @@
   (wire (pts (xy 252.73 49.53) (xy 251.46 49.53))
     (stroke (width 0) (type default))
     (uuid 6f0a0680-60ee-4e3c-903a-70699e36e079)
+  )
+  (wire (pts (xy 240.03 127) (xy 238.76 127))
+    (stroke (width 0) (type default))
+    (uuid 6f0d0f18-c6a2-4d44-bee8-147062c5d7c9)
   )
   (polyline (pts (xy 201.93 62.23) (xy 201.93 38.1))
     (stroke (width 0) (type default))
@@ -4743,7 +4748,7 @@
     (stroke (width 0) (type default))
     (uuid 83ea03b0-2acc-4e29-afed-40f4275cf26b)
   )
-  (wire (pts (xy 243.84 118.11) (xy 251.46 118.11))
+  (wire (pts (xy 135.89 147.32) (xy 143.51 147.32))
     (stroke (width 0) (type default))
     (uuid 84483fa5-8cd7-446c-88a5-54af4971be3c)
   )
@@ -4788,7 +4793,7 @@
     (stroke (width 0) (type default))
     (uuid 8aed92d1-0168-4dcc-b958-20dce0caa4fb)
   )
-  (polyline (pts (xy 251.46 68.58) (xy 251.46 88.9))
+  (polyline (pts (xy 251.46 76.2) (xy 251.46 96.52))
     (stroke (width 0) (type default))
     (uuid 8b773601-036b-46bc-9e1c-0766ab4fb2b3)
   )
@@ -4911,6 +4916,10 @@
   (wire (pts (xy 60.96 21.59) (xy 60.96 24.13))
     (stroke (width 0) (type default))
     (uuid 9fb579db-46ff-4484-9a37-2197d830cfbc)
+  )
+  (wire (pts (xy 238.76 127) (xy 238.76 124.46))
+    (stroke (width 0) (type default))
+    (uuid 9fcdc6ae-f306-4a18-b1a1-f7b51fd58b87)
   )
   (wire (pts (xy 345.44 165.1) (xy 359.41 165.1))
     (stroke (width 0) (type default))
@@ -5055,7 +5064,7 @@
     (stroke (width 0) (type default))
     (uuid b4e9ecfe-f6ae-4074-b2a3-1f36e2405626)
   )
-  (wire (pts (xy 213.36 118.11) (xy 220.98 118.11))
+  (wire (pts (xy 105.41 147.32) (xy 113.03 147.32))
     (stroke (width 0) (type default))
     (uuid b52541ca-4336-421c-9519-2b0f4cbc5486)
   )
@@ -5094,6 +5103,10 @@
   (wire (pts (xy 119.38 86.36) (xy 127 86.36))
     (stroke (width 0) (type default))
     (uuid b8870157-16d3-4620-8483-38432fa3b17d)
+  )
+  (wire (pts (xy 229.87 124.46) (xy 238.76 124.46))
+    (stroke (width 0) (type default))
+    (uuid b917c2fd-2ae5-4516-b37f-e8770f929874)
   )
   (wire (pts (xy 151.13 222.25) (xy 166.37 222.25))
     (stroke (width 0) (type default))
@@ -5136,7 +5149,7 @@
     (stroke (width 0) (type default))
     (uuid beb7d470-65e1-4bc6-bd53-b9f87d1efcb4)
   )
-  (wire (pts (xy 198.12 129.54) (xy 205.74 129.54))
+  (wire (pts (xy 90.17 158.75) (xy 97.79 158.75))
     (stroke (width 0) (type default))
     (uuid befb6ad4-76fb-42fa-b77a-32afd6635ffc)
   )
@@ -5152,7 +5165,7 @@
     (stroke (width 0) (type default))
     (uuid c19917e8-7693-4869-bc79-fbaf2afd1b73)
   )
-  (polyline (pts (xy 270.51 102.87) (xy 270.51 114.3))
+  (polyline (pts (xy 162.56 132.08) (xy 162.56 143.51))
     (stroke (width 0) (type default))
     (uuid c22ad605-f8fc-4630-8e8a-85f71f7ed59e)
   )
@@ -5177,11 +5190,11 @@
     (stroke (width 0) (type default))
     (uuid c36b70a8-935a-401c-b1fb-d965f3da21cf)
   )
-  (wire (pts (xy 228.6 118.11) (xy 236.22 118.11))
+  (wire (pts (xy 120.65 147.32) (xy 128.27 147.32))
     (stroke (width 0) (type default))
     (uuid c36d87b3-5098-4f76-96ae-870f6f5eb596)
   )
-  (polyline (pts (xy 270.51 114.3) (xy 201.93 114.3))
+  (polyline (pts (xy 162.56 143.51) (xy 93.98 143.51))
     (stroke (width 0) (type default))
     (uuid c3917aeb-85e9-46d6-b214-0b072a688c8a)
   )
@@ -5206,6 +5219,11 @@
     (stroke (width 0) (type default))
     (uuid c6c2c961-e75a-4003-a5f8-90fff3e9ab2c)
   )
+
+  (wire (pts (xy 267.97 124.46) (xy 267.97 127))
+    (stroke (width 0) (type default))
+    (uuid c85dc1ed-fd08-4ec3-90c3-760bf87504b8)
+  )
   (bus (pts (xy 342.9 147.32) (xy 342.9 152.4))
     (stroke (width 0) (type default))
     (uuid c881331c-85f8-49f9-b45f-be706ad64f69)
@@ -5227,7 +5245,7 @@
     (stroke (width 0) (type default))
     (uuid cb544274-f30c-4526-bd9a-b580a5883dfb)
   )
-  (polyline (pts (xy 201.93 102.87) (xy 270.51 102.87))
+  (polyline (pts (xy 93.98 132.08) (xy 162.56 132.08))
     (stroke (width 0) (type default))
     (uuid cc1d8cbe-4799-42bc-bc8e-592a9a3323a5)
   )
@@ -5257,13 +5275,17 @@
     (stroke (width 0) (type default))
     (uuid cea74929-5fbf-4348-a56b-e70b2b17750a)
   )
-  (wire (pts (xy 251.46 124.46) (xy 251.46 123.19))
+  (wire (pts (xy 143.51 153.67) (xy 143.51 152.4))
     (stroke (width 0) (type default))
     (uuid cf9fb7e6-a9dc-4dbc-aed3-336b3cc078d0)
   )
   (wire (pts (xy 318.77 228.6) (xy 336.55 228.6))
     (stroke (width 0) (type default))
     (uuid d0443102-a46a-4f7a-a5b4-e3a91d331857)
+  )
+  (wire (pts (xy 238.76 129.54) (xy 238.76 137.16))
+    (stroke (width 0) (type default))
+    (uuid d054d0d4-41b3-4f47-a1c8-f76ea2627ade)
   )
   (wire (pts (xy 345.44 154.94) (xy 359.41 154.94))
     (stroke (width 0) (type default))
@@ -5281,6 +5303,10 @@
   (wire (pts (xy 358.14 87.63) (xy 368.3 87.63))
     (stroke (width 0) (type default))
     (uuid d1814b75-3729-4c83-b619-8519a791b9e4)
+  )
+  (wire (pts (xy 262.89 124.46) (xy 267.97 124.46))
+    (stroke (width 0) (type default))
+    (uuid d19cc782-d595-49fd-89be-1211e54b12e9)
   )
   (wire (pts (xy 328.93 35.56) (xy 331.47 35.56))
     (stroke (width 0) (type default))
@@ -5349,6 +5375,10 @@
     (uuid d999f0e6-49fe-4991-b24e-56af5996ee52)
   )
 
+  (wire (pts (xy 262.89 129.54) (xy 262.89 130.81))
+    (stroke (width 0) (type default))
+    (uuid da308e01-39b8-4818-8dd7-1d8f42eda147)
+  )
   (wire (pts (xy 186.69 214.63) (xy 186.69 215.9))
     (stroke (width 0) (type default))
     (uuid daa92b7e-e563-46d2-b13e-24d82883269d)
@@ -5370,7 +5400,7 @@
     (stroke (width 0) (type default))
     (uuid dbdcd8dc-507b-4ea1-9ffa-181aab7ac6d2)
   )
-  (wire (pts (xy 259.08 118.11) (xy 266.7 118.11))
+  (wire (pts (xy 151.13 147.32) (xy 158.75 147.32))
     (stroke (width 0) (type default))
     (uuid dc0a6e9b-0037-42e6-a2db-0829e474c952)
   )
@@ -5382,13 +5412,17 @@
     (stroke (width 0) (type default))
     (uuid dcdfcb8c-dfd7-4d5b-838d-d5915b02216a)
   )
-  (wire (pts (xy 220.98 124.46) (xy 220.98 123.19))
+  (wire (pts (xy 113.03 153.67) (xy 113.03 152.4))
     (stroke (width 0) (type default))
     (uuid dd190b45-9479-480c-bcb7-2ad843fac9aa)
   )
   (wire (pts (xy 369.57 124.46) (xy 369.57 127))
     (stroke (width 0) (type default))
     (uuid dd3fe760-7521-4300-b2e3-7d8d193eb2eb)
+  )
+  (wire (pts (xy 229.87 125.73) (xy 229.87 124.46))
+    (stroke (width 0) (type default))
+    (uuid df3d11e5-beae-49d6-8871-626a8282fcbd)
   )
   (wire (pts (xy 346.71 87.63) (xy 346.71 88.9))
     (stroke (width 0) (type default))
@@ -5398,9 +5432,17 @@
     (stroke (width 0) (type default))
     (uuid dfe828fc-8d94-4682-bcef-09cf98b820a5)
   )
+  (wire (pts (xy 240.03 129.54) (xy 238.76 129.54))
+    (stroke (width 0) (type default))
+    (uuid dfec800f-7db0-4bdb-b1f9-330151876737)
+  )
   (wire (pts (xy 97.79 214.63) (xy 97.79 215.9))
     (stroke (width 0) (type default))
     (uuid e05f8991-a27d-49ee-aabd-0c59e21bdded)
+  )
+  (wire (pts (xy 229.87 130.81) (xy 229.87 137.16))
+    (stroke (width 0) (type default))
+    (uuid e13f4abd-860c-4369-ae00-f4ae5e85230c)
   )
   (wire (pts (xy 152.4 83.82) (xy 205.74 83.82))
     (stroke (width 0) (type default))
@@ -5513,11 +5555,11 @@
     (stroke (width 0) (type default))
     (uuid ebf3d274-4eec-4214-aa10-3bc362aac19d)
   )
-  (wire (pts (xy 205.74 125.73) (xy 205.74 129.54))
+  (wire (pts (xy 97.79 154.94) (xy 97.79 158.75))
     (stroke (width 0) (type default))
     (uuid ed944359-064e-4e29-a4b8-742d45bf687b)
   )
-  (wire (pts (xy 266.7 124.46) (xy 266.7 123.19))
+  (wire (pts (xy 158.75 153.67) (xy 158.75 152.4))
     (stroke (width 0) (type default))
     (uuid edb57baa-c43a-4ffb-a080-fa2a66a2b858)
   )
@@ -5571,7 +5613,7 @@
     (stroke (width 0) (type default))
     (uuid f3df8a5f-8870-4a71-bca3-4039c5f00ed3)
   )
-  (polyline (pts (xy 251.46 68.58) (xy 297.18 68.58))
+  (polyline (pts (xy 251.46 76.2) (xy 297.18 76.2))
     (stroke (width 0) (type default))
     (uuid f43e2bea-2695-4c94-9242-68fff39b1379)
   )
@@ -5584,7 +5626,7 @@
     (stroke (width 0) (type default))
     (uuid f49ef7bf-ab44-4f30-88bd-542b3f6fb9ac)
   )
-  (wire (pts (xy 236.22 124.46) (xy 236.22 123.19))
+  (wire (pts (xy 128.27 153.67) (xy 128.27 152.4))
     (stroke (width 0) (type default))
     (uuid f79e8008-74e6-484c-8260-2285fcbae542)
   )
@@ -5625,6 +5667,10 @@
   (wire (pts (xy 116.84 66.04) (xy 127 66.04))
     (stroke (width 0) (type default))
     (uuid fbd895a5-de0e-4b2f-8da7-f122e4f0b6af)
+  )
+  (wire (pts (xy 267.97 124.46) (xy 274.32 124.46))
+    (stroke (width 0) (type default))
+    (uuid fdb80280-d09c-4a71-86eb-1ff0c392692a)
   )
   (wire (pts (xy 127 106.68) (xy 124.46 106.68))
     (stroke (width 0) (type default))
@@ -7693,16 +7739,16 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1cef74f6-9af4-4fb3-b7aa-d5c156092ee9)
   )
-  (text "LCD datasheet pg.6\n" (at 276.86 87.63 0)
+  (text "LCD datasheet pg.6\n" (at 276.86 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2315eea8-5c4f-4b16-9ee7-5c27d834cc42)
   )
-  (text "Vo=(1+R1/R2)*1.146 = 9.69V\n" (at 170.18 48.26 0)
+  (text "Vo=(1+R1/R2)*1.146 = 10.54V\n" (at 170.18 48.26 0)
     (effects (font (size 1.27 1.27) italic) (justify left bottom))
     (uuid 23b556f2-8fc4-42d6-97c6-8352f6435db1)
   )
   (text "Powering sequence\nVDD(3v3) -> VGL(-6V) -> VGH -> Logic signal -> Backlight "
-    (at 204.47 107.95 0)
+    (at 96.52 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 261b776e-39ad-470a-92be-7fd497353af2)
   )
@@ -7719,7 +7765,7 @@
     (uuid 366bc12a-0a88-46f9-9100-f212a0175b7c)
   )
   (text "Required voltages:\nVoltage - Current - Pin from TPS6515\n- 3V9- 45mA - TPS VCOM \n- 9V6- 37mA - TPS VS\n- (-6V)- 1mA - TPS VGL\n- 18V- 1mA - TPS VGH\n- VCC(9-15V)- 180mA - DCDC - backlight"
-    (at 252.73 83.82 0)
+    (at 252.73 91.44 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3980549d-d913-427e-9e63-ce31c1628020)
   )
@@ -7739,7 +7785,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 5a6a20f0-48e3-4892-aa89-287a118ccc41)
   )
-  (text "LCD datasheet pg.7\n" (at 250.19 113.03 0)
+  (text "LCD datasheet pg.7\n" (at 142.24 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7e1fd2b2-1c35-4619-aa08-d58efe35fb8e)
   )
@@ -7790,7 +7836,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 03bcb063-a00a-487a-a6d3-8a34197be42a)
   )
-  (label "COMP" (at 213.36 118.11 0) (fields_autoplaced)
+  (label "COMP" (at 105.41 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 06aa530b-f75e-4bda-b723-7cfd9794b2de)
   )
@@ -7850,7 +7896,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6f500989-3d32-4ec6-9e9a-a52577855334)
   )
-  (label "DLY1" (at 243.84 118.11 0) (fields_autoplaced)
+  (label "DLY1" (at 135.89 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 70ee34aa-50c0-406f-b760-947c705bd922)
   )
@@ -7862,7 +7908,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 79132d50-58be-4d3b-b268-ab3373a9f03b)
   )
-  (label "FDLY" (at 198.12 129.54 0) (fields_autoplaced)
+  (label "FDLY" (at 90.17 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7973b012-1904-4ecc-837b-aba5e06d05d0)
   )
@@ -7894,7 +7940,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 963991ef-9ec1-4a38-8f46-21eef21288fc)
   )
-  (label "ADJ" (at 228.6 118.11 0) (fields_autoplaced)
+  (label "ADJ" (at 120.65 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 987c0738-802a-40f5-8dfc-b6c8e2f6e181)
   )
@@ -7926,7 +7972,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d2722704-01a4-4f7f-83b3-dee37b0ef5b5)
   )
-  (label "DLY2" (at 259.08 118.11 0) (fields_autoplaced)
+  (label "DLY2" (at 151.13 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dc5af904-2ee7-4e96-9123-f43f585af668)
   )
@@ -7994,11 +8040,25 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "9V6" (shape input) (at 274.32 124.46 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5e6d27ff-c62a-4777-a7fe-b3887553ecdb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 280.1518 124.3806 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "3V9" (shape input) (at 345.44 35.56 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) italic) (justify right))
     (uuid 6c99d0c8-2838-498e-b986-8fdaff0ed856)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 339.2637 35.6394 0)
       (effects (font (size 1.27 1.27) italic) (justify right) hide)
+    )
+  )
+  (global_label "10V5" (shape input) (at 82.55 195.58 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7cad59fb-4ef6-41aa-a15f-8bac7e50c075)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 75.5019 195.58 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "VLED-" (shape input) (at 382.27 200.66 180) (fields_autoplaced)
@@ -8057,10 +8117,17 @@
       (effects (font (size 1.27 1.27) italic) (justify right) hide)
     )
   )
-  (global_label "9V6" (shape input) (at 266.7 49.53 0) (fields_autoplaced)
+  (global_label "10V5" (shape input) (at 224.79 124.46 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a84d32a9-4835-4707-b3f4-b727663c4b91)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.7419 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "10V5" (shape input) (at 266.7 49.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b77db3e1-fbf5-41e8-bb87-88216aeb7f3b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 272.5318 49.4506 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 273.7481 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -8130,9 +8197,9 @@
     )
     (pin "1" (uuid b7fe6077-cca4-4935-a30b-82771f2fa4b8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -8161,9 +8228,9 @@
     )
     (pin "1" (uuid 191dcb90-42b9-4159-a370-b2283cb4f14b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -8192,9 +8259,9 @@
     )
     (pin "1" (uuid cf4a6157-9524-4536-a991-7d88a725b506))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -8203,7 +8270,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_25V_0402") (at 252.73 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02fb9009-6f2f-4701-9caf-7b7f076c7749)
-    (property "Reference" "C?" (at 255.27 53.3335 90)
+    (property "Reference" "C?" (at 255.27 52.0636 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_25V_0402" (at 262.89 36.83 0)
@@ -8227,11 +8294,11 @@
     (property "Author" "Antmicro" (at 278.13 36.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "1u" (at 255.27 55.8735 90)
+    (property "Val" "1u" (at 255.27 54.6036 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "25V" (at 280.67 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    (property "Voltage" "25V" (at 255.27 57.1436 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Dielectric" "X5R" (at 283.21 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
@@ -8239,8 +8306,8 @@
     (pin "1" (uuid d0abede5-45c9-4864-b3d2-4689ed7e984c))
     (pin "2" (uuid 7de7cba7-c7b0-4bcb-8249-111872639460))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -8270,9 +8337,56 @@
     )
     (pin "1" (uuid bed4b8e3-071a-4045-860f-ab6d430b45fc))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0153") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroCapacitors0402:C_1u_25V_0402") (at 229.87 130.81 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 03ec6b22-086c-40cf-b57d-c1725fc3143c)
+    (property "Reference" "C3" (at 232.41 125.7236 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Value" "C_1u_25V_0402" (at 240.03 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 242.57 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 245.11 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "GRM155R61E105KE11J" (at 247.65 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Murata" (at 250.19 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 252.73 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 255.27 110.49 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "1u" (at 232.41 128.2636 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Voltage" "25V" (at 232.41 130.8036 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Dielectric" "X5R" (at 260.35 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 8af2ddb5-38b5-41be-a4b3-dc92b9a38f2b))
+    (pin "2" (uuid b36f6bb4-5616-4cec-bee1-75eb0606d738))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -8301,9 +8415,9 @@
     )
     (pin "1" (uuid 026ed514-a612-42cc-a334-6313245dc4a9))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -8345,55 +8459,55 @@
     (pin "1" (uuid 4c889efd-cce0-4736-ae55-7a61b182b5f3))
     (pin "2" (uuid 6a40a92f-a970-4ed4-b625-ec3d696405ca))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_2n2_0402") (at 220.98 123.19 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitors0402:C_2n2_0402") (at 113.03 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 075e1b2f-0a70-4aec-9f6e-86b5205e78b9)
-    (property "Reference" "C?" (at 223.52 119.3735 90)
+    (property "Reference" "C?" (at 115.57 148.5835 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "C_2n2_0402" (at 231.14 102.87 0)
+    (property "Value" "C_2n2_0402" (at 123.19 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 233.68 102.87 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 125.73 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C222J5RACTU.html" (at 236.22 102.87 0)
+    (property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C222J5RACTU.html" (at 128.27 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "C0402C222J5RACTU" (at 238.76 102.87 0)
+    (property "MPN" "C0402C222J5RACTU" (at 130.81 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "KEMET" (at 241.3 102.87 0)
+    (property "Manufacturer" "KEMET" (at 133.35 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 243.84 102.87 0)
+    (property "License" "Apache-2.0" (at 135.89 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 246.38 102.87 0)
+    (property "Author" "Antmicro" (at 138.43 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "2n2" (at 223.52 121.9135 90)
+    (property "Val" "2n2" (at 115.57 151.1235 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "" (at 248.92 102.87 0)
+    (property "Voltage" "" (at 140.97 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Dielectric" "" (at 251.46 102.87 0)
+    (property "Dielectric" "" (at 143.51 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid e0d4c620-4846-44e8-8895-4e827982e4a6))
     (pin "2" (uuid 67adc324-8643-45d9-a5e0-93ea8417e666))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -8423,9 +8537,9 @@
     )
     (pin "1" (uuid 6fc09fb8-b8bc-43d8-82b1-b5668531b6c9))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -8467,8 +8581,8 @@
     (pin "1" (uuid afea7e9d-d5ec-4c09-9102-a15190a577b3))
     (pin "2" (uuid 6cefeebc-6a40-4402-8976-2f6bbaf74018))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -8498,9 +8612,9 @@
     )
     (pin "1" (uuid cab170fa-11eb-4bf0-b7c8-2e05d1a3f3b3))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -8545,8 +8659,8 @@
     (pin "1" (uuid 822a0722-cd07-4d00-9d6c-a820580f8582))
     (pin "2" (uuid c3157ac3-f066-4ee9-a802-56d1753cd911))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -8592,8 +8706,8 @@
     (pin "1" (uuid 5e16819a-9a7c-4418-abac-f5ec6a5acc31))
     (pin "2" (uuid f9ae8bfb-a4cf-4ada-8fb6-ae69399abb0f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R117") (unit 1)
         )
       )
@@ -8638,8 +8752,8 @@
     (pin "8" (uuid 74d3cea8-8e3e-49f0-a455-acfbe0b3196a))
     (pin "9" (uuid 178c2111-29d3-4c9e-96a1-003d5cc6dbcf))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D27") (unit 1)
         )
       )
@@ -8669,9 +8783,9 @@
     )
     (pin "1" (uuid ab9d1d21-160c-4c1e-ae85-2df339120bf5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -8716,8 +8830,8 @@
     (pin "1" (uuid ed31b1f4-aeb0-43ec-8433-1ae01f93e883))
     (pin "2" (uuid 007ca50e-3722-4be5-b8ce-951d64f121f4))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -8747,40 +8861,40 @@
     )
     (pin "1" (uuid a8002232-4633-4ca8-baab-dcc63c533386))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicropower:+5V") (at 205.74 120.65 0) (unit 1)
+  (symbol (lib_id "antmicropower:+5V") (at 97.79 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 189f8aef-eb48-42dd-a189-aa4b185b757f)
-    (property "Reference" "#PWR?" (at 220.98 123.19 0)
+    (property "Reference" "#PWR?" (at 113.03 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "+5V" (at 205.74 116.84 0)
+    (property "Value" "+5V" (at 97.79 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "" (at 220.98 128.27 0)
+    (property "Footprint" "" (at 113.03 157.48 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 220.98 130.81 0)
+    (property "Datasheet" "" (at 113.03 160.02 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 220.98 128.27 0)
+    (property "Author" "Antmicro" (at 113.03 157.48 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 220.98 130.81 0)
+    (property "License" "Apache-2.0" (at 113.03 160.02 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 86c423e4-422e-47d7-a99d-572472a9568c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -8809,9 +8923,9 @@
     )
     (pin "1" (uuid 2ee1ea0a-a595-467c-bb58-4b288f999731))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -8840,8 +8954,8 @@
     )
     (pin "1" (uuid 5b0d4895-a926-4f96-bde0-2f4972f70df8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0158") (unit 1)
         )
       )
@@ -8871,9 +8985,9 @@
     )
     (pin "1" (uuid 23b8e33b-a2e5-426b-89c0-960ae59c54c5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -8918,8 +9032,8 @@
     (pin "1" (uuid 9343dcbf-fa5d-4667-9cbf-0a3065a4797d))
     (pin "2" (uuid eb399c0f-021e-4b0f-9d54-6e88043b490a))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -8957,8 +9071,8 @@
     (pin "2" (uuid 98135878-2e22-4cdf-acb0-542c465fa7c7))
     (pin "3" (uuid 7220f9ad-07ca-4d78-b445-7385b4b3aa6e))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
         )
       )
@@ -9004,8 +9118,8 @@
     (pin "1" (uuid 94cb3264-9ce5-4fc6-9fb1-c6b780d4e05e))
     (pin "2" (uuid 93364444-15d1-4568-8820-5900b1d3d728))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R121") (unit 1)
         )
       )
@@ -9051,8 +9165,8 @@
     (pin "1" (uuid 1d24d9bd-6e8d-45ff-ab51-ee19aee98251))
     (pin "2" (uuid 6baaa251-3bd7-4361-a478-f03a993d20de))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -9095,8 +9209,8 @@
     (pin "1" (uuid 56c06a98-bcda-4339-ba07-0edc74c9bf7c))
     (pin "2" (uuid 10fd6b9b-f8c3-45a6-9e6e-b59ea6abc446))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -9142,9 +9256,40 @@
     (pin "1" (uuid 6961472b-b9e7-4422-90a7-5e410776d0a1))
     (pin "2" (uuid e7d13878-a8bf-4706-b3ff-c61528e451d8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicropower:GND") (at 229.87 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2aadace2-17f4-4eca-adda-305ae1cece17)
+    (property "Reference" "#PWR017" (at 238.76 139.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Value" "GND" (at 229.87 140.97 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Footprint" "" (at 238.76 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "" (at 238.76 149.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 238.76 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 238.76 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 9d6e5d30-2ad8-4785-91e4-8875e8252b98))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -9189,8 +9334,8 @@
     (pin "1" (uuid 59b4bc5f-a0e4-4f7e-8199-4d0f7e12e472))
     (pin "2" (uuid adf5b592-c6b2-4188-bf2b-4b02d7fb75bb))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -9239,8 +9384,8 @@
     (pin "1" (uuid 4f6ee882-2fc5-46d5-975d-7555698b4c43))
     (pin "2" (uuid 28318be0-2938-4989-99f2-53b099f1f8b5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
         )
       )
@@ -9286,8 +9431,8 @@
     (pin "1" (uuid fec58822-e835-4058-bcd7-9a86183138fa))
     (pin "2" (uuid 59f7af38-efe9-435a-b15b-185d7a7479d2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -9325,8 +9470,8 @@
     (pin "2" (uuid 498b37c2-926c-441b-ae8d-abccccdb38dd))
     (pin "3" (uuid 75c5e8ca-35ba-4df2-86f4-7a3c79bc9546))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D?") (unit 1)
         )
       )
@@ -9369,8 +9514,8 @@
     (pin "1" (uuid af5a9524-d4de-4777-8631-5e04067d269d))
     (pin "2" (uuid ae7381d7-5f22-4190-ad25-8890446347a5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -9407,8 +9552,8 @@
     (pin "1" (uuid f020f014-3ee9-4718-991d-9892f41316d7))
     (pin "2" (uuid e53e0d20-6740-45a3-95f5-cc2bcfe22b86))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D?") (unit 1)
         )
       )
@@ -9450,9 +9595,53 @@
     (pin "3" (uuid 23b14001-ebfe-443d-a064-c258c185c880))
     (pin "4" (uuid e08ca3b0-fc85-4a85-b6e9-43f094828419))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 185.42 64.77 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3be99ca4-7290-4dd4-a00f-9b409c0aa98c)
+    (property "Reference" "R3" (at 187.96 60.9599 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Value" "R_100k_0402" (at 198.12 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 200.66 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 203.2 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "CR0402-FX-1003GLF" (at 205.74 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Bourns" (at 208.28 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 210.82 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 213.36 44.45 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "100k" (at 187.96 63.4999 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Tolerance" "1%" (at 195.58 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 98a09fcb-df7f-49db-8939-429556453f81))
+    (pin "2" (uuid 2c92a88a-83d2-4f61-a0ed-4e185dde4c03))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -9494,8 +9683,8 @@
     (pin "1" (uuid fe414f03-6750-4e2e-b8fa-20a9483106cc))
     (pin "2" (uuid dc27450a-bcbc-4393-92bd-0e3891f0f18f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R118") (unit 1)
         )
       )
@@ -9525,9 +9714,9 @@
     )
     (pin "1" (uuid e9e1f98b-3e7f-4f19-87b1-4533bb017710))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -9556,9 +9745,40 @@
     )
     (pin "1" (uuid 5263e960-6e63-4afb-986b-5c5951c085a2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0168") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicropower:GND") (at 262.89 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3e1c88e9-c500-437d-a4c8-ea539b1f9151)
+    (property "Reference" "#PWR015" (at 271.78 139.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Value" "GND" (at 262.89 140.97 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Footprint" "" (at 271.78 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "" (at 271.78 149.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 271.78 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 271.78 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 26d8f076-b878-4a08-95d7-e56bde7cf6e5))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -9599,8 +9819,8 @@
     (pin "3" (uuid 091fbcb0-1c9e-4061-b58a-7ccb132115be))
     (pin "4" (uuid 57f0aca7-13cb-48af-af78-93679d79ce5d))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
         )
       )
@@ -9630,9 +9850,9 @@
     )
     (pin "1" (uuid 3b0ac870-c592-4402-a062-8621de8710ab))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -9661,8 +9881,8 @@
     )
     (pin "1" (uuid da4c2992-10fb-4874-84c8-556de9da0a10))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0136") (unit 1)
         )
       )
@@ -9705,8 +9925,8 @@
     (pin "1" (uuid 191a0711-91ca-4360-a2aa-0226ed5fe7e8))
     (pin "2" (uuid 23a6597a-ed51-4735-b263-8ac01b998899))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -9742,8 +9962,8 @@
     )
     (pin "1" (uuid bd88bd14-59cc-40b5-a94b-8e0ce31d9f91))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP15") (unit 1)
         )
       )
@@ -9773,8 +9993,8 @@
     )
     (pin "1" (uuid 6f365b7c-32c3-47e6-b1c1-bf6675d592da))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0133") (unit 1)
         )
       )
@@ -9810,8 +10030,8 @@
     )
     (pin "1" (uuid cc58d602-8f2d-46ad-8d80-aa50f66e4213))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP16") (unit 1)
         )
       )
@@ -9841,9 +10061,9 @@
     )
     (pin "1" (uuid 6c0d964f-e4f7-42a2-bb92-ce6726ef8bf1))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -9888,8 +10108,8 @@
     (pin "1" (uuid 9e398ad4-2366-4dfc-bdda-a43c432e941d))
     (pin "2" (uuid b41c6b05-8b9c-49c5-bbfb-72ec895c866c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C69") (unit 1)
         )
       )
@@ -9932,8 +10152,8 @@
     (pin "1" (uuid 13f64ff8-5233-4dba-8e6b-f4d6ef34faaa))
     (pin "2" (uuid 36d15d4d-c9d3-46a7-8c18-322c15c6d632))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -9963,9 +10183,9 @@
     )
     (pin "1" (uuid 011a5436-98cf-4d04-b00f-740c7d10755f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -9994,9 +10214,40 @@
     )
     (pin "1" (uuid 52ee6c4b-07ff-4c97-be46-f7dbd920eef7))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicropower:GND") (at 267.97 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5326664e-2774-4a8a-9482-520f327e3254)
+    (property "Reference" "#PWR016" (at 276.86 139.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Value" "GND" (at 267.97 140.97 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Footprint" "" (at 276.86 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "" (at 276.86 149.86 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 276.86 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 276.86 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 8b9623e6-71a9-46e3-92d7-c3bb6c0f96b7))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -10025,9 +10276,9 @@
     )
     (pin "1" (uuid 431cbbf8-5354-4d45-ba96-c7ae3396c1c4))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -10056,9 +10307,9 @@
     )
     (pin "1" (uuid 9a40ce77-f957-42d6-bfb5-4d1b28c5ea50))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -10087,9 +10338,52 @@
     )
     (pin "1" (uuid 75774a58-a2cd-4330-99c5-6fc3cf6c7c68))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0164") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroPMICVoltageRegulatorsLinear:TLV76701_WSON6") (at 240.03 124.46 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5907fcd5-803e-4efe-bce6-727642219b66)
+    (property "Reference" "U1" (at 247.65 116.84 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Value" "TLV76701_WSON6" (at 275.59 132.08 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:WSON-6-1EP_2x2mm_P0.65mm" (at 275.59 134.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv767.pdf?ts=1707279652940&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV767" (at 275.59 137.16 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "TLV76701DRVT" (at 247.65 119.38 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Manufacturer" "Texas Instruments" (at 275.59 139.7 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 275.59 142.24 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 275.59 144.78 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (pin "4" (uuid 47966cab-5217-47aa-836c-b7d1d39f52f6))
+    (pin "1" (uuid 2559c6c4-3b64-4210-bb66-fecc429808fa))
+    (pin "6" (uuid 27ecf2b3-8a54-4de3-9e04-33e460c4941e))
+    (pin "3" (uuid 5694a1a7-c44b-4854-b4e7-527c4a1ba688))
+    (pin "2" (uuid 5bf87518-e552-4df1-b390-1e3b09b56d8f))
+    (pin "7" (uuid f1dc2a15-b067-4af9-840a-79dfa30aabdc))
+    (pin "5" (uuid fb4a9c19-4d35-40bb-8a41-1b7f77cafa64))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -10134,8 +10428,8 @@
     (pin "1" (uuid 0d01bce5-d9d6-40f4-a4b3-74884e1eb801))
     (pin "2" (uuid 59d591f9-d9a2-4ec4-8135-6a10b056b905))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -10165,9 +10459,9 @@
     )
     (pin "1" (uuid 5b1c163c-6079-4e89-84ac-6090297d64d2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -10196,8 +10490,8 @@
     )
     (pin "1" (uuid bfe791c3-7cf8-47a7-a3c8-ce050e2542e1))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0166") (unit 1)
         )
       )
@@ -10240,8 +10534,8 @@
     (pin "1" (uuid d0f12be3-2b46-42dc-ad7c-9df78734b067))
     (pin "2" (uuid b64ecee6-6131-4032-b811-5fd450b6808e))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -10287,8 +10581,8 @@
     (pin "1" (uuid 54228e80-6da0-464a-a591-da1c1ce3be86))
     (pin "2" (uuid 3a04480c-2bb6-4dee-b477-86acd390170e))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C66") (unit 1)
         )
       )
@@ -10331,8 +10625,8 @@
     (pin "1" (uuid 901d7c89-18e0-4f79-89a2-4f8a5ae4db89))
     (pin "2" (uuid 08bdbbae-08da-402a-a9b3-6c36ef185ba0))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -10408,8 +10702,8 @@
     (pin "9" (uuid 443eab53-baf0-4cf9-88c8-1a80b9026fca))
     (pin "SH" (uuid 99aee655-cf42-43b7-8934-d2769a107e40))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "J15") (unit 1)
         )
       )
@@ -10447,8 +10741,8 @@
     (pin "2" (uuid a15501e8-5319-48dd-ba3c-044899aaf5dc))
     (pin "3" (uuid bbc79dd0-2acd-4f49-b3c9-e01c2e97be4a))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
         )
       )
@@ -10494,8 +10788,8 @@
     (pin "1" (uuid d9ef2352-3ea3-4500-bcc1-04b8ae9cbbc0))
     (pin "2" (uuid f31c9d93-557d-4bcb-a98e-ee71e0f18596))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -10541,8 +10835,8 @@
     (pin "1" (uuid d5845048-83d3-48c0-bfec-b57b0166daf0))
     (pin "2" (uuid cdc6af11-51ea-4344-b532-a32a3f57d8bd))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -10572,9 +10866,9 @@
     )
     (pin "1" (uuid 5cf14b10-ef81-41cf-94b4-93bc3b7c1440))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -10611,8 +10905,8 @@
     (pin "2" (uuid 7dd43eb7-6f1d-467a-a0fd-1724a3d0cdad))
     (pin "3" (uuid ccd11d94-8811-4bed-9342-69ce088d482b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
         )
       )
@@ -10622,7 +10916,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_25V_0402") (at 166.37 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80d05272-f4bc-4c0b-b517-a6d34f4a8421)
-    (property "Reference" "C?" (at 168.91 52.0635 90)
+    (property "Reference" "C?" (at 168.91 50.7936 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_25V_0402" (at 176.53 35.56 0)
@@ -10646,11 +10940,11 @@
     (property "Author" "Antmicro" (at 191.77 35.56 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "1u" (at 168.91 54.6035 90)
+    (property "Val" "1u" (at 168.91 53.3336 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "25V" (at 194.31 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    (property "Voltage" "25V" (at 168.91 55.8736 90)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Dielectric" "X5R" (at 196.85 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
@@ -10658,8 +10952,8 @@
     (pin "1" (uuid d94692eb-90eb-4be0-956f-7355c5dec5c3))
     (pin "2" (uuid 0530ab37-6695-4e58-ad80-551cbf075625))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -10697,9 +10991,53 @@
     (pin "2" (uuid 80e73b22-e8cb-4bbc-a7e6-80451accd2bb))
     (pin "3" (uuid 6daf234a-e789-4eab-ac96-a4c6c14a3aa6))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 262.89 135.89 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8693463b-7ffc-45a9-acf8-c91381865e92)
+    (property "Reference" "R2" (at 260.35 132.0799 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Value" "R_10k_0402" (at 250.19 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 247.65 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 245.11 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "CR0402-FX-1002GLF" (at 242.57 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Bourns" (at 240.03 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 237.49 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 234.95 115.57 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "10k" (at 260.35 134.6199 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Tolerance" "1%" (at 252.73 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid b75719f8-f335-4b86-b109-6e0a1c701412))
+    (pin "2" (uuid 290017fd-d5a6-4425-b969-9f3ebf3d47bb))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -10744,8 +11082,8 @@
     (pin "1" (uuid c7023bc5-6638-4715-951f-05eb66524081))
     (pin "2" (uuid e767a8c0-fba1-41e7-aaa1-04530562aab5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -10775,8 +11113,8 @@
     )
     (pin "1" (uuid 2e06abda-3961-49ef-8448-7ce84d118d69))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0157") (unit 1)
         )
       )
@@ -10819,9 +11157,56 @@
     (pin "1" (uuid 1977e23a-51fd-484a-950f-df5e485b0b0d))
     (pin "2" (uuid 2b2c0a96-a936-461e-ae8d-41e0460c4ce8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 267.97 127 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 87f46ce8-b2d9-4571-83a8-52031e2e6dc6)
+    (property "Reference" "C4" (at 270.51 128.27 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "C_22u_25V_0805" (at 271.78 127 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:C_0805_2012Metric" (at 280.67 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do" (at 283.21 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 288.29 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "CL21A226MAYNNNE" (at 285.75 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "22u" (at 270.51 130.81 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "License" "Apache-2.0" (at 290.83 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 293.37 147.32 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Voltage" "25V" (at 270.51 133.35 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Dielectric" "X5R" (at 298.45 147.32 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 3baec120-17af-4f33-9a83-b784552d9033))
+    (pin "2" (uuid 62f8153b-aeb3-446a-b4ed-7b8d4998d9d8))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -10866,8 +11251,8 @@
     (pin "1" (uuid 0ce44aa4-061b-4efc-8696-11cdb56daf39))
     (pin "2" (uuid 5cb14b16-3f3b-48c5-a1c7-14297583a1f0))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -10909,8 +11294,8 @@
     (pin "3" (uuid d2969bb8-4dba-4b56-841b-53911a5c4d45))
     (pin "4" (uuid be7c5926-08ab-4871-9edf-1b38f1593c96))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
         )
       )
@@ -10918,12 +11303,12 @@
   )
 
   (symbol (lib_id "antmicropower:GND") (at 252.73 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b3391a9-45de-4972-8a0b-a9d8c6edb37e)
     (property "Reference" "#PWR?" (at 261.62 60.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "GND" (at 256.54 59.69 0)
+    (property "Value" "GND" (at 252.73 63.5 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Footprint" "" (at 261.62 66.04 0)
@@ -10940,9 +11325,9 @@
     )
     (pin "1" (uuid b9aa0ae5-44e0-4714-8fdc-0cca9057a70c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -10977,40 +11362,40 @@
     )
     (pin "1" (uuid e1819279-56f7-4077-b7b6-b90906efa20d))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP14") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 220.98 124.46 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 113.03 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d2e6f08-1099-4540-93b7-4cef4f00d877)
-    (property "Reference" "#PWR?" (at 229.87 127 0)
+    (property "Reference" "#PWR?" (at 121.92 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "GND" (at 220.98 129.54 0)
+    (property "Value" "GND" (at 113.03 158.75 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "" (at 229.87 132.08 0)
+    (property "Footprint" "" (at 121.92 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 229.87 137.16 0)
+    (property "Datasheet" "" (at 121.92 166.37 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 229.87 132.08 0)
+    (property "Author" "Antmicro" (at 121.92 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 229.87 134.62 0)
+    (property "License" "Apache-2.0" (at 121.92 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 0a1d017a-ece7-4ca7-b124-9df6fd6299f5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -11039,9 +11424,9 @@
     )
     (pin "1" (uuid 3bbb18db-b8a1-46eb-b0f2-23ca38423334))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -11086,8 +11471,8 @@
     (pin "1" (uuid e930b23b-da2c-4678-a989-f143ce0fbbf7))
     (pin "2" (uuid 3be9f7cb-5f57-461b-961f-ecb7a9f79b67))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C62") (unit 1)
         )
       )
@@ -11135,8 +11520,8 @@
     (pin "8" (uuid 3be15fd7-0dfd-48b1-8731-9119a76c594d))
     (pin "9" (uuid 53371120-dc3e-4d14-b2d5-095c886ab8bf))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "U?") (unit 1)
         )
       )
@@ -11181,8 +11566,8 @@
     (pin "8" (uuid 59b5d1c7-4fb0-4008-ad83-c09d6e670520))
     (pin "9" (uuid b6160c93-ac47-4baf-aa55-0067b7fc9e4b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D26") (unit 1)
         )
       )
@@ -11212,8 +11597,8 @@
     )
     (pin "1" (uuid b848d371-adb1-46f1-ba35-1eb1a53f9ed9))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0150") (unit 1)
         )
       )
@@ -11256,8 +11641,8 @@
     (pin "1" (uuid 1476022c-d2a2-4f5c-be2b-dc93f5846c59))
     (pin "2" (uuid ad104a4a-0ad4-44bd-9cd4-d9a2619259aa))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -11287,8 +11672,8 @@
     )
     (pin "1" (uuid eb6fe9ce-d0aa-48ca-881a-19180fb49279))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0161") (unit 1)
         )
       )
@@ -11334,8 +11719,8 @@
     (pin "1" (uuid f7bad58d-61c4-446e-a710-5f860da46914))
     (pin "2" (uuid 90ef438e-4a15-4731-ac4a-df75b1d93601))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R120") (unit 1)
         )
       )
@@ -11365,9 +11750,9 @@
     )
     (pin "1" (uuid c3832a18-af28-4029-abce-a405f3d3c317))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -11408,34 +11793,9 @@
     (pin "3" (uuid 9a138c76-9f07-48e3-bb22-f906fb49b796))
     (pin "4" (uuid 4bbfd5e1-289e-432d-bdb5-489526479490))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:VCC") (at 82.55 194.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9d6744c1-abd6-4850-998c-b78841f52ce8)
-    (property "Reference" "#PWR?" (at 82.55 198.12 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Value" "VCC" (at 82.55 189.23 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 82.55 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "" (at 82.55 194.31 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 315b59f3-77a1-41b8-8dfc-59d4c9f3ef5e))
-    (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -11477,8 +11837,8 @@
     (pin "1" (uuid d1fc2545-1b9b-4c89-abaf-f0f94b947057))
     (pin "2" (uuid 3fbdf300-a0ea-4d15-8170-f664e6add30c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -11520,8 +11880,8 @@
     (pin "3" (uuid 0d37d42b-3500-4060-8a5a-5ab259683b6c))
     (pin "4" (uuid b07ea002-d862-4db5-afb3-9b8bf7012cd9))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
         )
       )
@@ -11557,8 +11917,8 @@
     )
     (pin "1" (uuid 8d104aee-e6ab-4fff-987e-421a1d2693be))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP?") (unit 1)
         )
       )
@@ -11601,8 +11961,8 @@
     (pin "1" (uuid e55abcb4-1aee-4bea-934c-a38f4fb75737))
     (pin "2" (uuid 37392fc3-11a2-447d-9f1e-1e943a3ee342))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -11651,8 +12011,8 @@
     (pin "1" (uuid bee2782c-db40-4345-9b08-80f71555e43d))
     (pin "2" (uuid baa26e21-d4a0-4795-9a7c-1f518a58a9a4))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R119") (unit 1)
         )
       )
@@ -11688,8 +12048,8 @@
     )
     (pin "1" (uuid 12af3f1c-7a11-4cdf-a029-11f5bc1cf984))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP19") (unit 1)
         )
       )
@@ -11726,8 +12086,8 @@
     (pin "A" (uuid 02d85c7a-f18e-4ec0-81a4-c7e3b47ea1b3))
     (pin "K" (uuid 3dabf7a6-4882-42db-baf4-bffab9ab88c7))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D?") (unit 1)
         )
       )
@@ -11757,40 +12117,40 @@
     )
     (pin "1" (uuid 90c2d9c6-347e-4ac2-a229-401fe0bc401f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 266.7 124.46 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 158.75 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcc7026-2cf1-4747-82f8-2790fec88eaf)
-    (property "Reference" "#PWR?" (at 275.59 127 0)
+    (property "Reference" "#PWR?" (at 167.64 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "GND" (at 266.7 129.54 0)
+    (property "Value" "GND" (at 158.75 158.75 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "" (at 275.59 132.08 0)
+    (property "Footprint" "" (at 167.64 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 275.59 137.16 0)
+    (property "Datasheet" "" (at 167.64 166.37 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 275.59 132.08 0)
+    (property "Author" "Antmicro" (at 167.64 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 275.59 134.62 0)
+    (property "License" "Apache-2.0" (at 167.64 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 374c1ec1-a770-4da5-8776-5d8deaea0b25))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -11832,8 +12192,8 @@
     (pin "1" (uuid 6aa36901-278d-4cfe-a50f-f1ec30ad2ca2))
     (pin "2" (uuid fc90d2cd-623e-45f6-97f1-3679daccdcfc))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -11879,8 +12239,8 @@
     (pin "1" (uuid 304e431f-f25c-40ae-885d-2aebdc99dbdf))
     (pin "2" (uuid e63d456e-ec07-4c16-abf8-ee01ea8e1ad2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -11910,8 +12270,8 @@
     )
     (pin "1" (uuid ee24133f-8abc-4181-9f79-6a87a0f5b692))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0163") (unit 1)
         )
       )
@@ -11956,8 +12316,8 @@
     (pin "8" (uuid 3a12a016-c441-4e4f-b359-d2f0593fdcf0))
     (pin "9" (uuid 87b47218-c352-438b-b09b-0a6eca7e33d3))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D28") (unit 1)
         )
       )
@@ -11987,9 +12347,9 @@
     )
     (pin "1" (uuid 6b701cef-0557-4cd8-94dc-c250b862866f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -12031,8 +12391,8 @@
     (pin "1" (uuid 1dd5d77f-0b5e-41c8-8f66-07775ec6a0e1))
     (pin "2" (uuid 43617459-37ea-48df-933a-f18c85037741))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -12092,8 +12452,8 @@
     (pin "8" (uuid e443b122-a51f-49c9-a300-f258f87b83b7))
     (pin "9" (uuid 61b6f575-4bb3-4686-b81a-678edc985bc2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "U?") (unit 1)
         )
       )
@@ -12139,8 +12499,8 @@
     (pin "1" (uuid 9d5794d9-c152-42d5-954b-3e3c47064c2b))
     (pin "2" (uuid 9e5a7677-40f0-4d88-8d95-fe5873c56db8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12186,8 +12546,8 @@
     (pin "1" (uuid 8b9906c2-c4cd-48fc-af3a-633561d3091a))
     (pin "2" (uuid 2cc6dbb5-9774-41ba-850f-1f6279e46f0b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C63") (unit 1)
         )
       )
@@ -12233,55 +12593,55 @@
     (pin "1" (uuid 704aa124-f813-431e-adea-9f129a75a98c))
     (pin "2" (uuid 2f7865c0-a542-4045-9285-fa74d99dbf92))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C67") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_10n_0402") (at 251.46 123.19 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitors0402:C_10n_0402") (at 143.51 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9816474-167f-47c0-b9ca-ba9b1f8fe8cb)
-    (property "Reference" "C?" (at 254 119.3735 90)
+    (property "Reference" "C?" (at 146.05 148.5835 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "C_10n_0402" (at 261.62 102.87 0)
+    (property "Value" "C_10n_0402" (at 153.67 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 264.16 102.87 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 156.21 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23" (at 266.7 102.87 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23" (at 158.75 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "GRM155R71H103KA88D" (at 269.24 102.87 0)
+    (property "MPN" "GRM155R71H103KA88D" (at 161.29 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Murata" (at 271.78 102.87 0)
+    (property "Manufacturer" "Murata" (at 163.83 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 274.32 102.87 0)
+    (property "License" "Apache-2.0" (at 166.37 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 276.86 102.87 0)
+    (property "Author" "Antmicro" (at 168.91 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "10n" (at 254 121.9135 90)
+    (property "Val" "10n" (at 146.05 151.1235 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "50V" (at 279.4 102.87 0)
+    (property "Voltage" "50V" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Dielectric" "X7R" (at 281.94 102.87 0)
+    (property "Dielectric" "X7R" (at 173.99 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid 590b81ee-3981-45f9-8ba0-100225d1d0be))
     (pin "2" (uuid d3b15846-2358-47ae-b0a5-4b533551e22a))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12311,9 +12671,9 @@
     )
     (pin "1" (uuid 5c2c858c-d35f-4c68-aed9-2def8495b312))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -12348,8 +12708,8 @@
     )
     (pin "1" (uuid 8d1f45b4-7842-40e9-90bf-02781e04fe3b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP21") (unit 1)
         )
       )
@@ -12379,8 +12739,8 @@
     )
     (pin "1" (uuid ab543215-24cc-4c9d-8d0a-506ca2eea29d))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0155") (unit 1)
         )
       )
@@ -12426,8 +12786,8 @@
     (pin "1" (uuid 7e58f13d-f878-4243-9dad-fe0bce58dfe2))
     (pin "2" (uuid 1c8b9e29-13b2-46e4-a76f-c115a86a5c03))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12463,8 +12823,8 @@
     )
     (pin "1" (uuid 757551c3-0e75-4c5c-a6ff-4ed9375fc761))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP18") (unit 1)
         )
       )
@@ -12494,9 +12854,9 @@
     )
     (pin "1" (uuid 4e4eb0df-8dcd-4ce4-9122-4f3f258f4393))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -12541,8 +12901,8 @@
     (pin "1" (uuid 43742a87-a326-4656-a871-15f0aa75ec56))
     (pin "2" (uuid 71d86a1f-1b9d-4803-a476-461b988923f2))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -12572,86 +12932,86 @@
     )
     (pin "1" (uuid 30d816c3-51a8-4693-84dc-f4d2dfa87f59))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 236.22 124.46 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 128.27 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc838a8f-006e-4875-8ef9-af9546d61bbe)
-    (property "Reference" "#PWR?" (at 245.11 127 0)
+    (property "Reference" "#PWR?" (at 137.16 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "GND" (at 236.22 129.54 0)
+    (property "Value" "GND" (at 128.27 158.75 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "" (at 245.11 132.08 0)
+    (property "Footprint" "" (at 137.16 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 245.11 137.16 0)
+    (property "Datasheet" "" (at 137.16 166.37 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 245.11 132.08 0)
+    (property "Author" "Antmicro" (at 137.16 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 245.11 134.62 0)
+    (property "License" "Apache-2.0" (at 137.16 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 9140a1e9-a3fe-413b-9e90-e407af593ceb))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 205.74 125.73 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 97.79 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d02ccb8f-0616-4eb1-90c8-39b8ab93b814)
-    (property "Reference" "C?" (at 208.28 121.9135 90)
+    (property "Reference" "C?" (at 100.33 151.1235 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "C_100n_0402" (at 215.9 105.41 0)
+    (property "Value" "C_100n_0402" (at 107.95 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 218.44 105.41 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 110.49 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 220.98 105.41 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 113.03 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "GRM155R61H104KE14D" (at 223.52 105.41 0)
+    (property "MPN" "GRM155R61H104KE14D" (at 115.57 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Murata" (at 226.06 105.41 0)
+    (property "Manufacturer" "Murata" (at 118.11 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 228.6 105.41 0)
+    (property "License" "Apache-2.0" (at 120.65 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 231.14 105.41 0)
+    (property "Author" "Antmicro" (at 123.19 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "100n" (at 208.28 124.4535 90)
+    (property "Val" "100n" (at 100.33 153.6635 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "50V" (at 233.68 105.41 0)
+    (property "Voltage" "50V" (at 125.73 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Dielectric" "X5R" (at 236.22 105.41 0)
+    (property "Dielectric" "X5R" (at 128.27 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid c89b7e45-8c59-4d39-b92c-3bf45a9fdfe6))
     (pin "2" (uuid e91acd15-4303-4e71-9a26-46fe37872004))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12697,8 +13057,8 @@
     (pin "1" (uuid 2f1c2fda-8ee5-4a5f-8a89-329f26be6562))
     (pin "2" (uuid ff2243d6-a7f9-4c8c-ab69-598c9424d8f6))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12744,8 +13104,8 @@
     (pin "1" (uuid ff28e2f8-4a65-4cc8-8a51-cb7a65b6ae36))
     (pin "2" (uuid 99b1ff40-7cd7-41b7-829f-654a05fb3800))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -12775,9 +13135,9 @@
     )
     (pin "1" (uuid 13ab605d-e596-428d-9aeb-fe4de373c169))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -12814,8 +13174,8 @@
     (pin "2" (uuid 011eda1e-670f-4b19-aa38-10dc9f8e5348))
     (pin "3" (uuid 0962c174-34ae-4a0c-a5ce-1831e23c8b76))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
         )
       )
@@ -12845,9 +13205,9 @@
     )
     (pin "1" (uuid d97abe0c-c878-4675-a9f1-ab597d948aaf))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -12876,8 +13236,8 @@
     )
     (pin "1" (uuid 6f4ffa2a-9df4-443e-9981-53a971ab13fa))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0154") (unit 1)
         )
       )
@@ -12913,8 +13273,8 @@
     )
     (pin "1" (uuid b3305670-88ca-472e-9e5f-23f67be3368d))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP17") (unit 1)
         )
       )
@@ -12944,8 +13304,8 @@
     )
     (pin "1" (uuid b5455a97-0d77-4dba-8360-b1c581e70694))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0156") (unit 1)
         )
       )
@@ -12991,53 +13351,40 @@
     (pin "1" (uuid 6388970f-7d88-4416-8c95-4684d0ca05f7))
     (pin "2" (uuid 48b6acd0-899e-4c54-9d43-ddbe3276c38b))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroResistors0402:R_680k_0402") (at 105.41 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dd94f7b0-d2f0-46ed-a972-588c9bc7b7ba)
-    (property "Reference" "R?" (at 107.95 105.4099 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Value" "R_680k_0402" (at 118.11 88.9 0)
+  (symbol (lib_id "antmicropower:GND") (at 238.76 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dbc94a86-660a-418a-aed3-7ae60d2bf763)
+    (property "Reference" "#PWR014" (at 247.65 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 120.65 88.9 0)
+    (property "Value" "GND" (at 238.76 140.97 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Footprint" "" (at 247.65 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 123.19 88.9 0)
+    (property "Datasheet" "" (at 247.65 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "CR0402-FX-6803GLF" (at 125.73 88.9 0)
+    (property "Author" "Antmicro" (at 247.65 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Bourns" (at 128.27 88.9 0)
+    (property "License" "Apache-2.0" (at 247.65 147.32 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 130.81 88.9 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 133.35 88.9 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "680k" (at 107.95 107.9499 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
-    )
-    (property "Tolerance" "1%" (at 115.57 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid d9597692-2b90-427c-98da-999de861eeaa))
-    (pin "2" (uuid 330ffc64-8a6f-459b-9763-8049e96fcc57))
+    (pin "1" (uuid eba908b0-9fcf-4552-aeb6-31e0edddde34))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "R?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -13079,8 +13426,8 @@
     (pin "1" (uuid e240909e-521d-45a7-afbb-617aa95a80e5))
     (pin "2" (uuid c11150f1-c807-4da7-8166-f5dc1734f463))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -13126,8 +13473,8 @@
     (pin "1" (uuid a2dc6f1c-ef87-4cad-b003-657392359650))
     (pin "2" (uuid 538d1e63-5988-4039-8edf-6a2cbfc6a96f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -13163,8 +13510,8 @@
     )
     (pin "1" (uuid 4ebbf106-465d-4c1e-9349-100c3aa39669))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "TP20") (unit 1)
         )
       )
@@ -13207,8 +13554,8 @@
     (pin "1" (uuid 4b7f8855-02f8-4bd4-adf0-f9a6676ef3ae))
     (pin "2" (uuid 564675cb-4393-4c83-8a24-9d6aaabad369))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -13246,8 +13593,8 @@
     (pin "2" (uuid 075d32bc-9853-4e4a-986e-b53119a36853))
     (pin "3" (uuid 962946a3-aa7a-48fc-9e2d-bcdd76faccda))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "Q?") (unit 1)
         )
       )
@@ -13293,40 +13640,84 @@
     (pin "1" (uuid c1d8b95d-d725-42c8-a268-9d1d669e314d))
     (pin "2" (uuid 647c9386-8bad-4699-89f0-bc6a29dbaf35))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 251.46 124.46 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 143.51 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e681b5af-7267-4530-9182-f22a9f5698d7)
-    (property "Reference" "#PWR?" (at 260.35 127 0)
+    (property "Reference" "#PWR?" (at 152.4 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Value" "GND" (at 251.46 129.54 0)
+    (property "Value" "GND" (at 143.51 158.75 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Footprint" "" (at 260.35 132.08 0)
+    (property "Footprint" "" (at 152.4 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 260.35 137.16 0)
+    (property "Datasheet" "" (at 152.4 166.37 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 260.35 132.08 0)
+    (property "Author" "Antmicro" (at 152.4 161.29 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 260.35 134.62 0)
+    (property "License" "Apache-2.0" (at 152.4 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid d5c11f8d-7d30-4b37-8fd1-1246b173eabd))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroResistors0402:R_110k_0402") (at 262.89 129.54 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e903ea1a-887f-4783-9dad-a518172c9978)
+    (property "Reference" "R1" (at 256.54 125.73 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Value" "R_110k_0402" (at 275.59 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 278.13 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 280.67 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "CR0402-FX-1103GLF" (at 283.21 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Bourns" (at 285.75 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 288.29 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 290.83 109.22 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "110k" (at 256.54 128.27 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Tolerance" "1%" (at 273.05 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid cc3d735c-6ef1-4b9a-bb55-20080d53b7a2))
+    (pin "2" (uuid 3dad2f80-262f-4037-ab60-0aba4b11be32))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -13371,8 +13762,8 @@
     (pin "1" (uuid 15a7d956-dc5e-4d83-93e3-d775c9447e83))
     (pin "2" (uuid bc832327-7496-4237-8d7c-19f4eb47932d))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -13418,8 +13809,8 @@
     (pin "1" (uuid b8391a8c-ef11-43e7-bf7c-40a9c0699472))
     (pin "2" (uuid a70c67ca-e666-49ca-a63f-c311903cce44))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -13462,8 +13853,8 @@
     (pin "1" (uuid 6a26a400-9fca-4b45-9db9-0c8d54af383c))
     (pin "2" (uuid 79306488-9d13-4123-87a6-52804cfced83))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -13509,8 +13900,8 @@
     (pin "1" (uuid 71213ca3-c462-49b8-9497-0d8528bd8118))
     (pin "2" (uuid 3dfe9b62-a9a6-4e9f-9b55-9a97a71cccd0))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -13556,8 +13947,8 @@
     (pin "1" (uuid cfd6de04-12ba-4da5-9218-63310634ee48))
     (pin "2" (uuid 559219e6-6ece-4eab-9e50-05d9a54a3e60))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R109") (unit 1)
         )
       )
@@ -13600,56 +13991,100 @@
     (pin "1" (uuid d25e5622-12ef-4dd9-ab26-52aa0c6f13c8))
     (pin "2" (uuid ed013dc8-3b32-4168-9045-a494961a4da5))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 266.7 123.19 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 158.75 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3279c87-76e0-49d5-ab42-0d2030b296b4)
-    (property "Reference" "C?" (at 269.24 119.3735 90)
+    (property "Reference" "C?" (at 161.29 148.5835 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "C_100n_0402" (at 276.86 102.87 0)
+    (property "Value" "C_100n_0402" (at 168.91 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 279.4 102.87 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 281.94 102.87 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 173.99 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "GRM155R61H104KE14D" (at 284.48 102.87 0)
+    (property "MPN" "GRM155R61H104KE14D" (at 176.53 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Murata" (at 287.02 102.87 0)
+    (property "Manufacturer" "Murata" (at 179.07 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 289.56 102.87 0)
+    (property "License" "Apache-2.0" (at 181.61 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 292.1 102.87 0)
+    (property "Author" "Antmicro" (at 184.15 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "100n" (at 269.24 121.9135 90)
+    (property "Val" "100n" (at 161.29 151.1235 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "50V" (at 294.64 102.87 0)
+    (property "Voltage" "50V" (at 186.69 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Dielectric" "X5R" (at 297.18 102.87 0)
+    (property "Dielectric" "X5R" (at 189.23 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid 6bcf835a-7453-4ce3-a038-70ba031932a7))
     (pin "2" (uuid c4c8df40-86ea-4706-ad23-956bdb529390))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicroResistors0402:R_590k_0402") (at 105.41 109.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f46331d2-a3ef-4b0b-a44c-d684b786319b)
+    (property "Reference" "R4" (at 106.68 105.41 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Value" "R_590k_0402" (at 118.11 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 120.65 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "https://www.farnell.com/datasheets/3795017.pdf" (at 123.19 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "RC0402FR-07590KL" (at 125.73 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 128.27 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 130.81 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 133.35 88.9 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "590k" (at 106.68 107.95 90)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
+    )
+    (property "Tolerance" "1%" (at 115.57 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 92b86109-f04c-4939-8b87-8567998e2d4a))
+    (pin "2" (uuid f3e2e7fe-e9c2-46e5-8de9-4fb7c86b4957))
+    (instances
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -13678,9 +14113,9 @@
     )
     (pin "1" (uuid c44c8fc5-5191-4cfc-bd59-f0b6ac284c2c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "#PWR?") (unit 1)
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -13717,8 +14152,8 @@
     (pin "2" (uuid 90d71e5f-f2fc-43da-83dc-dd9b09dacfb2))
     (pin "3" (uuid b5c845f0-d654-4d52-887b-9d44914954aa))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "D?") (unit 1)
         )
       )
@@ -13764,8 +14199,8 @@
     (pin "1" (uuid 854fb9a3-885e-4fbe-9539-97183f43f350))
     (pin "2" (uuid 8335a94e-9a77-4a04-9a32-87ef7f0caa1c))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R?") (unit 1)
         )
       )
@@ -13808,8 +14243,8 @@
     (pin "1" (uuid 3eef0452-02b0-4133-b2d9-c4017ea2fb89))
     (pin "2" (uuid 10fd9b67-e438-44a1-9738-7ecdffe3cbcc))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "R106") (unit 1)
         )
       )
@@ -13861,8 +14296,8 @@
     (pin "1" (uuid f7c04db9-8495-4977-a329-b37b2fcaf2f6))
     (pin "2" (uuid 1b976744-7906-4cb3-8f43-4f18869f02c8))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "L?") (unit 1)
         )
       )
@@ -13892,55 +14327,55 @@
     )
     (pin "1" (uuid 74d6f604-c8f5-429d-b969-fa5e126fe6b7))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "#PWR0162") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "antmicroCapacitors0402:C_22p_0402") (at 236.22 123.19 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitors0402:C_22p_0402") (at 128.27 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe43e7fb-f13a-4854-9941-68cdb7cca418)
-    (property "Reference" "C?" (at 238.76 119.3735 90)
+    (property "Reference" "C?" (at 130.81 148.5835 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "C_22p_0402" (at 246.38 102.87 0)
+    (property "Value" "C_22p_0402" (at 138.43 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 248.92 102.87 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 140.97 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN220" (at 251.46 102.87 0)
+    (property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN220" (at 143.51 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "CC0402JRNPO9BN220" (at 254 102.87 0)
+    (property "MPN" "CC0402JRNPO9BN220" (at 146.05 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "YAGEO" (at 256.54 102.87 0)
+    (property "Manufacturer" "YAGEO" (at 148.59 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 259.08 102.87 0)
+    (property "License" "Apache-2.0" (at 151.13 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 261.62 102.87 0)
+    (property "Author" "Antmicro" (at 153.67 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "22p" (at 238.76 121.9135 90)
+    (property "Val" "22p" (at 130.81 151.1235 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Voltage" "" (at 264.16 102.87 0)
+    (property "Voltage" "" (at 156.21 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Dielectric" "" (at 266.7 102.87 0)
+    (property "Dielectric" "" (at 158.75 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (pin "1" (uuid 6faf7bce-eb9c-4e6a-bfbf-28fe3ba10b09))
     (pin "2" (uuid 3e1771fd-2661-4017-90b7-d3eb1ba3ac83))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
         )
       )
@@ -13986,53 +14421,9 @@
     (pin "1" (uuid b65c1658-dec2-4a74-ba2f-b00a516249ca))
     (pin "2" (uuid ce9113e9-2c76-4108-8047-c77a8a417b3f))
     (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
+      (project "cm4-lvds-adapter"
+        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
           (reference "C?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicroResistors0402:R_110k_0402") (at 185.42 59.69 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fff3a1e7-d9a3-4a91-a3f3-d6b2a2a1c3ff)
-    (property "Reference" "R?" (at 186.69 60.96 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
-    )
-    (property "Value" "R_110k_0402" (at 172.72 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 170.18 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 167.64 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "MPN" "CR0402-FX-1103GLF" (at 165.1 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Manufacturer" "Bourns" (at 162.56 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "License" "Apache-2.0" (at 160.02 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Author" "Antmicro" (at 157.48 80.01 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "Val" "110k" (at 186.69 63.5 90)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
-    )
-    (property "Tolerance" "1%" (at 175.26 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 45f131fd-438e-4824-89c0-d854882eaa09))
-    (pin "2" (uuid 8ec2a09f-76ab-4bbc-8639-dc3690431b06))
-    (instances
-      (project "cm4-baseboard"
-        (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233"
-          (reference "R?") (unit 1)
         )
       )
     )
