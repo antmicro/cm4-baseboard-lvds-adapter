@@ -4556,7 +4556,7 @@
   (symbol (lib_id "antmicropower:GND") (at 143.51 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02cd0fbc-5fab-49ca-a2f5-31a3d648c354)
-    (property "Reference" "#PWR084" (at 152.4 88.9 0)
+    (property "Reference" "#PWR017" (at 152.4 88.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 143.51 90.17 0)
@@ -4578,7 +4578,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4625,7 +4625,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4672,7 +4672,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4773,7 +4773,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4820,7 +4820,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4867,7 +4867,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C11") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -4898,7 +4898,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4973,7 +4973,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5004,7 +5004,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5013,7 +5013,7 @@
   (symbol (lib_id "antmicropower:+1V8") (at 149.86 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 645866f1-9d25-4e59-bf80-89e27df910bb)
-    (property "Reference" "#PWR086" (at 165.1 77.47 0)
+    (property "Reference" "#PWR020" (at 165.1 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+1V8" (at 149.86 69.85 0)
@@ -5035,7 +5035,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -5066,7 +5066,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -5113,7 +5113,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C4") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5144,7 +5144,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5238,7 +5238,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C2") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5313,7 +5313,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -5344,7 +5344,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -5375,7 +5375,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5422,7 +5422,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5431,7 +5431,7 @@
   (symbol (lib_id "antmicroPMICVoltageRegulatorsLinear:TLV70018_SC70") (at 123.19 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2bb5f38-ef83-444f-9ba0-66901d1afb22)
-    (property "Reference" "U?" (at 130.81 71.12 0)
+    (property "Reference" "U1" (at 130.81 71.12 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TLV70018_SC70" (at 158.75 83.82 0)
@@ -5463,7 +5463,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5494,7 +5494,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5525,7 +5525,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5572,7 +5572,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5619,7 +5619,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5694,7 +5694,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5742,7 +5742,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -5773,7 +5773,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5782,7 +5782,7 @@
   (symbol (lib_id "antmicropower:GND") (at 138.43 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2aea253-a5a5-4f0a-a101-88a82cdeb4c0)
-    (property "Reference" "#PWR085" (at 147.32 88.9 0)
+    (property "Reference" "#PWR016" (at 147.32 88.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 138.43 90.17 0)
@@ -5804,7 +5804,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5851,7 +5851,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5860,7 +5860,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_0402") (at 114.3 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9a6f185-6621-4e96-84f9-08e910457741)
-    (property "Reference" "C?" (at 116.84 81.2735 90)
+    (property "Reference" "C2" (at 116.84 81.2735 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 124.46 64.77 0)
@@ -5898,7 +5898,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5907,7 +5907,7 @@
   (symbol (lib_id "antmicropower:GND") (at 114.3 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cae17f75-3ab2-4303-a615-6fbb23a03d9d)
-    (property "Reference" "#PWR083" (at 123.19 88.9 0)
+    (property "Reference" "#PWR013" (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 114.3 90.17 0)
@@ -5929,7 +5929,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5976,7 +5976,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -6007,7 +6007,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6038,7 +6038,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -6069,7 +6069,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6188,7 +6188,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -6197,7 +6197,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_0402") (at 143.51 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f60fe89b-6820-4cff-9361-353ecefa7527)
-    (property "Reference" "C?" (at 146.05 81.2735 90)
+    (property "Reference" "C3" (at 146.05 81.2735 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 153.67 64.77 0)
@@ -6235,7 +6235,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6266,7 +6266,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -6275,7 +6275,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 107.95 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe57294d-3217-4f94-93b2-541051fa5ed7)
-    (property "Reference" "#PWR087" (at 92.71 77.47 0)
+    (property "Reference" "#PWR012" (at 92.71 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 108.585 71.12 0)
@@ -6297,7 +6297,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/420ebe12-f825-449a-8afd-25702eb411ad"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
