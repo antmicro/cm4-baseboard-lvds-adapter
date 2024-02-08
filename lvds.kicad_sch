@@ -8417,7 +8417,7 @@
   (symbol (lib_id "antmicropower:GND") (at 190.5 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00322923-d764-4b87-86d6-4ad04a5bc584)
-    (property "Reference" "#PWR060" (at 199.39 90.17 0)
+    (property "Reference" "#PWR068" (at 199.39 90.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 190.5 92.71 0)
@@ -8439,7 +8439,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -8448,7 +8448,7 @@
   (symbol (lib_id "antmicropower:GND") (at 185.42 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01ae8fd4-5b9c-4e56-af3d-c7f67b029b9a)
-    (property "Reference" "#PWR058" (at 194.31 68.58 0)
+    (property "Reference" "#PWR066" (at 194.31 68.58 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 189.23 67.31 0)
@@ -8470,7 +8470,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -8479,7 +8479,7 @@
   (symbol (lib_id "antmicropower:GND") (at 218.44 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02171f8f-f08f-4abf-a2d5-3145433e9e65)
-    (property "Reference" "#PWR062" (at 227.33 236.22 0)
+    (property "Reference" "#PWR070" (at 227.33 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 218.44 237.49 0)
@@ -8501,7 +8501,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -8557,7 +8557,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 322.58 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 039fb487-63df-49a0-9767-6070d06f3bdf)
-    (property "Reference" "#PWR070" (at 307.34 81.28 0)
+    (property "Reference" "#PWR079" (at 307.34 81.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 322.58 73.66 0)
@@ -8579,7 +8579,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -8635,7 +8635,7 @@
   (symbol (lib_id "antmicropower:GND") (at 335.28 207.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d4d0c2-67c9-41db-a963-101604133247)
-    (property "Reference" "#PWR073" (at 344.17 209.55 0)
+    (property "Reference" "#PWR082" (at 344.17 209.55 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 335.28 210.82 0)
@@ -8657,7 +8657,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -8666,7 +8666,7 @@
   (symbol (lib_id "antmicroResistors0402:R_330k_0402") (at 88.9 214.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 072e50da-486c-4919-8c4a-e0765d591e7c)
-    (property "Reference" "R12" (at 86.36 208.28 0)
+    (property "Reference" "R15" (at 86.36 208.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_330k_0402" (at 68.58 201.93 0)
@@ -8701,7 +8701,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R12") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -8757,7 +8757,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08056c99-95ad-450f-8e72-b7384288f2ff)
-    (property "Reference" "#PWR048" (at 133.35 116.84 0)
+    (property "Reference" "#PWR055" (at 133.35 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 119.38 0)
@@ -8779,7 +8779,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -8788,7 +8788,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 99.06 203.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0930360e-2255-4ec8-8e9f-8faa2541c79e)
-    (property "Reference" "R14" (at 101.6 199.3899 90)
+    (property "Reference" "R17" (at 101.6 199.3899 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_100k_0402" (at 111.76 182.88 0)
@@ -8823,7 +8823,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R14") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -8832,7 +8832,7 @@
   (symbol (lib_id "antmicropower:GND") (at 335.28 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0935a893-5040-4415-99d4-d8aa280dee52)
-    (property "Reference" "#PWR074" (at 344.17 226.06 0)
+    (property "Reference" "#PWR083" (at 344.17 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 335.28 227.33 0)
@@ -8854,7 +8854,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -8910,7 +8910,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 346.71 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a9dd006-bc89-4b2d-9e5d-81b21230ba6b)
-    (property "Reference" "R36" (at 341.63 91.44 0)
+    (property "Reference" "R41" (at 341.63 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 334.01 109.22 0)
@@ -8948,7 +8948,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R36") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -8957,7 +8957,7 @@
   (symbol (lib_id "antmicroResistors0402:R_4k7_0402") (at 285.75 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ab3c675-f7ce-449c-be7f-bf720a299d7b)
-    (property "Reference" "R?" (at 288.29 33.0199 90)
+    (property "Reference" "R38" (at 288.29 33.0199 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_4k7_0402" (at 298.45 16.51 0)
@@ -8992,7 +8992,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R?") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -9001,7 +9001,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 336.55 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 143f7738-725a-41c4-bd0a-531cedd6c6d1)
-    (property "Reference" "D8" (at 350.52 215.8999 0)
+    (property "Reference" "D13" (at 350.52 215.8999 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 361.95 219.71 0)
@@ -9038,7 +9038,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D8") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -9047,7 +9047,7 @@
   (symbol (lib_id "antmicropower:GND") (at 157.48 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 146fdbd3-e182-4b3f-bdf0-470fb0c7736a)
-    (property "Reference" "#PWR051" (at 166.37 121.92 0)
+    (property "Reference" "#PWR059" (at 166.37 121.92 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 157.48 124.46 0)
@@ -9069,7 +9069,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -9078,7 +9078,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 165.1 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 175718e0-5fe4-4cb0-9700-b1aec4fef37d)
-    (property "Reference" "R19" (at 167.64 114.3 0)
+    (property "Reference" "R23" (at 167.64 114.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 185.42 124.46 0)
@@ -9116,7 +9116,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R19") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -9125,7 +9125,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 113.03 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17ba8ec6-09d9-4241-9a42-b7e08a9400c6)
-    (property "Reference" "#PWR043" (at 128.27 91.44 0)
+    (property "Reference" "#PWR050" (at 128.27 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 113.03 83.82 0)
@@ -9147,7 +9147,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -9156,7 +9156,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 97.79 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 189f8aef-eb48-42dd-a189-aa4b185b757f)
-    (property "Reference" "#PWR040" (at 113.03 152.4 0)
+    (property "Reference" "#PWR047" (at 113.03 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 97.79 146.05 0)
@@ -9178,7 +9178,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -9187,7 +9187,7 @@
   (symbol (lib_id "antmicropower:GND") (at 96.52 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b2d799b-ce8e-477d-bece-4c39304dda6a)
-    (property "Reference" "#PWR039" (at 105.41 71.12 0)
+    (property "Reference" "#PWR046" (at 105.41 71.12 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 96.52 67.31 0)
@@ -9209,7 +9209,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -9218,7 +9218,7 @@
   (symbol (lib_id "antmicropower:GND") (at 322.58 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ba8af76-f723-4d00-afcf-3d2ab0f9e9a2)
-    (property "Reference" "#PWR071" (at 313.69 97.79 0)
+    (property "Reference" "#PWR080" (at 313.69 97.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 322.58 100.33 0)
@@ -9240,7 +9240,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -9249,7 +9249,7 @@
   (symbol (lib_id "antmicropower:GND") (at 87.63 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2020960a-fb0e-4423-8684-3de029cab8df)
-    (property "Reference" "#PWR038" (at 96.52 88.9 0)
+    (property "Reference" "#PWR045" (at 96.52 88.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 87.63 90.17 0)
@@ -9271,7 +9271,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -9327,7 +9327,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 166.37 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22384f1e-f81e-4937-a2d4-799c3f26c443)
-    (property "Reference" "Q5" (at 168.91 214.63 0)
+    (property "Reference" "Q6" (at 168.91 214.63 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "PJE138K" (at 168.91 218.44 0)
@@ -9357,7 +9357,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -9366,7 +9366,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 388.62 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2359dc92-9e9d-4af5-a6b6-41aaac960dcc)
-    (property "Reference" "R41" (at 383.54 91.44 0)
+    (property "Reference" "R46" (at 383.54 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 375.92 109.22 0)
@@ -9404,7 +9404,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R41") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -9460,7 +9460,7 @@
   (symbol (lib_id "antmicroResistors0402:R_820k_0402") (at 185.42 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2436e5f1-08d6-4563-9628-b2339d07876d)
-    (property "Reference" "R21" (at 186.69 52.07 90)
+    (property "Reference" "R25" (at 186.69 52.07 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_820k_0402" (at 198.12 35.56 0)
@@ -9495,7 +9495,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R21") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -9551,7 +9551,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 285.75 21.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26581dd9-ee83-413d-b87a-3f55211a9159)
-    (property "Reference" "TP?" (at 280.67 21.5899 0)
+    (property "Reference" "TP11" (at 280.67 21.5899 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "TP_1mm_SMD" (at 270.51 13.97 0)
@@ -9579,7 +9579,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP?") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -9588,7 +9588,7 @@
   (symbol (lib_id "antmicropower:GND") (at 229.87 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aadace2-17f4-4eca-adda-305ae1cece17)
-    (property "Reference" "#PWR064" (at 238.76 139.7 0)
+    (property "Reference" "#PWR072" (at 238.76 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 229.87 140.97 0)
@@ -9610,7 +9610,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -9713,7 +9713,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:BAT54S-E3-08") (at 213.36 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 368b626b-a7f6-4dfd-ac54-bf8bea5cc7b0)
-    (property "Reference" "D6" (at 199.39 63.5 0)
+    (property "Reference" "D10" (at 199.39 63.5 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "BAT54S-E3-08" (at 184.15 76.2 0)
@@ -9743,7 +9743,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D6") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -9752,7 +9752,7 @@
   (symbol (lib_id "antmicroResistors0402:R_1R2_0402") (at 218.44 232.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3772dec0-b5df-4b79-8cca-7b1aa5f0b5b1)
-    (property "Reference" "R27" (at 220.98 228.5999 90)
+    (property "Reference" "R31" (at 220.98 228.5999 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_1R2_0402" (at 231.14 212.09 0)
@@ -9787,7 +9787,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R27") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -9796,7 +9796,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 105.41 229.87 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37f5bbec-35c5-411f-9eda-54a657f4bb65)
-    (property "Reference" "D4" (at 107.95 232.6639 90)
+    (property "Reference" "D7" (at 107.95 232.6639 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RB521S30T1G" (at 107.95 228.6 0)
@@ -9825,7 +9825,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D4") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -9877,7 +9877,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 185.42 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3be99ca4-7290-4dd4-a00f-9b409c0aa98c)
-    (property "Reference" "R22" (at 187.96 60.9599 90)
+    (property "Reference" "R26" (at 187.96 60.9599 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_100k_0402" (at 198.12 44.45 0)
@@ -9912,7 +9912,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R22") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -9921,7 +9921,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 368.3 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d2b23da-444b-41a6-a7a9-b50a488d499b)
-    (property "Reference" "R37" (at 370.84 81.2799 90)
+    (property "Reference" "R42" (at 370.84 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 381 64.77 0)
@@ -9956,7 +9956,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R37") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -9965,7 +9965,7 @@
   (symbol (lib_id "antmicropower:GND") (at 97.79 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d774194-4966-489a-93eb-288d875a0f76)
-    (property "Reference" "#PWR041" (at 106.68 226.06 0)
+    (property "Reference" "#PWR048" (at 106.68 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 97.79 228.6 0)
@@ -9987,7 +9987,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -9996,7 +9996,7 @@
   (symbol (lib_id "antmicropower:GND") (at 64.77 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e0e33ee-f1f1-4317-b777-4bf51ec3382b)
-    (property "Reference" "#PWR035" (at 73.66 52.07 0)
+    (property "Reference" "#PWR042" (at 73.66 52.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 64.77 54.61 0)
@@ -10018,7 +10018,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -10027,7 +10027,7 @@
   (symbol (lib_id "antmicropower:GND") (at 262.89 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e1c88e9-c500-437d-a4c8-ea539b1f9151)
-    (property "Reference" "#PWR067" (at 271.78 139.7 0)
+    (property "Reference" "#PWR075" (at 271.78 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 262.89 140.97 0)
@@ -10049,7 +10049,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -10101,7 +10101,7 @@
   (symbol (lib_id "antmicropower:GND") (at 179.07 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41a197d0-64d5-4778-924e-1640f773192b)
-    (property "Reference" "#PWR057" (at 170.18 205.74 0)
+    (property "Reference" "#PWR065" (at 170.18 205.74 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 179.07 207.01 0)
@@ -10123,7 +10123,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -10132,7 +10132,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 368.3 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42c72c3d-bd2d-4e1d-94ab-9055421581c2)
-    (property "Reference" "#PWR080" (at 383.54 81.28 0)
+    (property "Reference" "#PWR089" (at 383.54 81.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 368.3 73.66 0)
@@ -10154,7 +10154,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -10163,7 +10163,7 @@
   (symbol (lib_id "antmicroResistors0402:R_110k_0402") (at 190.5 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43203c8f-7512-45ca-9ae2-4c8f42bf31ad)
-    (property "Reference" "R23" (at 184.15 78.74 90)
+    (property "Reference" "R27" (at 184.15 78.74 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_110k_0402" (at 203.2 62.23 0)
@@ -10198,7 +10198,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R23") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -10207,7 +10207,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44c4c6e8-263a-4881-bef4-b3c9217dbc72)
-    (property "Reference" "TP6" (at 375.92 129.54 0)
+    (property "Reference" "TP14" (at 375.92 129.54 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 125.73 0)
@@ -10235,7 +10235,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP6") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
     )
@@ -10244,7 +10244,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 388.62 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 473eb2a3-9f88-424c-84f3-b457180d15b2)
-    (property "Reference" "#PWR085" (at 403.86 81.28 0)
+    (property "Reference" "#PWR094" (at 403.86 81.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 388.62 73.66 0)
@@ -10266,7 +10266,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -10275,7 +10275,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 492b0628-d7b7-46fc-b0af-4b885a038ad3)
-    (property "Reference" "TP7" (at 375.92 177.8 0)
+    (property "Reference" "TP15" (at 375.92 177.8 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 173.99 0)
@@ -10303,7 +10303,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP7") (unit 1)
+          (reference "TP15") (unit 1)
         )
       )
     )
@@ -10312,7 +10312,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 285.75 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a852069-75c6-46a6-a256-8a163cc51421)
-    (property "Reference" "TP?" (at 280.67 38.0999 0)
+    (property "Reference" "TP12" (at 280.67 38.0999 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "TP_1mm_SMD" (at 270.51 30.48 0)
@@ -10340,7 +10340,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP?") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -10349,7 +10349,7 @@
   (symbol (lib_id "antmicropower:GND") (at 119.38 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b5fcb92-1992-4869-8cec-7037219ceac5)
-    (property "Reference" "#PWR047" (at 128.27 59.69 0)
+    (property "Reference" "#PWR054" (at 128.27 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 119.38 60.96 0)
@@ -10371,7 +10371,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -10427,7 +10427,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 64.77 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cdff66d-1b09-4179-b607-4df6f0e82015)
-    (property "Reference" "R8" (at 67.31 43.1799 90)
+    (property "Reference" "R11" (at 67.31 43.1799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_100k_0402" (at 77.47 26.67 0)
@@ -10462,7 +10462,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R8") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -10471,7 +10471,7 @@
   (symbol (lib_id "antmicropower:GND") (at 214.63 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5016a89c-77ab-46ef-bbe9-909ae02513b2)
-    (property "Reference" "#PWR061" (at 223.52 90.17 0)
+    (property "Reference" "#PWR069" (at 223.52 90.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 214.63 92.71 0)
@@ -10493,7 +10493,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -10502,7 +10502,7 @@
   (symbol (lib_id "antmicropower:GND") (at 173.99 203.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 529bf96c-9f73-4e90-acd7-fc92acc9647e)
-    (property "Reference" "#PWR054" (at 165.1 205.74 0)
+    (property "Reference" "#PWR062" (at 165.1 205.74 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 173.99 207.01 0)
@@ -10524,7 +10524,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -10533,7 +10533,7 @@
   (symbol (lib_id "antmicropower:GND") (at 267.97 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5326664e-2774-4a8a-9482-520f327e3254)
-    (property "Reference" "#PWR068" (at 276.86 139.7 0)
+    (property "Reference" "#PWR076" (at 276.86 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 267.97 140.97 0)
@@ -10555,7 +10555,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -10564,7 +10564,7 @@
   (symbol (lib_id "antmicroLEDIndicationDiscrete:LED_R_0603_598-8D80-107F") (at 285.75 22.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 553e8e7e-6cd5-4e7a-a4ef-248ec6abf3fb)
-    (property "Reference" "D?" (at 290.83 25.7174 90)
+    (property "Reference" "D11" (at 290.83 25.7174 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "LED_G" (at 290.83 28.2574 90)
@@ -10593,7 +10593,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D?") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -10602,7 +10602,7 @@
   (symbol (lib_id "antmicropower:GND") (at 378.46 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57152ae6-a949-4500-9c84-e4e8975ecfff)
-    (property "Reference" "#PWR084" (at 387.35 48.26 0)
+    (property "Reference" "#PWR093" (at 387.35 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 378.46 50.8 0)
@@ -10624,7 +10624,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -10633,7 +10633,7 @@
   (symbol (lib_id "antmicropower:GND") (at 175.26 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 585497fc-b398-498a-9959-c960a770380e)
-    (property "Reference" "#PWR056" (at 184.15 59.69 0)
+    (property "Reference" "#PWR064" (at 184.15 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 175.26 62.23 0)
@@ -10655,7 +10655,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -10664,7 +10664,7 @@
   (symbol (lib_id "antmicropower:GND") (at 347.98 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 588080ee-b83f-4eb8-a306-572f9174fc7e)
-    (property "Reference" "#PWR078" (at 356.87 48.26 0)
+    (property "Reference" "#PWR087" (at 356.87 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 347.98 50.165 0)
@@ -10686,7 +10686,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -10738,7 +10738,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 165.1 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a146c5e-94ba-467c-a773-756a5e5a3abe)
-    (property "Reference" "R18" (at 167.64 96.52 0)
+    (property "Reference" "R22" (at 167.64 96.52 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 185.42 114.3 0)
@@ -10776,7 +10776,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R18") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -10785,7 +10785,7 @@
   (symbol (lib_id "antmicropower:GND") (at 115.57 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5aa6dccd-5d02-447f-b2e6-650e20bc7d3c)
-    (property "Reference" "#PWR046" (at 124.46 116.84 0)
+    (property "Reference" "#PWR053" (at 124.46 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 115.57 119.38 0)
@@ -10807,7 +10807,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -10816,7 +10816,7 @@
   (symbol (lib_id "antmicropower:GND") (at 331.47 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f180d66-7f52-4488-aa8d-331c323b86ee)
-    (property "Reference" "#PWR072" (at 340.36 48.26 0)
+    (property "Reference" "#PWR081" (at 340.36 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 331.47 50.165 0)
@@ -10838,7 +10838,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -10847,7 +10847,7 @@
   (symbol (lib_id "antmicroResistors0402:R_1M_0402") (at 105.41 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6162a198-12c5-438f-8fbf-8e88d4fd6d47)
-    (property "Reference" "R15" (at 106.68 96.52 90)
+    (property "Reference" "R18" (at 106.68 96.52 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_1M_0402" (at 118.11 80.01 0)
@@ -10882,7 +10882,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R15") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -10938,7 +10938,7 @@
   (symbol (lib_id "antmicroResistors0402:R_1k_0402") (at 54.61 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f905212-51e9-4b85-9030-aaa3583a3b4d)
-    (property "Reference" "R6" (at 57.15 35.56 0)
+    (property "Reference" "R9" (at 57.15 35.56 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_1k_0402" (at 74.93 53.34 0)
@@ -10973,7 +10973,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -11059,7 +11059,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SSM3J332R") (at 242.57 57.15 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70632322-1c09-4bb1-9fff-08c395cb5a39)
-    (property "Reference" "Q6" (at 245.11 41.91 90)
+    (property "Reference" "Q7" (at 245.11 41.91 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "SSM3J332R" (at 245.11 44.45 90)
@@ -11089,7 +11089,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q6") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -11192,7 +11192,7 @@
   (symbol (lib_id "antmicropower:GND") (at 335.28 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ecef4d8-d180-4915-a68d-01971f3ace22)
-    (property "Reference" "#PWR075" (at 344.17 242.57 0)
+    (property "Reference" "#PWR084" (at 344.17 242.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 335.28 243.84 0)
@@ -11214,7 +11214,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -11223,7 +11223,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 105.41 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7efa90b5-8f69-48ec-b7d6-84a529c247e0)
-    (property "Reference" "Q3" (at 116.84 210.8199 0)
+    (property "Reference" "Q4" (at 116.84 210.8199 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PJE138K" (at 116.84 213.3599 0)
@@ -11253,7 +11253,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -11309,7 +11309,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 67.31 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84d4e85e-db0a-469a-84f7-cfe0f38cef6b)
-    (property "Reference" "Q1" (at 78.74 36.8299 0)
+    (property "Reference" "Q2" (at 78.74 36.8299 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PJE138K" (at 78.74 39.3699 0)
@@ -11339,7 +11339,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -11348,7 +11348,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 262.89 135.89 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8693463b-7ffc-45a9-acf8-c91381865e92)
-    (property "Reference" "R33" (at 260.35 132.0799 90)
+    (property "Reference" "R37" (at 260.35 132.0799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 250.19 115.57 0)
@@ -11383,7 +11383,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R33") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -11439,7 +11439,7 @@
   (symbol (lib_id "antmicropower:GND") (at 317.5 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 878dc4e8-f939-453e-8433-6a4fa79f7fc9)
-    (property "Reference" "#PWR069" (at 326.39 48.26 0)
+    (property "Reference" "#PWR078" (at 326.39 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 317.5 50.165 0)
@@ -11461,7 +11461,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -11470,7 +11470,7 @@
   (symbol (lib_id "antmicroResistors0402:R_510k_0402") (at 233.68 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 879e33d2-c52b-4f54-9419-d9d6e6943c77)
-    (property "Reference" "R28" (at 236.22 53.3399 90)
+    (property "Reference" "R32" (at 236.22 53.3399 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_510k_0402" (at 246.38 36.83 0)
@@ -11505,7 +11505,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R28") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -11651,7 +11651,7 @@
   (symbol (lib_id "antmicropower:GND") (at 252.73 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b3391a9-45de-4972-8a0b-a9d8c6edb37e)
-    (property "Reference" "#PWR066" (at 261.62 60.96 0)
+    (property "Reference" "#PWR074" (at 261.62 60.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 252.73 63.5 0)
@@ -11673,7 +11673,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -11682,7 +11682,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 304.8 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c82045a-b5cf-4f15-9b72-c2d7cf9e7e97)
-    (property "Reference" "TP5" (at 304.8 80.01 0)
+    (property "Reference" "TP13" (at 304.8 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 308.61 75.565 0)
@@ -11710,7 +11710,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP5") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -11719,7 +11719,7 @@
   (symbol (lib_id "antmicropower:GND") (at 113.03 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d2e6f08-1099-4540-93b7-4cef4f00d877)
-    (property "Reference" "#PWR044" (at 121.92 156.21 0)
+    (property "Reference" "#PWR051" (at 121.92 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 113.03 158.75 0)
@@ -11741,7 +11741,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -11750,7 +11750,7 @@
   (symbol (lib_id "antmicropower:GND") (at 82.55 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e6a0f50-958e-4bb3-988a-3c3c9bdbced3)
-    (property "Reference" "#PWR037" (at 91.44 73.66 0)
+    (property "Reference" "#PWR044" (at 91.44 73.66 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 82.55 76.2 0)
@@ -11772,7 +11772,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -11781,7 +11781,7 @@
   (symbol (lib_id "antmicroLEDIndicationDiscrete:LED_R_0603_598-8D80-107F") (at 128.27 198.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f3683c3-80a6-42f4-a032-1ff18b323978)
-    (property "Reference" "D?" (at 133.35 200.9774 90)
+    (property "Reference" "D8" (at 133.35 200.9774 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "LED_G" (at 133.35 203.5174 90)
@@ -11810,7 +11810,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D?") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -11915,7 +11915,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 336.55 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9341182a-1abe-4e54-95f3-027f23a25e72)
-    (property "Reference" "D9" (at 350.52 232.4099 0)
+    (property "Reference" "D14" (at 350.52 232.4099 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 361.95 236.22 0)
@@ -11952,7 +11952,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D9") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -11961,7 +11961,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 369.57 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96b54be6-1b08-4570-8ea0-ae8ee3060956)
-    (property "Reference" "#PWR082" (at 384.81 123.19 0)
+    (property "Reference" "#PWR091" (at 384.81 123.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 368.935 116.84 0)
@@ -11983,7 +11983,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -11992,7 +11992,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 165.1 201.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 975ff9e5-8689-43da-b7df-e654829b1dd8)
-    (property "Reference" "R20" (at 162.56 198.12 90)
+    (property "Reference" "R24" (at 162.56 198.12 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 152.4 181.61 0)
@@ -12027,7 +12027,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R20") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -12036,7 +12036,7 @@
   (symbol (lib_id "antmicropower:GND") (at 364.49 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98495885-432a-4799-89ea-eb33f054ee0e)
-    (property "Reference" "#PWR079" (at 373.38 48.26 0)
+    (property "Reference" "#PWR088" (at 373.38 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 364.49 50.165 0)
@@ -12058,7 +12058,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -12067,7 +12067,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 388.62 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98a962d8-11f0-41e2-affb-a7994a1aaf65)
-    (property "Reference" "R40" (at 391.16 81.2799 90)
+    (property "Reference" "R45" (at 391.16 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 401.32 64.77 0)
@@ -12105,7 +12105,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R40") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -12114,7 +12114,7 @@
   (symbol (lib_id "antmicropower:GND") (at 173.99 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c531fc7-5f60-4020-a979-fbca16f27183)
-    (property "Reference" "#PWR055" (at 182.88 229.87 0)
+    (property "Reference" "#PWR063" (at 182.88 229.87 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 173.99 231.14 0)
@@ -12136,7 +12136,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -12188,7 +12188,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 60.96 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e78641c-ddf9-4a7d-9b93-c5db93b23a91)
-    (property "Reference" "R7" (at 63.5 25.3999 90)
+    (property "Reference" "R10" (at 63.5 25.3999 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_100k_0402" (at 73.66 8.89 0)
@@ -12223,7 +12223,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R7") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -12232,7 +12232,7 @@
   (symbol (lib_id "antmicropower:GND") (at 128.27 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0b30061-00db-41ac-b314-21d3071d0b74)
-    (property "Reference" "#PWR0301" (at 137.16 217.17 0)
+    (property "Reference" "#PWR057" (at 137.16 217.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 126.2598 219.71 0)
@@ -12254,7 +12254,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -12306,7 +12306,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 185.42 222.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2bee1b6-bff1-437a-ae2e-523dca8109c4)
-    (property "Reference" "TP4" (at 179.07 222.25 0)
+    (property "Reference" "TP10" (at 179.07 222.25 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 174.625 218.44 0)
@@ -12334,7 +12334,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP4") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
     )
@@ -12343,7 +12343,7 @@
   (symbol (lib_id "antmicroResistors0603:R_20R_0603") (at 207.01 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a49ca694-b087-4a79-908d-708d9b66c141)
-    (property "Reference" "R25" (at 209.55 201.93 0)
+    (property "Reference" "R29" (at 209.55 201.93 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_20R_0603" (at 227.33 220.98 0)
@@ -12378,7 +12378,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R25") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -12387,7 +12387,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 368.3 88.9 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid a6dbb401-44c4-4ca4-bbc0-c9a47edcfd93)
-    (property "Reference" "R38" (at 363.22 91.44 0)
+    (property "Reference" "R43" (at 363.22 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 355.6 109.22 0)
@@ -12428,7 +12428,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R38") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -12437,7 +12437,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aafe6841-61b0-4b0e-9470-08191449834d)
-    (property "Reference" "TP10" (at 375.92 187.96 0)
+    (property "Reference" "TP18" (at 375.92 187.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 184.15 0)
@@ -12465,7 +12465,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP10") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -12474,7 +12474,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:PMEG3010CE_SOD323") (at 153.67 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab0e1118-859a-4dc2-8d8b-663caca4b654)
-    (property "Reference" "D5" (at 157.734 43.18 0)
+    (property "Reference" "D9" (at 157.734 43.18 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "PMEG3010CE_SOD323" (at 157.734 45.72 0)
@@ -12503,7 +12503,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D5") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -12512,7 +12512,7 @@
   (symbol (lib_id "antmicropower:GND") (at 74.93 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ab5245e0-1f18-4530-9782-de926df31c61)
-    (property "Reference" "#PWR036" (at 83.82 48.26 0)
+    (property "Reference" "#PWR043" (at 83.82 48.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 74.93 49.53 0)
@@ -12534,7 +12534,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -12543,7 +12543,7 @@
   (symbol (lib_id "antmicropower:GND") (at 158.75 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abcc7026-2cf1-4747-82f8-2790fec88eaf)
-    (property "Reference" "#PWR052" (at 167.64 156.21 0)
+    (property "Reference" "#PWR060" (at 167.64 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 158.75 158.75 0)
@@ -12565,7 +12565,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -12574,7 +12574,7 @@
   (symbol (lib_id "antmicroResistors0402:R_120k_0402") (at 87.63 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af2b8776-d0f4-4387-ad97-9febbf557d21)
-    (property "Reference" "R11" (at 88.9 73.66 90)
+    (property "Reference" "R14" (at 88.9 73.66 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_120k_0402" (at 100.33 57.15 0)
@@ -12609,7 +12609,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R11") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -12665,7 +12665,7 @@
   (symbol (lib_id "antmicropower:GND") (at 391.16 228.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1ae05bc-5c6f-4ff7-9f37-51496d61429c)
-    (property "Reference" "#PWR087" (at 382.27 231.14 0)
+    (property "Reference" "#PWR096" (at 382.27 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 391.16 233.68 0)
@@ -12687,7 +12687,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -12696,7 +12696,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 336.55 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b28ea74e-314b-4a9e-be83-2e2ac94c985a)
-    (property "Reference" "D7" (at 350.52 199.3899 0)
+    (property "Reference" "D12" (at 350.52 199.3899 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 361.95 203.2 0)
@@ -12733,7 +12733,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D7") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -12742,7 +12742,7 @@
   (symbol (lib_id "antmicropower:GND") (at 105.41 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3334c5c-aaec-40c2-a103-56692f2df43f)
-    (property "Reference" "#PWR042" (at 114.3 116.84 0)
+    (property "Reference" "#PWR049" (at 114.3 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 105.41 119.38 0)
@@ -12764,7 +12764,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -12773,7 +12773,7 @@
   (symbol (lib_id "antmicroResistors0402:R_330k_0402") (at 213.36 224.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b68bc614-4ad5-4cbd-9e92-1bf416b4e0bd)
-    (property "Reference" "R26" (at 210.82 218.44 0)
+    (property "Reference" "R30" (at 210.82 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_330k_0402" (at 193.04 212.09 0)
@@ -12808,7 +12808,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R26") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -13066,7 +13066,7 @@
   (symbol (lib_id "antmicropower:GND") (at 186.69 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbe54ef5-4303-4b71-974e-6f3dbc59627f)
-    (property "Reference" "#PWR059" (at 195.58 228.6 0)
+    (property "Reference" "#PWR067" (at 195.58 228.6 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 186.69 229.87 0)
@@ -13088,7 +13088,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -13097,7 +13097,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 213.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bce23808-3387-423a-83ff-44cf05b46891)
-    (property "Reference" "TP12" (at 375.92 213.36 0)
+    (property "Reference" "TP20" (at 375.92 213.36 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 209.55 0)
@@ -13125,7 +13125,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP12") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -13134,7 +13134,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 346.71 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0d8ca04-4ec0-4da6-86f7-807bd1b9b139)
-    (property "Reference" "#PWR076" (at 331.47 81.28 0)
+    (property "Reference" "#PWR085" (at 331.47 81.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 346.71 73.66 0)
@@ -13156,7 +13156,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -13212,7 +13212,7 @@
   (symbol (lib_id "antmicroResistors0402:R_4k7_0402") (at 128.27 212.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2ab6d89-a56c-43df-bc26-ab9a9c1df881)
-    (property "Reference" "R?" (at 130.81 208.2799 90)
+    (property "Reference" "R21" (at 130.81 208.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_4k7_0402" (at 140.97 191.77 0)
@@ -13247,7 +13247,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R?") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -13256,7 +13256,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 185.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c30761b5-8a80-4f22-bd13-9de82e1f9273)
-    (property "Reference" "TP9" (at 375.92 185.42 0)
+    (property "Reference" "TP17" (at 375.92 185.42 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 181.61 0)
@@ -13284,7 +13284,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP9") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -13293,7 +13293,7 @@
   (symbol (lib_id "antmicropower:GND") (at 166.37 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5ff224b-1a58-408a-a556-073b2f3bf6c6)
-    (property "Reference" "#PWR053" (at 175.26 59.69 0)
+    (property "Reference" "#PWR061" (at 175.26 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 166.37 62.23 0)
@@ -13315,7 +13315,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -13324,7 +13324,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 113.03 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c65df33d-183e-420d-9fde-bdcf4aa29895)
-    (property "Reference" "R17" (at 114.3 91.44 90)
+    (property "Reference" "R20" (at 114.3 91.44 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_0R_0402" (at 125.73 74.93 0)
@@ -13362,7 +13362,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R17") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -13371,7 +13371,7 @@
   (symbol (lib_id "antmicropower:GND") (at 113.03 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cab4d771-d4e2-4a7e-a714-4d6b6cef2812)
-    (property "Reference" "#PWR045" (at 121.92 226.06 0)
+    (property "Reference" "#PWR052" (at 121.92 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 113.03 228.6 0)
@@ -13393,7 +13393,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -13402,7 +13402,7 @@
   (symbol (lib_id "antmicropower:GND") (at 128.27 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc838a8f-006e-4875-8ef9-af9546d61bbe)
-    (property "Reference" "#PWR049" (at 137.16 156.21 0)
+    (property "Reference" "#PWR056" (at 137.16 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 128.27 158.75 0)
@@ -13424,7 +13424,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -13574,7 +13574,7 @@
   (symbol (lib_id "antmicropower:GND") (at 228.6 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0848a35-272c-4f65-92e1-e11c8178f298)
-    (property "Reference" "#PWR063" (at 237.49 223.52 0)
+    (property "Reference" "#PWR071" (at 237.49 223.52 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 232.41 222.25 0)
@@ -13596,7 +13596,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -13605,7 +13605,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SSM3J332R") (at 113.03 203.2 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2c00be6-5556-403b-b2a6-97d78c7f4a30)
-    (property "Reference" "Q4" (at 115.57 187.96 90)
+    (property "Reference" "Q5" (at 115.57 187.96 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "SSM3J332R" (at 115.57 190.5 90)
@@ -13635,7 +13635,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -13644,7 +13644,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 378.46 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2cb3069-d54a-4c36-8531-69ef334fd3e9)
-    (property "Reference" "#PWR083" (at 393.7 40.64 0)
+    (property "Reference" "#PWR092" (at 393.7 40.64 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 375.92 34.29 0)
@@ -13666,7 +13666,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -13675,7 +13675,7 @@
   (symbol (lib_id "antmicropower:GND") (at 346.71 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4e9a0b8-df83-40e9-8d86-df73fd151868)
-    (property "Reference" "#PWR077" (at 337.82 97.79 0)
+    (property "Reference" "#PWR086" (at 337.82 97.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 346.71 100.33 0)
@@ -13697,7 +13697,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -13756,7 +13756,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 180.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da608ad5-a4a0-4cd3-b29b-8ff7aefd4fff)
-    (property "Reference" "TP8" (at 375.92 180.34 0)
+    (property "Reference" "TP16" (at 375.92 180.34 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 176.53 0)
@@ -13784,7 +13784,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP8") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -13793,7 +13793,7 @@
   (symbol (lib_id "antmicropower:GND") (at 368.3 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dac2ac0f-7f11-4392-a9ec-6485743f38e8)
-    (property "Reference" "#PWR081" (at 359.41 97.79 0)
+    (property "Reference" "#PWR090" (at 359.41 97.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 368.3 100.33 0)
@@ -13815,7 +13815,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -13824,7 +13824,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 234.95 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dace483c-d2dc-468a-916d-bb22401b40a3)
-    (property "Reference" "R30" (at 237.49 207.01 0)
+    (property "Reference" "R34" (at 237.49 207.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 255.27 226.06 0)
@@ -13862,7 +13862,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R30") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -13871,7 +13871,7 @@
   (symbol (lib_id "antmicropower:GND") (at 238.76 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbc94a86-660a-418a-aed3-7ae60d2bf763)
-    (property "Reference" "#PWR065" (at 247.65 139.7 0)
+    (property "Reference" "#PWR073" (at 247.65 139.7 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 238.76 140.97 0)
@@ -13893,7 +13893,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -13902,7 +13902,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 233.68 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df9aee67-8c4b-4a6d-bd35-624d5802b73c)
-    (property "Reference" "R29" (at 236.22 60.9599 90)
+    (property "Reference" "R33" (at 236.22 60.9599 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_100k_0402" (at 246.38 44.45 0)
@@ -13937,7 +13937,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R29") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -13993,7 +13993,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 210.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e08b2de4-0648-47fb-b8fa-56c80ddc5e11)
-    (property "Reference" "TP11" (at 375.92 210.82 0)
+    (property "Reference" "TP19" (at 375.92 210.82 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TP_0.75mm_SMD" (at 371.475 207.01 0)
@@ -14021,7 +14021,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "TP11") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -14030,7 +14030,7 @@
   (symbol (lib_id "antmicroResistors0402:R_590k_0402") (at 87.63 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e169056b-ccca-4021-9029-23b7190e65d7)
-    (property "Reference" "R10" (at 88.9 66.04 90)
+    (property "Reference" "R13" (at 88.9 66.04 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_590k_0402" (at 100.33 49.53 0)
@@ -14065,7 +14065,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R10") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -14074,7 +14074,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SSM3J332R") (at 74.93 29.21 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2559f6f-7851-4939-937a-cad4b9e952fd)
-    (property "Reference" "Q2" (at 77.47 13.97 90)
+    (property "Reference" "Q3" (at 77.47 13.97 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "SSM3J332R" (at 77.47 16.51 90)
@@ -14104,7 +14104,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "Q2") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -14113,7 +14113,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 87.63 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2bed150-a9ef-4990-bf1d-b16fdc5eabdb)
-    (property "Reference" "R9" (at 88.9 57.15 90)
+    (property "Reference" "R12" (at 88.9 57.15 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "R_0R_0402" (at 74.93 76.2 0)
@@ -14151,7 +14151,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R9") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -14160,7 +14160,7 @@
   (symbol (lib_id "antmicropower:GND") (at 143.51 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e681b5af-7267-4530-9182-f22a9f5698d7)
-    (property "Reference" "#PWR050" (at 152.4 156.21 0)
+    (property "Reference" "#PWR058" (at 152.4 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 143.51 158.75 0)
@@ -14182,7 +14182,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -14191,7 +14191,7 @@
   (symbol (lib_id "antmicroResistors0402:R_110k_0402") (at 262.89 129.54 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e903ea1a-887f-4783-9dad-a518172c9978)
-    (property "Reference" "R32" (at 256.54 125.73 90)
+    (property "Reference" "R36" (at 256.54 125.73 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_110k_0402" (at 275.59 109.22 0)
@@ -14226,7 +14226,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R32") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -14235,7 +14235,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 369.57 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebd69521-19ce-4ed8-a002-0c5e6af016ae)
-    (property "Reference" "R39" (at 367.03 126.9999 90)
+    (property "Reference" "R44" (at 367.03 126.9999 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "R_100k_0402" (at 382.27 111.76 0)
@@ -14273,7 +14273,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R39") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -14329,7 +14329,7 @@
   (symbol (lib_id "antmicroResistors0402:R_49k9_0402") (at 97.79 220.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eff37b17-2e63-439d-a0cb-efe70198d1ca)
-    (property "Reference" "R13" (at 100.33 217.1699 90)
+    (property "Reference" "R16" (at 100.33 217.1699 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "R_49k9_0402" (at 110.49 200.66 0)
@@ -14364,7 +14364,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -14420,7 +14420,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 346.71 85.09 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2f45cff-8b39-4858-99ce-ed623e0fd381)
-    (property "Reference" "R35" (at 344.17 81.2799 90)
+    (property "Reference" "R40" (at 344.17 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 334.01 64.77 0)
@@ -14458,7 +14458,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R35") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -14467,7 +14467,7 @@
   (symbol (lib_id "antmicroResistors0402:R_1M5_0402") (at 193.04 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2fc37a5-7163-4900-8da3-f26836737578)
-    (property "Reference" "R24" (at 196.85 78.74 0)
+    (property "Reference" "R28" (at 196.85 78.74 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_1M5_0402" (at 213.36 88.9 0)
@@ -14502,7 +14502,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R24") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -14558,7 +14558,7 @@
   (symbol (lib_id "antmicropower:GND") (at 285.75 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4412c5c-74f6-4f5f-ba2f-f5f06ad23d0a)
-    (property "Reference" "#PWR0302" (at 294.64 41.91 0)
+    (property "Reference" "#PWR077" (at 294.64 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 283.7398 44.45 0)
@@ -14580,7 +14580,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -14589,7 +14589,7 @@
   (symbol (lib_id "antmicroResistors0402:R_590k_0402") (at 105.41 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f46331d2-a3ef-4b0b-a44c-d684b786319b)
-    (property "Reference" "R16" (at 106.68 105.41 90)
+    (property "Reference" "R19" (at 106.68 105.41 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_590k_0402" (at 118.11 88.9 0)
@@ -14624,7 +14624,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R16") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -14633,7 +14633,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 50.8 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57028ec-b78e-46ab-bf52-956c8002f4ba)
-    (property "Reference" "#PWR034" (at 66.04 21.59 0)
+    (property "Reference" "#PWR041" (at 66.04 21.59 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 50.8 13.97 0)
@@ -14655,7 +14655,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -14664,7 +14664,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:BAT54S-E3-08") (at 99.06 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5affd3e-195b-49f9-af54-176888119bc4)
-    (property "Reference" "D3" (at 105.41 57.15 0)
+    (property "Reference" "D6" (at 105.41 57.15 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "BAT54S-E3-08" (at 128.27 71.12 0)
@@ -14694,7 +14694,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "D3") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -14703,7 +14703,7 @@
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 259.08 49.53 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb1bb79f-5eb3-4120-801c-83d85073c9c2)
-    (property "Reference" "R31" (at 261.62 44.45 0)
+    (property "Reference" "R35" (at 261.62 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_0R_0402" (at 279.4 36.83 0)
@@ -14741,7 +14741,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R31") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -14750,7 +14750,7 @@
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 322.58 85.09 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb8064c2-ad00-4557-a6a4-f4bb94d8c854)
-    (property "Reference" "R34" (at 320.04 81.2799 90)
+    (property "Reference" "R39" (at 320.04 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_10k_0402" (at 309.88 64.77 0)
@@ -14785,7 +14785,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "R34") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -14847,7 +14847,7 @@
   (symbol (lib_id "antmicropower:GND") (at 388.62 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc248079-2e4d-4eac-853f-7dbd0d79f6cd)
-    (property "Reference" "#PWR086" (at 379.73 97.79 0)
+    (property "Reference" "#PWR095" (at 379.73 97.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 388.62 100.33 0)
@@ -14869,7 +14869,7 @@
     (instances
       (project "cm4-lvds-adapter"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/08a1e442-f0a3-4779-ba71-f71979b0fc7c"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
