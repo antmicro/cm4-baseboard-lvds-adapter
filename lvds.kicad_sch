@@ -8088,7 +8088,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 398a3bfb-8177-4e8f-8b40-94c2ad307e5d)
   )
-  (label "AntmUD.~{RST}" (at 345.44 132.08 0)
+  (label "AntmUD.~{RST}" (at 345.44 132.08 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3c1727c5-4d38-428e-83e7-5d01092edb8c)
   )
@@ -11898,7 +11898,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 372.11 85.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 98a962d8-11f0-41e2-affb-a7994a1aaf65)
     (property "Reference" "R45" (at 374.65 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
@@ -12218,7 +12218,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 351.79 88.9 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a6dbb401-44c4-4ca4-bbc0-c9a47edcfd93)
     (property "Reference" "R43" (at 346.71 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -14066,7 +14066,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_100k_0402") (at 369.57 130.81 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid ebd69521-19ce-4ed8-a002-0c5e6af016ae)
     (property "Reference" "R44" (at 368.3 127 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -14251,7 +14251,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 330.2 85.09 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f2f45cff-8b39-4858-99ce-ed623e0fd381)
     (property "Reference" "R40" (at 327.66 81.2799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
