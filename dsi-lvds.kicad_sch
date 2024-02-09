@@ -5754,7 +5754,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 219.71 135.89 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 6dfda84f-0ab3-4f03-8b59-0acaf14e3ce6)
     (property "Reference" "R6" (at 217.17 132.0799 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
