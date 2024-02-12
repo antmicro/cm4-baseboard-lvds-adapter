@@ -577,12 +577,8 @@
       ""
     ],
     [
-      "420ebe12-f825-449a-8afd-25702eb411ad",
-      "DSI -> LVDS converter"
-    ],
-    [
       "08a1e442-f0a3-4779-ba71-f71979b0fc7c",
-      "LVDS display"
+      "Power"
     ]
   ],
   "text_variables": {}
