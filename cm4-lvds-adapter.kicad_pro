@@ -442,7 +442,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -452,60 +452,43 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.35,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
+        "diff_pair_width": 0.175,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_100",
+        "name": "100Ohm-diff_DSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.35,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
+        "diff_pair_width": 0.175,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_90",
+        "name": "100Ohm-diff_LVDS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.12,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SE_50",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
@@ -514,7 +497,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "100Ohm-diff_LVDS",
+        "pattern": "/LVDS*_N"
+      },
+      {
+        "netclass": "100Ohm-diff_DSI",
+        "pattern": "/DSI*_N"
+      },
+      {
+        "netclass": "100Ohm-diff_DSI",
+        "pattern": "/DSI*_P"
+      },
+      {
+        "netclass": "100Ohm-diff_LVDS",
+        "pattern": "/LVDS*_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
