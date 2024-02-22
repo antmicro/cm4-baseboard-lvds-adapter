@@ -1,11 +1,1 @@
-(version 1)
-(rule "ZonesOnBottom"
-	(severity warning)
-	(condition "A.Layer == 'B.Cu'")
-	(constraint zone_connection thermal_reliefs)
-)
-(rule "ZonesOnTop"
-	(severity warning)
-	(condition "A.Layer == 'F.Cu'")
-	(constraint zone_connection thermal_reliefs)
-)
+
