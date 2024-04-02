@@ -1135,7 +1135,7 @@
   (pad "64" smd rect (at -3.75 -5.74) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dc32c32c-cae7-4d4d-b90a-3d91c68d2503))
   (pad "65" smd rect (at 0 0) (size 8 8) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin -2.35) (solder_paste_margin -2.35) (tstamp 0c696201-d0d1-416c-93ef-fd629513ab41))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/HTQFP-64_10x10mm_P0.5mm.step"
+  (model "${KIPRJMOD}/lib/3d-models/HTQFP-64_10x10mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

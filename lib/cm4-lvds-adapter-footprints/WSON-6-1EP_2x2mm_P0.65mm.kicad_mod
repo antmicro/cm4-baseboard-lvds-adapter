@@ -188,7 +188,7 @@
   (pad "5" smd roundrect (at 0.973 0) (size 0.45 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 715f0c5f-052b-4c5f-b6bb-294195bfbf2f))
   (pad "6" smd roundrect (at 0.973 -0.652) (size 0.45 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a5ffb969-3c55-46b9-90ac-3000b310c2cd))
   (pad "7" smd roundrect (at 0 0) (size 1.12 1.72) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp ec985f15-bbe8-4d39-a6e0-01fa535e41d7))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/wson6-2x2-drv.step"
+  (model "${KIPRJMOD}/lib/3d-models/wson6-2x2-drv.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

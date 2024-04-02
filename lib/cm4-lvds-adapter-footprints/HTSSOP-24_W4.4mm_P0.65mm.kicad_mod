@@ -887,7 +887,7 @@
   (pad "23" smd rect (at 2.94 -2.925 90) (size 0.45 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dfbc7c97-ee39-4066-bdaa-c15fe1f27c6c))
   (pad "24" smd rect (at 2.94 -3.575 90) (size 0.45 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c863235d-3877-4491-974d-3c3894248b44))
   (pad "25" smd rect (at 0 0) (size 2.4 5.16) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2355bfc9-0418-49c1-bf43-5c04b94a48b9))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/HTSSOP-24_W4.4mm_P0.65mm.step"
+  (model "${KIPRJMOD}/lib/3d-models/HTSSOP-24_W4.4mm_P0.65mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

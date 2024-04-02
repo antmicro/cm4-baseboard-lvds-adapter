@@ -48,7 +48,7 @@
   (fp_line (start 1.249 0.997) (end 0.65 0.997) (layer "User.9") (stroke (width 0.02) (type solid)) (tstamp a11a5e86-db0d-4449-90f3-08b48dca2c0e))
   (pad "1" smd roundrect (at -1.075 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 32edb4cb-b4bb-4aa9-9ca9-3d870fbc4d4b))
   (pad "2" smd roundrect (at 1.075 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 177af0d7-065b-4aee-8d75-d99d1ed97e4d))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/WE-PMI-1008.step"
+  (model "${KIPRJMOD}/lib/3d-models/WE-PMI-1008.step"
     (offset (xyz 0.0005 -0.001 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

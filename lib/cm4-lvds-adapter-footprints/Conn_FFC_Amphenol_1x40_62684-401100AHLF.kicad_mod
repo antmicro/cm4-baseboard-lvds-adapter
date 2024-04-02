@@ -618,7 +618,7 @@
           (xy -0.8 0.8)
         ) (width 0.01) (fill yes))
     ) (tstamp 039fe6ed-5bd9-43c3-91c3-c724ce9a91a0))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/Conn_FFC_Amphenol_1x40_62684-401100AHLF.step"
+  (model "${KIPRJMOD}/lib/3d-models/Conn_FFC_Amphenol_1x40_62684-401100AHLF.step"
     (offset (xyz 0 -0.338 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

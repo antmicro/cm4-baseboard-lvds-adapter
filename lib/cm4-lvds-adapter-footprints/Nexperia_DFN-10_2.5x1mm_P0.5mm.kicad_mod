@@ -76,7 +76,7 @@
     (solder_mask_margin 0.05) (tstamp 60b55ea4-0b19-4e05-8161-57296977fc31))
   (pad "10" smd rect (at -1 -0.3875) (size 0.2 0.475) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (tstamp 5c725081-3ca0-4b69-9b0b-4bb7958fc9cc))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/SOT1176.step"
+  (model "${KIPRJMOD}/lib/3d-models/SOT1176.step"
     (offset (xyz -1.01553 -1.905708 1.45))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))

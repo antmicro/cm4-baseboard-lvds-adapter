@@ -47,7 +47,7 @@
   (pad "11" smd roundrect (at 0.325 -1.45 90) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 13a7e8eb-293e-40b8-9172-fbb399ef13b5))
   (pad "12" smd roundrect (at -0.326 -1.45 90) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 62180c5b-9b1d-4e51-898e-d5f31e42fb6c))
   (pad "13" smd roundrect (at -0.975 -1.45 90) (size 0.7 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 64393721-3409-4244-9116-3327e82d4e44))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/MPQ7235GQBE-AEC1.step"
+  (model "${KIPRJMOD}/lib/3d-models/MPQ7235GQBE-AEC1.step"
     (offset (xyz -1.25 -1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

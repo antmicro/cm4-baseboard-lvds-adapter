@@ -69,7 +69,7 @@
     (solder_mask_margin 0.102) (tstamp 9382e78e-0584-45bd-b2c8-3e54a689e040))
   (pad "MP" smd rect (at 4.72 0.82) (size 1.2 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 84dd3b76-d2b1-43ef-9296-6d04829eca73))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/Conn_JST_SUR_1x10_SM10B-SURS-TF-LF-SN.step"
+  (model "${KIPRJMOD}/lib/3d-models/Conn_JST_SUR_1x10_SM10B-SURS-TF-LF-SN.step"
     (offset (xyz 3.2 5.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

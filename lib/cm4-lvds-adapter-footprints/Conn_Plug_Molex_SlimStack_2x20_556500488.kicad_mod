@@ -2041,7 +2041,7 @@
   (pad "MP" smd rect (at -5.947 1.82 180) (size 1.3 1.32) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ce581f2f-50af-493a-865c-5f5b85a20c93))
   (pad "MP" smd rect (at 5.955 -1.82 180) (size 1.3 1.32) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08d876ce-883b-4559-a92e-a67a5725d6f6))
   (pad "MP" smd rect (at 5.96 1.82 180) (size 1.3 1.32) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 52381899-54ee-4b16-ab0e-86149bb8aaea))
-  (model "/home/pszczygiel/repositories/cm4-baseboard-lvds-adapter-hw/lib/3d-models/Conn_Plug_Molex_SlimStack_2x20_556500488.step"
+  (model "${KIPRJMOD}/lib/3d-models/Conn_Plug_Molex_SlimStack_2x20_556500488.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
