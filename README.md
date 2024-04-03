@@ -28,6 +28,6 @@ The remaining files are stored in the following directories:
 * `doc` - contains schematics
 * `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
 
-## Licensing
+## License
 
 This project is published under the [Apache-2.0](LICENSE) license.
