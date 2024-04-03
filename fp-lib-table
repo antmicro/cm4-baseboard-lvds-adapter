@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "cm4-lvds-adapter-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/cm4-lvds-adapter-footprints/")(options "")(descr ""))
-)
