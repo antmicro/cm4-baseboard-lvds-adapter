@@ -6,7 +6,7 @@ Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for an LVDS display adapter which is a bridge between Antmicro CM4 Baseboard and an LCD panel with touch interface.
+This project contains open hardware design files for an LVDS display adapter which is a bridge between Antmicro CM4 Baseboard and an LCD panel with a touchscreen interface.
 This is a reference design that can be customized for different displays.
 The PCB design files were prepared in KiCad 7.x.
 
@@ -15,7 +15,7 @@ The PCB design files were prepared in KiCad 7.x.
 * Fits into the Antmicro CM4 Baseboard  
 * Based on `Texas Instruments/SN65DSI84TPAPRQ1` MIPI DSI to LVDS Bridge
 * Supports I2C communication for the touchscreen interface
-* Integrated power supply for a TFT display (`18V`, `9.6V`, `3.9V`, `3.3V`, `-6V`)
+* Integrated power supply for a TFT display (`18V`, `9.6V`, `3.9V`, `3.3V`)
 * Integrated backlight driver
 
 ## Project structure
