@@ -444,7 +444,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -603,6 +603,18 @@
     [
       "08a1e442-f0a3-4779-ba71-f71979b0fc7c",
       "Power"
+    ],
+    [
+      "22d16469-9258-4636-9009-0bef153eb515",
+      "Antmicro CM4 Baseboard DSI Connector "
+    ],
+    [
+      "b73e1eb9-7c7b-4237-82d1-61e6b447a2c8",
+      "DSI to LVDS"
+    ],
+    [
+      "40370491-50e7-47c8-9afe-55574f0cd0f6",
+      "LVDS and Touchscreen Connectors"
     ]
   ],
   "text_variables": {}
