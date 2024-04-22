@@ -10887,7 +10887,7 @@
     (property "Reference" "R21" (at 252.73 200.66 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
-    (property "Value" "R_4k7_0402" (at 262.89 184.15 0)
+    (property "Value" "R_10k_0402" (at 262.89 184.15 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 265.43 184.15 0)

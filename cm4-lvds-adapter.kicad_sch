@@ -84,7 +84,7 @@
   )
 
   (bus_alias "DSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "DSICtrl" (members "SCL" "SDA" "~{IRQ2}" "GPIO" "~{RST}" "IRQ1" "EN" "DIM"))
+  (bus_alias "DSICtrl" (members "SCL" "SDA" "~{IRQ2}" "GPIO" "~{RST}" "~{IRQ1}" "EN" "DIM"))
   (bus_alias "LVDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
   (junction (at 118.11 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 49df25cf-9552-4246-840e-87e815288b20)
