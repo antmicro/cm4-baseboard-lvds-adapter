@@ -1354,7 +1354,7 @@
     (uuid 1c246e35-967c-49bd-a8fa-be17eacd6cb2)
   )
   (polyline (pts (xy 227.965 97.155) (xy 227.965 103.505))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid 1c8310d0-5aee-4779-8494-0531ead47b2b)
   )
 
@@ -1579,7 +1579,7 @@
     (uuid 893b2283-6c81-4913-ab7a-f6bd68418247)
   )
   (polyline (pts (xy 227.965 97.155) (xy 248.285 97.155))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid 8aa66970-450b-476c-ab33-9cc960122504)
   )
 
@@ -1696,7 +1696,7 @@
     (uuid b61a3838-273b-43cf-8f2c-12e58a273ac9)
   )
   (polyline (pts (xy 248.285 103.505) (xy 248.285 97.155))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid b9291000-b9bb-4c99-920b-8488baf8cdc1)
   )
 
@@ -1752,7 +1752,7 @@
   )
 
   (polyline (pts (xy 227.965 103.505) (xy 248.285 103.505))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid c9e4a9bd-4496-4133-9abf-4ee45c37b8ce)
   )
 
