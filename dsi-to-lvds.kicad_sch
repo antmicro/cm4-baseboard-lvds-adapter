@@ -1624,7 +1624,7 @@
     (stroke (width 0) (type default))
     (uuid 73757b9b-984f-41be-ab5e-411886bfc2e2)
   )
-  (polyline (pts (xy 132.08 110.49) (xy 158.75 110.49))
+  (polyline (pts (xy 132.08 110.49) (xy 160.02 110.49))
     (stroke (width 0) (type dash))
     (uuid 783b2695-5321-454d-98ab-f253a3fd1845)
   )
@@ -1658,7 +1658,7 @@
     (stroke (width 0) (type default))
     (uuid 8045e659-a59d-473a-a4a8-ccd4ffda1fbc)
   )
-  (polyline (pts (xy 132.08 97.79) (xy 158.75 97.79))
+  (polyline (pts (xy 132.08 97.79) (xy 160.02 97.79))
     (stroke (width 0) (type dash))
     (uuid 84acbb67-7453-4d40-b294-a05aff135643)
   )
@@ -1735,7 +1735,7 @@
     (uuid ac3da8cc-883c-4924-abce-640944332978)
   )
 
-  (polyline (pts (xy 158.75 110.49) (xy 158.75 97.79))
+  (polyline (pts (xy 160.02 110.49) (xy 160.02 97.79))
     (stroke (width 0) (type dash))
     (uuid ae58915a-aa40-41f2-af55-c4c9bdbf9844)
   )
@@ -1952,7 +1952,7 @@
     (uuid fc8c344e-502e-4417-8231-d6b095f27810)
   )
 
-  (text "Note:\nI_{2}C address selection:\n  ADDR	| write address\n   1  	| 0x5A\n   0  	| 0x58"
+  (text "Note:\nI_{2}C address selection:\n  ADDR	| 7-bit address\n   1  	| 0x2D\n   0  	| 0x2C"
     (at 133.35 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17a52867-23d3-49a8-aa46-4b2f857910f8)
