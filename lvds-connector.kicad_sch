@@ -1419,7 +1419,7 @@
     (stroke (width 0) (type default))
     (uuid 1c246e35-967c-49bd-a8fa-be17eacd6cb2)
   )
-  (polyline (pts (xy 228.6 107.95) (xy 228.6 121.92))
+  (polyline (pts (xy 229.87 110.49) (xy 229.87 129.54))
     (stroke (width 0) (type dash))
     (uuid 1c8310d0-5aee-4779-8494-0531ead47b2b)
   )
@@ -1664,7 +1664,7 @@
     (stroke (width 0) (type default))
     (uuid 893b2283-6c81-4913-ab7a-f6bd68418247)
   )
-  (polyline (pts (xy 228.6 107.95) (xy 276.86 107.95))
+  (polyline (pts (xy 229.87 110.49) (xy 278.13 110.49))
     (stroke (width 0) (type dash))
     (uuid 8aa66970-450b-476c-ab33-9cc960122504)
   )
@@ -1785,7 +1785,7 @@
     (stroke (width 0) (type default))
     (uuid b61a3838-273b-43cf-8f2c-12e58a273ac9)
   )
-  (polyline (pts (xy 276.86 121.92) (xy 276.86 107.95))
+  (polyline (pts (xy 278.13 129.54) (xy 278.13 110.49))
     (stroke (width 0) (type dash))
     (uuid b9291000-b9bb-4c99-920b-8488baf8cdc1)
   )
@@ -1841,7 +1841,7 @@
     (uuid c9857e6e-0aea-4a8e-a4fa-ebf4dce11dbd)
   )
 
-  (polyline (pts (xy 228.6 121.92) (xy 276.86 121.92))
+  (polyline (pts (xy 229.87 129.54) (xy 278.13 129.54))
     (stroke (width 0) (type dash))
     (uuid c9e4a9bd-4496-4133-9abf-4ee45c37b8ce)
   )
@@ -1970,8 +1970,8 @@
     (uuid fda443ad-c734-43c3-80b4-acca64a3f8ae)
   )
 
-  (text "Note:\n- IO's are 3V3 level\n- Connector has reversed pinout because used \n	harness has pin 1 to pin 1 configuration\n- RST_TS (TouchScreen) and TP10_TS are pins \n	on the touchscreen"
-    (at 229.87 120.65 0)
+  (text "Note:\n- IO's are 3V3 level\n- Connector has reversed pinout because the \n	touchscreen's motherboard has different \n	pin numbering\n	(used harness has crossed configuration)\n- RST_TS (TouchScreen) and TP10_TS are pins \n	on the touchscreen"
+    (at 231.14 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0190d9fe-1564-421a-9de3-367ac82ac1d0)
   )
