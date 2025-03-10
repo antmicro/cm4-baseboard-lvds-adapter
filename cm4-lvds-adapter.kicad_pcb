@@ -9,8 +9,8 @@
 	(paper "A3")
 	(title_block
 		(title "CM4-LVDS Adapter")
-		(date "2024-07-18")
-		(rev "1.1.2")
+		(date "2025-03-10")
+		(rev "1.1.3")
 		(company "Antmicro")
 	)
 	(layers
@@ -80039,7 +80039,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3253dea-4f1c-415f-b58d-abdb0fa28514")
@@ -80051,7 +80051,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0ba12ed-805e-4c75-bedc-cb62fa2859ed")
@@ -80063,7 +80063,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4700GLF"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb90b3d7-cfe0-40a8-8ab0-d922e8c8f0f0")
@@ -80075,7 +80075,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab2795ca-a6b6-4a4e-88ed-58f2d73af3c1")
@@ -80087,7 +80087,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "446a6a9a-0756-4dbf-a292-70ce82b759bd")
@@ -80099,7 +80099,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 373.9455 63.8255 360)
+			(at 373.9455 63.8255 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ca84a44-78da-4d13-a4f9-513c499c22bb")
@@ -120348,7 +120348,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afe62b3e-9912-460e-93bb-5e9c8cb0be46")
@@ -120360,7 +120360,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b58987e-e435-4c86-b898-03695407c963")
@@ -120372,7 +120372,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ac85e6f-d441-4f13-a576-256f2c6f98c4")
@@ -120384,7 +120384,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "40309e20-1720-4670-867e-d35dc8acf095")
@@ -120396,7 +120396,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9fcc0fd3-0489-482e-839d-bc6c0c825f80")
@@ -120408,7 +120408,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 371.0555 66.6955 360)
+			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "33d70255-3c5a-4613-8d17-3280b39c168f")
@@ -178890,7 +178890,7 @@
 		)
 		(fp_arc
 			(start 0.20089 0.346)
-			(mid 0.187409 0.340844)
+			(mid 0.187424 0.340833)
 			(end 0.17789 0.33)
 			(stroke
 				(width 0.02)
@@ -226188,7 +226188,7 @@
 		)
 		(fp_arc
 			(start 0.20089 0.346)
-			(mid 0.187409 0.340844)
+			(mid 0.187424 0.340833)
 			(end 0.17789 0.33)
 			(stroke
 				(width 0.02)
@@ -446578,7 +446578,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev ${REVISION} 07/2024"
+	(gr_text "Rev ${REVISION} 03/2025"
 		(at 125.8 222.3 0)
 		(layer "F.Cu")
 		(uuid "dd133d7f-654b-44ad-b6be-7150b33e565c")
@@ -446701,7 +446701,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev ${REVISION} 07/2024"
+	(gr_text "Rev ${REVISION} 03/2025"
 		(at 125.8 222.3 0)
 		(layer "F.Mask")
 		(uuid "c0e3d429-fa83-4140-9e9f-dfeaf724a205")
