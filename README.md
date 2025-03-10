@@ -1,14 +1,14 @@
 # CM4 Baseboard LVDS Adapter
 
-Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
-![](img/cm4-lvds-adapter-visualization.png)
+![](assets/previews/orthoT.png)
 
 ## Overview
 
 This project contains open hardware design files for an LVDS display adapter which is a bridge between Antmicro CM4 Baseboard and an LCD panel with a touchscreen interface.
 This is a reference design that can be customized for different displays.
-The PCB design files were prepared in KiCad 7.x.
+The PCB design files were prepared in KiCad 8.x.
 
 ## Key features
 
@@ -23,7 +23,6 @@ The PCB design files were prepared in KiCad 7.x.
 The main project directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
-* `img` - contains board visualization for this README
 * `doc` - contains schematics
 * `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
 
