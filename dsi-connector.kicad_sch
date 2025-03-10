@@ -1100,14 +1100,14 @@
 				)
 			)
 		)
-		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_598-8D80-107F"
+		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 22.86 -2.54 0)
+				(at 20.32 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1116,19 +1116,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "LED_G_0603_598-8D80-107F"
-				(at 22.86 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
-				(at 22.86 -10.16 0)
+			(property "Value" "LED_G_0603_KP-1608ZGC"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1138,8 +1127,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf"
-				(at 22.86 -12.7 0)
+			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1149,7 +1138,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
+			(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1158,8 +1158,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "598-8D80-107F"
-				(at 22.86 -15.24 0)
+			(property "MPN" "KP-1608ZGC"
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1169,8 +1169,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Dialight"
-				(at 22.86 -17.78 0)
+			(property "Manufacturer" "Kingbright"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1181,7 +1181,7 @@
 				)
 			)
 			(property "Color" "Green"
-				(at 22.86 -5.08 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1190,7 +1190,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -20.32 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -22.86 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_G_0603_598-8D80-107F_0_1"
+			(symbol "LED_G_0603_KP-1608ZGC_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -1246,7 +1246,7 @@
 					)
 				)
 			)
-			(symbol "LED_G_0603_598-8D80-107F_1_1"
+			(symbol "LED_G_0603_KP-1608ZGC_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.778 -1.016)
@@ -1646,7 +1646,7 @@
 				)
 			)
 		)
-		(symbol "antmicroResistors0402:R_2k2_0402"
+		(symbol "antmicroResistors0402:R_330R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1662,7 +1662,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_2k2_0402"
+			(property "Value" "R_330R_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1695,7 +1695,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1704,7 +1704,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-2201GLF"
+			(property "MPN" "CR0402-FX-3300GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -1748,7 +1748,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "2k2"
+			(property "Val" "330R"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1777,7 +1777,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_2k2_0402_0_1"
+			(symbol "R_330R_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -1790,7 +1790,7 @@
 					)
 				)
 			)
-			(symbol "R_2k2_0402_1_1"
+			(symbol "R_330R_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -4404,6 +4404,136 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC")
+		(at 270.51 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f806a64-9357-4ea1-b8da-49a842b8c94c")
+		(property "Reference" "D2"
+			(at 273.05 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G_0603_KP-1608ZGC"
+			(at 278.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+			(at 280.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
+			(at 283.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KP-1608ZGC"
+			(at 285.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 273.05 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 290.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 293.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64d71dd8-6776-413a-91de-449eb53d7e16")
+		)
+		(pin "2"
+			(uuid "0efd6121-a3fa-4bc1-9d5f-2278ee1ef9ef")
+		)
+		(instances
+			(project "cm4-lvds-adapter"
+				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 261.62 172.72 90)
 		(unit 1)
@@ -4650,287 +4780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_470R_0402")
-		(at 270.51 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21f9b28a-9c11-4b45-b034-2a173d747ba4")
-		(property "Reference" "R2"
-			(at 273.05 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_470R_0402"
-			(at 283.21 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 285.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 288.29 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 270.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4700GLF"
-			(at 290.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 293.37 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 295.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 298.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "470R"
-			(at 273.05 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 280.67 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c7330ba-2e9e-4708-8395-dbfb2e06fa77")
-		)
-		(pin "2"
-			(uuid "c71335f6-ad82-4ff3-baf8-f916fbe99422")
-		)
-		(instances
-			(project "cm4-lvds-adapter"
-				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_2k2_0402")
-		(at 250.19 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f7be59a-6528-4169-898f-469dc0a7725c")
-		(property "Reference" "R1"
-			(at 252.73 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_2k2_0402"
-			(at 262.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 265.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 250.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 273.05 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-2201GLF"
-			(at 270.51 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2k2"
-			(at 252.73 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 275.59 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 278.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 260.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c349ccc-61ea-441f-aa84-933382c9a259")
-		)
-		(pin "2"
-			(uuid "cb4ec8ae-92fa-4bbd-8a77-3d9937e6f82b")
-		)
-		(instances
-			(project "cm4-lvds-adapter"
-				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 261.62 157.48 0)
 		(mirror y)
@@ -5122,38 +4971,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_598-8D80-107F")
-		(at 270.51 130.81 90)
+		(lib_id "antmicroResistors0402:R_470R_0402")
+		(at 250.19 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a3eb883-4448-478c-9e9b-50ccf2ab28c4")
-		(property "Reference" "D2"
-			(at 266.7 127 90)
+		(uuid "4a78e76a-e3e9-4ba5-b85e-6c649126614a")
+		(property "Reference" "R1"
+			(at 252.73 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "LED_G_0603_598-8D80-107F"
-			(at 278.13 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
-			(at 280.67 107.95 0)
+		(property "Value" "R_470R_0402"
+			(at 262.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,8 +5001,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf"
-			(at 283.21 107.95 0)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 265.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,17 +5012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
-			(at 270.51 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "598-8D80-107F"
-			(at 285.75 107.95 0)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 267.97 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5194,8 +5023,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Dialight"
-			(at 288.29 107.95 0)
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 250.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4700GLF"
+			(at 270.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,8 +5043,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 290.83 107.95 0)
+		(property "Manufacturer" "Bourns"
+			(at 273.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5055,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 293.37 107.95 0)
+			(at 275.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,25 +5065,47 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "Green"
-			(at 266.7 129.5399 90)
+		(property "Author" "Antmicro"
+			(at 278.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470R"
+			(at 252.73 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "76377250-fefc-418e-9932-f05cd91e3f6c")
+			(uuid "fb0eaae6-1d7b-47ae-879f-52a46722dbe5")
 		)
 		(pin "2"
-			(uuid "c41794ed-56a6-421d-85ae-56f13267dc1e")
+			(uuid "f870d764-77d6-4451-8f49-76d453763c1a")
 		)
 		(instances
-			(project "cm4-lvds-adapter"
+			(project ""
 				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
-					(reference "D2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5996,6 +5856,136 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC")
+		(at 250.19 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c938378-8fff-486f-91a5-c4b3202cb8be")
+		(property "Reference" "D1"
+			(at 252.73 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G_0603_KP-1608ZGC"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
+			(at 262.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KP-1608ZGC"
+			(at 265.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 267.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Color" "Green"
+			(at 252.73 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 270.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 273.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "718c074a-caa8-49e1-ab60-bca813afd04b")
+		)
+		(pin "2"
+			(uuid "2b573ed9-fd12-474e-b454-a9b5c349b58e")
+		)
+		(instances
+			(project ""
+				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
 		(at 292.1 134.62 90)
 		(unit 1)
@@ -6486,38 +6476,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_598-8D80-107F")
-		(at 250.19 130.81 90)
+		(lib_id "antmicroResistors0402:R_330R_0402")
+		(at 270.51 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b262efde-ded7-452d-9145-21ce96c27413")
-		(property "Reference" "D1"
-			(at 246.38 127 90)
+		(uuid "bf1f4210-3f6a-4bd2-9d45-3a8c96f6d398")
+		(property "Reference" "R3"
+			(at 273.05 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "LED_G_0603_598-8D80-107F"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
-			(at 260.35 107.95 0)
+		(property "Value" "R_330R_0402"
+			(at 283.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,8 +6506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf"
-			(at 262.89 107.95 0)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,17 +6517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
-			(at 250.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "598-8D80-107F"
-			(at 265.43 107.95 0)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 288.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,8 +6528,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Dialight"
-			(at 267.97 107.95 0)
+		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 270.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-3300GLF"
+			(at 290.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,8 +6548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 270.51 107.95 0)
+		(property "Manufacturer" "Bourns"
+			(at 293.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6560,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 273.05 107.95 0)
+			(at 295.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,25 +6570,47 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "Green"
-			(at 246.38 129.5399 90)
+		(property "Author" "Antmicro"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "330R"
+			(at 273.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 280.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0bf8dabf-f7b4-42db-8474-e9397816a350")
+			(uuid "a42fb21b-4e66-4544-aa7f-61398a4d666e")
 		)
 		(pin "2"
-			(uuid "ce5734ea-ef76-4422-8efb-f0ada940870f")
+			(uuid "de9dd8fc-d528-48ae-955b-a7ed43c45e0e")
 		)
 		(instances
-			(project "cm4-lvds-adapter"
+			(project ""
 				(path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/22d16469-9258-4636-9009-0bef153eb515"
-					(reference "D1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
