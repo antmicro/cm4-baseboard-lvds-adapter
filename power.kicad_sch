@@ -18280,7 +18280,7 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC")
-		(at 124.46 213.36 90)
+		(at 124.46 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18289,7 +18289,7 @@
 		(fields_autoplaced yes)
 		(uuid "177dc9b7-8742-40a5-9e11-bf081ff36709")
 		(property "Reference" "D8"
-			(at 127 209.55 90)
+			(at 127 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18299,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_KP-1608ZGC"
-			(at 132.08 193.04 0)
+			(at 132.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18310,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 134.62 193.04 0)
+			(at 134.62 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18321,7 +18321,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
-			(at 137.16 193.04 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18332,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
-			(at 124.46 213.36 0)
+			(at 124.46 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18341,7 +18341,7 @@
 			)
 		)
 		(property "MPN" "KP-1608ZGC"
-			(at 139.7 193.04 0)
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18352,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 142.24 193.04 0)
+			(at 142.24 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18363,7 +18363,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 127 212.0899 90)
+			(at 127 218.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18372,7 +18372,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 144.78 193.04 0)
+			(at 144.78 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18383,7 +18383,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 147.32 193.04 0)
+			(at 147.32 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28075,7 +28075,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 339.09 38.1 90)
+		(at 339.09 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28084,7 +28084,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3e18db1-b038-47f9-b748-09c99449a3d5")
 		(property "Reference" "R2"
-			(at 341.63 34.29 90)
+			(at 341.63 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28094,7 +28094,7 @@
 			)
 		)
 		(property "Value" "R_1k_0402"
-			(at 351.79 17.78 0)
+			(at 351.79 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28105,7 +28105,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 354.33 17.78 0)
+			(at 354.33 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28116,7 +28116,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 356.87 17.78 0)
+			(at 356.87 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28127,7 +28127,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 339.09 38.1 0)
+			(at 339.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28136,7 +28136,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 359.41 17.78 0)
+			(at 359.41 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28147,7 +28147,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 361.95 17.78 0)
+			(at 361.95 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28158,7 +28158,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 364.49 17.78 0)
+			(at 364.49 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28169,7 +28169,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 367.03 17.78 0)
+			(at 367.03 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28180,7 +28180,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 341.63 36.83 90)
+			(at 341.63 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28190,7 +28190,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 349.25 17.78 0)
+			(at 349.25 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29758,7 +29758,7 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC")
-		(at 339.09 31.75 90)
+		(at 339.09 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29767,7 +29767,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf5e9747-9ad2-4e85-a9d9-e4395561a620")
 		(property "Reference" "D5"
-			(at 341.63 27.94 90)
+			(at 341.63 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29777,7 +29777,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_KP-1608ZGC"
-			(at 346.71 11.43 0)
+			(at 346.71 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29788,7 +29788,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 349.25 11.43 0)
+			(at 349.25 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29799,7 +29799,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
-			(at 351.79 11.43 0)
+			(at 351.79 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29810,7 +29810,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
-			(at 339.09 31.75 0)
+			(at 339.09 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29819,7 +29819,7 @@
 			)
 		)
 		(property "MPN" "KP-1608ZGC"
-			(at 354.33 11.43 0)
+			(at 354.33 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29830,7 +29830,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 356.87 11.43 0)
+			(at 356.87 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29841,7 +29841,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 341.63 30.4799 90)
+			(at 341.63 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29850,7 +29850,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 359.41 11.43 0)
+			(at 359.41 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29861,7 +29861,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 361.95 11.43 0)
+			(at 361.95 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30443,7 +30443,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 250.19 210.82 90)
+		(at 250.19 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30452,7 +30452,7 @@
 		(fields_autoplaced yes)
 		(uuid "d79f4f60-389a-4ab9-b4a5-1fabbcd08251")
 		(property "Reference" "R21"
-			(at 252.73 207.01 90)
+			(at 252.73 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30462,7 +30462,7 @@
 			)
 		)
 		(property "Value" "R_1k_0402"
-			(at 262.89 190.5 0)
+			(at 262.89 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30473,7 +30473,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 265.43 190.5 0)
+			(at 265.43 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30484,7 +30484,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 267.97 190.5 0)
+			(at 267.97 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30495,7 +30495,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 250.19 210.82 0)
+			(at 250.19 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30504,7 +30504,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 270.51 190.5 0)
+			(at 270.51 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30515,7 +30515,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 273.05 190.5 0)
+			(at 273.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30526,7 +30526,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 275.59 190.5 0)
+			(at 275.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30537,7 +30537,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 278.13 190.5 0)
+			(at 278.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30548,7 +30548,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 252.73 209.55 90)
+			(at 252.73 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30558,7 +30558,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 260.35 190.5 0)
+			(at 260.35 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31754,7 +31754,7 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_KP-1608ZGC")
-		(at 250.19 204.47 90)
+		(at 250.19 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31763,7 +31763,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1e853df-8ff5-4a7b-814d-baf90d05fed1")
 		(property "Reference" "D11"
-			(at 252.73 200.66 90)
+			(at 252.73 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31773,7 +31773,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_KP-1608ZGC"
-			(at 257.81 184.15 0)
+			(at 257.81 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31784,7 +31784,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 260.35 184.15 0)
+			(at 260.35 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31795,7 +31795,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608ZGC(Ver.19B).pdf"
-			(at 262.89 184.15 0)
+			(at 262.89 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31806,7 +31806,7 @@
 			)
 		)
 		(property "Description" "LED, Green, SMD, 0603, 20 mA, 3.3 V, 525 nm"
-			(at 250.19 204.47 0)
+			(at 250.19 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31815,7 +31815,7 @@
 			)
 		)
 		(property "MPN" "KP-1608ZGC"
-			(at 265.43 184.15 0)
+			(at 265.43 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31826,7 +31826,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 267.97 184.15 0)
+			(at 267.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31837,7 +31837,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 252.73 203.1999 90)
+			(at 252.73 209.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31846,7 +31846,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 270.51 184.15 0)
+			(at 270.51 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31857,7 +31857,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 273.05 184.15 0)
+			(at 273.05 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34749,7 +34749,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_470R_0402")
-		(at 124.46 219.71 90)
+		(at 124.46 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34758,7 +34758,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff0b9435-4e54-406e-89a7-48da2b235a72")
 		(property "Reference" "R38"
-			(at 127 215.9 90)
+			(at 127 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34768,7 +34768,7 @@
 			)
 		)
 		(property "Value" "R_470R_0402"
-			(at 137.16 199.39 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34779,7 +34779,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 139.7 199.39 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34790,7 +34790,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 142.24 199.39 0)
+			(at 142.24 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34801,7 +34801,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 124.46 219.71 0)
+			(at 124.46 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34810,7 +34810,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4700GLF"
-			(at 144.78 199.39 0)
+			(at 144.78 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34821,7 +34821,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 147.32 199.39 0)
+			(at 147.32 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34832,7 +34832,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 149.86 199.39 0)
+			(at 149.86 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34843,7 +34843,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 199.39 0)
+			(at 152.4 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34854,7 +34854,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 127 218.44 90)
+			(at 127 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34864,7 +34864,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 134.62 199.39 0)
+			(at 134.62 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
