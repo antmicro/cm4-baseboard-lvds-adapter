@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "60b842dc-0853-4a25-99ac-5784ddf94d0d")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "CM4 Baseboard LVDS Adapter")
-		(date "2024-07-18")
-		(rev "1.1.2")
+		(date "2025-03-10")
+		(rev "1.1.3")
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
@@ -26,20 +26,20 @@
 		)
 	)
 	(junction
-		(at 118.11 100.33)
+		(at 170.18 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49df25cf-9552-4246-840e-87e815288b20")
 	)
 	(junction
-		(at 118.11 85.09)
+		(at 170.18 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53694868-6be6-4177-9425-595aa3fda001")
 	)
 	(bus
 		(pts
-			(xy 118.11 119.38) (xy 118.11 100.33)
+			(xy 170.18 154.94) (xy 170.18 135.89)
 		)
 		(stroke
 			(width 0)
@@ -49,7 +49,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 85.09) (xy 118.11 100.33)
+			(xy 170.18 120.65) (xy 170.18 135.89)
 		)
 		(stroke
 			(width 0)
@@ -59,7 +59,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 100.33) (xy 179.07 85.09)
+			(xy 231.14 135.89) (xy 231.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -69,7 +69,7 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 85.09) (xy 118.11 85.09)
+			(xy 162.56 120.65) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
@@ -79,7 +79,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 85.09) (xy 125.73 85.09)
+			(xy 170.18 120.65) (xy 177.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -89,7 +89,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 85.09) (xy 186.69 85.09)
+			(xy 231.14 120.65) (xy 238.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -99,7 +99,7 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 77.47) (xy 186.69 77.47)
+			(xy 223.52 113.03) (xy 238.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -109,7 +109,7 @@
 	)
 	(bus
 		(pts
-			(xy 118.11 100.33) (xy 179.07 100.33)
+			(xy 170.18 135.89) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -119,7 +119,7 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 77.47) (xy 125.73 77.47)
+			(xy 162.56 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -129,7 +129,7 @@
 	)
 	(bus
 		(pts
-			(xy 125.73 119.38) (xy 118.11 119.38)
+			(xy 177.8 154.94) (xy 170.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -138,7 +138,7 @@
 		(uuid "f1330e58-5a23-4867-be6a-3f44cc2959de")
 	)
 	(image
-		(at 71.628 185.801)
+		(at 65.278 277.241)
 		(scale 0.15)
 		(uuid "8153c19e-6431-4132-ab17-fd6a4d8cf812")
 		(data "iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -1914,7 +1914,7 @@
 		)
 	)
 	(image
-		(at 40.64 186.055)
+		(at 34.29 277.495)
 		(scale 0.4)
 		(uuid "a8b55fd6-5d08-420b-97c9-3aaa25bfe782")
 		(data "iVBORw0KGgoAAAANSUhEUgAABPUAAAGUCAIAAADS1YD7AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -2181,7 +2181,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 107.95)
+		(at 177.8 143.51)
 		(size 45.72 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -2193,7 +2193,7 @@
 		)
 		(uuid "08a1e442-f0a3-4779-ba71-f71979b0fc7c")
 		(property "Sheetname" "Power"
-			(at 125.73 107.2384 0)
+			(at 177.8 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 125.73 131.3946 0)
+			(at 177.8 166.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
-			(at 125.73 119.38 180)
+			(at 177.8 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 69.85)
+		(at 116.84 105.41)
 		(size 45.72 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -2241,7 +2241,7 @@
 		)
 		(uuid "22d16469-9258-4636-9009-0bef153eb515")
 		(property "Sheetname" "Antmicro CM4 Baseboard DSI Connector "
-			(at 64.77 69.1384 0)
+			(at 116.84 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2250,7 @@
 			)
 		)
 		(property "Sheetfile" "dsi-connector.kicad_sch"
-			(at 64.77 93.2946 0)
+			(at 116.84 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 			)
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
-			(at 110.49 85.09 0)
+			(at 162.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 			(uuid "adb5339a-a9d6-4c92-abbc-02eade64608b")
 		)
 		(pin "DSI{DSI}" bidirectional
-			(at 110.49 77.47 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 		)
 	)
 	(sheet
-		(at 186.69 69.85)
+		(at 238.76 105.41)
 		(size 45.72 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -2299,7 +2299,7 @@
 		)
 		(uuid "40370491-50e7-47c8-9afe-55574f0cd0f6")
 		(property "Sheetname" "LVDS and Touchscreen Connectors"
-			(at 186.69 69.1384 0)
+			(at 238.76 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2308,7 @@
 			)
 		)
 		(property "Sheetfile" "lvds-connector.kicad_sch"
-			(at 186.69 93.2946 0)
+			(at 238.76 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 			)
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
-			(at 186.69 85.09 180)
+			(at 238.76 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			(uuid "425e6626-43ed-4c65-9554-f04df333136b")
 		)
 		(pin "LVDS{LVDS}" bidirectional
-			(at 186.69 77.47 180)
+			(at 238.76 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 69.85)
+		(at 177.8 105.41)
 		(size 45.72 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -2357,7 +2357,7 @@
 		)
 		(uuid "b73e1eb9-7c7b-4237-82d1-61e6b447a2c8")
 		(property "Sheetname" "DSI to LVDS"
-			(at 125.73 69.1384 0)
+			(at 177.8 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2366,7 @@
 			)
 		)
 		(property "Sheetfile" "dsi-to-lvds.kicad_sch"
-			(at 125.73 93.2946 0)
+			(at 177.8 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +2375,7 @@
 			)
 		)
 		(pin "DSI{DSI}" bidirectional
-			(at 125.73 77.47 180)
+			(at 177.8 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2385,7 @@
 			(uuid "4980e68d-1afc-445d-b757-16428ddb0286")
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
-			(at 125.73 85.09 180)
+			(at 177.8 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2395,7 @@
 			(uuid "3e8c0b9c-1ab1-4959-b2ec-5c66de409f06")
 		)
 		(pin "LVDS{LVDS}" bidirectional
-			(at 171.45 77.47 0)
+			(at 223.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "462c8e0d-f215-4960-8517-c6c02be6c3df")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "CM4 Baseboard LVDS Adapter")
-		(date "2024-07-18")
-		(rev "1.1.2")
+		(date "2025-03-10")
+		(rev "1.1.3")
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
@@ -1127,7 +1127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
+			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
 				(at 22.86 -10.16 0)
 				(effects
 					(font
@@ -1149,7 +1149,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm"
+			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2635,135 +2635,135 @@
 		)
 	)
 	(junction
-		(at 118.11 67.31)
+		(at 161.29 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "211c35a3-9b1a-4bab-a906-8ed952fb46cb")
 	)
 	(junction
-		(at 102.87 100.33)
+		(at 146.05 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2511fe98-7c5f-4520-9413-f3a1addd09e1")
 	)
 	(junction
-		(at 207.01 60.96)
+		(at 250.19 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25d2f1a9-28dc-4d8a-81d7-aa9f47e59b16")
 	)
 	(junction
-		(at 102.87 92.71)
+		(at 146.05 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "289afb56-2d5d-4ebe-a610-27bdba888a46")
 	)
 	(junction
-		(at 129.54 59.69)
+		(at 172.72 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e52ca33-5027-44d9-bd06-d24c5b7a6cc2")
 	)
 	(junction
-		(at 118.11 59.69)
+		(at 161.29 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e5ea3b7-be0a-4121-904c-4e05bb88374a")
 	)
 	(junction
-		(at 118.11 64.77)
+		(at 161.29 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e08e2a-47d3-40b7-917b-404016e49194")
 	)
 	(junction
-		(at 116.84 113.03)
+		(at 160.02 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3f27be9-adc9-4782-a068-2194eb1e6c1e")
 	)
 	(junction
-		(at 116.84 77.47)
+		(at 160.02 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd3861ab-f6da-4030-ad16-ce0c84f1dda0")
 	)
 	(junction
-		(at 118.11 69.85)
+		(at 161.29 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb6601dd-8af9-4b12-b014-1a098ba03c9f")
 	)
 	(junction
-		(at 102.87 77.47)
+		(at 146.05 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0bc82e3-0ce0-4e0c-bb7d-5fceef889735")
 	)
 	(junction
-		(at 102.87 69.85)
+		(at 146.05 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9f510e9-f0b6-41ba-9922-391980adae7e")
 	)
 	(junction
-		(at 222.25 109.22)
+		(at 261.62 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9f712a8-8846-4bbd-9a8c-6634b029993b")
 	)
 	(junction
-		(at 102.87 85.09)
+		(at 146.05 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e12f96e4-a35b-4551-bbce-4471b2486afa")
 	)
 	(junction
-		(at 116.84 100.33)
+		(at 160.02 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1b757e3-5b1f-425d-83a0-0f2eb265f5d0")
 	)
 	(junction
-		(at 227.33 60.96)
+		(at 270.51 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e948357a-c408-4c41-a099-c8a11be757c5")
 	)
 	(no_connect
-		(at 104.14 107.95)
+		(at 147.32 165.1)
 		(uuid "01fe7701-366f-4f40-a648-4c3531fe9750")
 	)
 	(no_connect
-		(at 115.57 102.87)
+		(at 158.75 160.02)
 		(uuid "21c366bc-377f-4291-bd51-acb348752a0b")
 	)
 	(no_connect
-		(at 115.57 105.41)
+		(at 158.75 162.56)
 		(uuid "2844c2de-8087-4983-83fd-c93342204beb")
 	)
 	(no_connect
-		(at 104.14 105.41)
+		(at 147.32 162.56)
 		(uuid "449783bf-99d0-43d3-960b-5650477a1fe4")
 	)
 	(no_connect
-		(at 115.57 107.95)
+		(at 158.75 165.1)
 		(uuid "5f0a5355-bc92-4057-840d-ff62553d6195")
 	)
 	(no_connect
-		(at 104.14 110.49)
+		(at 147.32 167.64)
 		(uuid "6ed703ad-3986-40a2-9fee-361edbc0fd54")
 	)
 	(no_connect
-		(at 104.14 102.87)
+		(at 147.32 160.02)
 		(uuid "8b7963b6-eaa5-481b-97c0-ad2f8176c2c9")
 	)
 	(no_connect
-		(at 115.57 110.49)
+		(at 158.75 167.64)
 		(uuid "d34a249e-70ae-4ad3-94d1-d09bfd5c01ba")
 	)
 	(bus_entry
-		(at 133.35 87.63)
+		(at 176.53 144.78)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2772,7 +2772,7 @@
 		(uuid "1447c0d8-8630-45a8-bf5f-8aa56db898f1")
 	)
 	(bus_entry
-		(at 90.17 62.23)
+		(at 133.35 119.38)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2781,7 +2781,7 @@
 		(uuid "3e1b1c65-f9c6-4347-9f51-f8b623103994")
 	)
 	(bus_entry
-		(at 133.35 80.01)
+		(at 176.53 137.16)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2790,7 +2790,7 @@
 		(uuid "4581a4c9-ec56-438f-abdd-273fdfc7c68a")
 	)
 	(bus_entry
-		(at 90.17 72.39)
+		(at 133.35 129.54)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2799,7 +2799,7 @@
 		(uuid "72fee310-8485-4291-92e1-d99a9d4059bf")
 	)
 	(bus_entry
-		(at 90.17 95.25)
+		(at 133.35 152.4)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2808,7 +2808,7 @@
 		(uuid "77582bfd-51fc-48e2-844e-2597dc4877f7")
 	)
 	(bus_entry
-		(at 133.35 77.47)
+		(at 176.53 134.62)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2817,7 +2817,7 @@
 		(uuid "7b5f5947-4d05-4bec-9b0f-fd98a52fbf5c")
 	)
 	(bus_entry
-		(at 133.35 95.25)
+		(at 176.53 152.4)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2826,7 +2826,7 @@
 		(uuid "8b1e09c3-0b48-4802-a0ca-2d7ba55cf866")
 	)
 	(bus_entry
-		(at 90.17 80.01)
+		(at 133.35 137.16)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2835,7 +2835,7 @@
 		(uuid "8d7c88d7-9a0f-42d4-a77b-75deec95c5d4")
 	)
 	(bus_entry
-		(at 90.17 92.71)
+		(at 133.35 149.86)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2844,7 +2844,7 @@
 		(uuid "929a1e52-e0c5-489c-8bd7-0c4cb43b7389")
 	)
 	(bus_entry
-		(at 133.35 92.71)
+		(at 176.53 149.86)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2853,7 +2853,7 @@
 		(uuid "9638da5c-1777-4218-8ad2-71b6cd024ac7")
 	)
 	(bus_entry
-		(at 90.17 87.63)
+		(at 133.35 144.78)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2862,7 +2862,7 @@
 		(uuid "a69ca2a3-7f4e-4ea6-8a94-510f8d22cca8")
 	)
 	(bus_entry
-		(at 133.35 82.55)
+		(at 176.53 139.7)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2871,7 +2871,7 @@
 		(uuid "aaaddc48-060e-4fe7-aff4-be3f093c6772")
 	)
 	(bus_entry
-		(at 90.17 69.85)
+		(at 133.35 127)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2880,7 +2880,7 @@
 		(uuid "b1a225b6-b6f4-435b-849e-770e33e2c397")
 	)
 	(bus_entry
-		(at 90.17 64.77)
+		(at 133.35 121.92)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2889,7 +2889,7 @@
 		(uuid "c1423c0a-9fcb-4dbc-95cb-09e14946e730")
 	)
 	(bus_entry
-		(at 133.35 85.09)
+		(at 176.53 142.24)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2898,7 +2898,7 @@
 		(uuid "cf33a660-d412-4e99-92f2-11af94918392")
 	)
 	(bus_entry
-		(at 133.35 90.17)
+		(at 176.53 147.32)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2907,7 +2907,7 @@
 		(uuid "d5bf67e7-a59c-43bb-99e3-c983a9de69a9")
 	)
 	(bus_entry
-		(at 90.17 85.09)
+		(at 133.35 142.24)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2916,7 +2916,7 @@
 		(uuid "d8b74b1a-6246-4e7d-b02e-6bdb42b4fa91")
 	)
 	(bus_entry
-		(at 90.17 77.47)
+		(at 133.35 134.62)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2926,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 110.49) (xy 222.25 109.22)
+			(xy 261.62 167.64) (xy 261.62 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2936,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 87.63) (xy 90.17 92.71)
+			(xy 133.35 144.78) (xy 133.35 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 118.11 69.85)
+			(xy 158.75 127) (xy 161.29 127)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 104.14 85.09)
+			(xy 146.05 142.24) (xy 147.32 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 102.87 69.85)
+			(xy 147.32 127) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +2976,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 85.09) (xy 90.17 87.63)
+			(xy 133.35 142.24) (xy 133.35 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2986,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 69.85) (xy 102.87 77.47)
+			(xy 146.05 127) (xy 146.05 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 78.74) (xy 248.92 77.47)
+			(xy 292.1 135.89) (xy 292.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 97.79) (xy 104.14 97.79)
+			(xy 135.89 154.94) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 118.11 72.39)
+			(xy 158.75 129.54) (xy 161.29 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 104.14 77.47)
+			(xy 146.05 134.62) (xy 147.32 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 73.66) (xy 207.01 74.93)
+			(xy 250.19 130.81) (xy 250.19 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 115.57) (xy 129.54 114.3)
+			(xy 172.72 172.72) (xy 172.72 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 113.03) (xy 116.84 115.57)
+			(xy 160.02 170.18) (xy 160.02 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 104.14 92.71)
+			(xy 146.05 149.86) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 130.81 80.01)
+			(xy 158.75 137.16) (xy 173.99 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 116.84 77.47)
+			(xy 158.75 134.62) (xy 160.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 104.14 82.55)
+			(xy 135.89 139.7) (xy 147.32 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 58.42) (xy 118.11 59.69)
+			(xy 161.29 115.57) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 104.14 72.39)
+			(xy 135.89 129.54) (xy 147.32 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 90.17) (xy 130.81 90.17)
+			(xy 158.75 147.32) (xy 173.99 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3136,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 92.71) (xy 90.17 95.25)
+			(xy 133.35 149.86) (xy 133.35 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 118.11 67.31)
+			(xy 158.75 124.46) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 72.39) (xy 118.11 69.85)
+			(xy 161.29 129.54) (xy 161.29 127)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 102.87 115.57)
+			(xy 146.05 157.48) (xy 146.05 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 116.84 100.33)
+			(xy 160.02 134.62) (xy 160.02 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 116.84 62.23)
+			(xy 158.75 119.38) (xy 160.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3196,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 60.96) (xy 90.17 62.23)
+			(xy 133.35 118.11) (xy 133.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 90.17) (xy 104.14 90.17)
+			(xy 135.89 147.32) (xy 147.32 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3216,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 80.01) (xy 133.35 82.55)
+			(xy 176.53 137.16) (xy 176.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 104.14 87.63)
+			(xy 135.89 144.78) (xy 147.32 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3236,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 82.55) (xy 133.35 85.09)
+			(xy 176.53 139.7) (xy 176.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 118.11 67.31)
+			(xy 161.29 127) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 59.69) (xy 227.33 60.96)
+			(xy 270.51 116.84) (xy 270.51 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 129.54 59.69)
+			(xy 172.72 115.57) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 104.14 67.31)
+			(xy 135.89 124.46) (xy 147.32 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +3286,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 72.39) (xy 90.17 77.47)
+			(xy 133.35 129.54) (xy 133.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 130.81 85.09)
+			(xy 158.75 142.24) (xy 173.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 95.25) (xy 133.35 92.71)
+			(xy 176.53 152.4) (xy 176.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 100.33) (xy 116.84 113.03)
+			(xy 160.02 157.48) (xy 160.02 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 104.14 74.93)
+			(xy 135.89 132.08) (xy 147.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 100.33) (xy 116.84 100.33)
+			(xy 158.75 157.48) (xy 160.02 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 68.58) (xy 227.33 67.31)
+			(xy 270.51 125.73) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 115.57 74.93)
+			(xy 172.72 132.08) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 64.77) (xy 104.14 64.77)
+			(xy 135.89 121.92) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3376,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 67.31) (xy 118.11 64.77)
+			(xy 161.29 124.46) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 85.09) (xy 133.35 87.63)
+			(xy 176.53 142.24) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 95.25) (xy 104.14 95.25)
+			(xy 135.89 152.4) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 59.69) (xy 129.54 74.93)
+			(xy 172.72 116.84) (xy 172.72 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3416,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 118.11 64.77)
+			(xy 161.29 116.84) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 104.14 80.01)
+			(xy 135.89 137.16) (xy 147.32 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3436,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 60.96) (xy 90.17 60.96)
+			(xy 125.73 118.11) (xy 133.35 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3446,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 102.87 85.09)
+			(xy 146.05 134.62) (xy 146.05 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 118.11 59.69)
+			(xy 166.37 116.84) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3466,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 62.23) (xy 102.87 69.85)
+			(xy 146.05 119.38) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -3476,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 59.69) (xy 129.54 59.69)
+			(xy 177.8 116.84) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3486,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 118.11 64.77)
+			(xy 158.75 121.92) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3496,7 +3496,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 74.93) (xy 133.35 77.47)
+			(xy 176.53 132.08) (xy 176.53 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 62.23) (xy 102.87 62.23)
+			(xy 147.32 119.38) (xy 146.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3516,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 104.14 100.33)
+			(xy 146.05 157.48) (xy 147.32 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3526,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 78.74) (xy 254 77.47)
+			(xy 297.18 135.89) (xy 297.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 73.66) (xy 227.33 74.93)
+			(xy 270.51 130.81) (xy 270.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3546,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 77.47) (xy 133.35 80.01)
+			(xy 176.53 134.62) (xy 176.53 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 102.87 92.71)
+			(xy 146.05 142.24) (xy 146.05 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3566,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 64.77) (xy 90.17 69.85)
+			(xy 133.35 121.92) (xy 133.35 127)
 		)
 		(stroke
 			(width 0)
@@ -3576,7 +3576,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 87.63) (xy 133.35 90.17)
+			(xy 176.53 144.78) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 130.81 82.55)
+			(xy 158.75 139.7) (xy 173.99 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3596,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 77.47) (xy 90.17 80.01)
+			(xy 133.35 134.62) (xy 133.35 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 130.81 87.63)
+			(xy 158.75 144.78) (xy 173.99 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 100.33) (xy 222.25 101.6)
+			(xy 261.62 157.48) (xy 261.62 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3626,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 60.96) (xy 227.33 62.23)
+			(xy 270.51 118.11) (xy 270.51 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3636,7 +3636,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 92.71) (xy 133.35 90.17)
+			(xy 176.53 149.86) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3646,7 +3646,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 68.58) (xy 207.01 67.31)
+			(xy 250.19 125.73) (xy 250.19 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3656,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 109.22) (xy 222.25 109.22)
+			(xy 243.84 166.37) (xy 261.62 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3666,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 130.81 97.79)
+			(xy 158.75 154.94) (xy 173.99 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +3676,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 80.01) (xy 90.17 85.09)
+			(xy 133.35 137.16) (xy 133.35 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +3686,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 62.23) (xy 90.17 64.77)
+			(xy 133.35 119.38) (xy 133.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 115.57) (xy 222.25 116.84)
+			(xy 261.62 172.72) (xy 261.62 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3706,7 +3706,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 69.85) (xy 90.17 72.39)
+			(xy 133.35 127) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3716,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 62.23) (xy 116.84 77.47)
+			(xy 160.02 119.38) (xy 160.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3726,7 +3726,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 130.81 95.25)
+			(xy 158.75 152.4) (xy 173.99 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3736,7 +3736,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 74.93) (xy 133.35 74.93)
+			(xy 191.77 132.08) (xy 176.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3746,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 207.01 60.96)
+			(xy 250.19 116.84) (xy 250.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3756,7 +3756,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 113.03) (xy 116.84 113.03)
+			(xy 158.75 170.18) (xy 160.02 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3766,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 130.81 92.71)
+			(xy 158.75 149.86) (xy 173.99 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3776,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 92.71) (xy 102.87 100.33)
+			(xy 146.05 149.86) (xy 146.05 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3786,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 106.68) (xy 222.25 109.22)
+			(xy 261.62 163.83) (xy 261.62 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3796,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 60.96) (xy 207.01 62.23)
+			(xy 250.19 118.11) (xy 250.19 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3806,7 +3806,7 @@
 	)
 	(text "Antmicro CM4 Baseboard DSI Connector"
 		(exclude_from_sim no)
-		(at 109.855 22.86 0)
+		(at 173.482 99.314 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3819,7 +3819,7 @@
 	)
 	(text "Global reset (active low)"
 		(exclude_from_sim no)
-		(at 233.045 92.71 0)
+		(at 272.415 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3829,7 @@
 		(uuid "f8bb1e33-da92-4c91-a9f8-e7a900618005")
 	)
 	(label "DSI.D1_P"
-		(at 92.71 82.55 0)
+		(at 135.89 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3840,7 +3840,7 @@
 		(uuid "0d13d57b-8920-4728-8d30-a85134087200")
 	)
 	(label "DSICtrl{DSICtrl}"
-		(at 148.59 74.93 180)
+		(at 191.77 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3851,7 +3851,7 @@
 		(uuid "0f185fef-9c84-4b5e-8b59-a3103c93ae0f")
 	)
 	(label "DSICtrl.EN"
-		(at 118.11 90.17 0)
+		(at 161.29 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3862,7 +3862,7 @@
 		(uuid "2d6482e7-69b6-4835-a205-09ac21f8e399")
 	)
 	(label "DSICtrl.SDA"
-		(at 118.11 80.01 0)
+		(at 161.29 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3873,7 +3873,7 @@
 		(uuid "44e7afd0-5288-4e8c-9e1d-9dea8bafb36c")
 	)
 	(label "DSI.D1_N"
-		(at 92.71 80.01 0)
+		(at 135.89 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3884,7 +3884,7 @@
 		(uuid "480b51f6-9f0f-4f27-b076-366f7893c782")
 	)
 	(label "DSI.CLK_P"
-		(at 92.71 97.79 0)
+		(at 135.89 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3895,7 +3895,7 @@
 		(uuid "6cc1c700-40f9-465d-86c9-ceb8f075938f")
 	)
 	(label "DSICtrl.GPIO"
-		(at 118.11 97.79 0)
+		(at 161.29 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3906,7 +3906,7 @@
 		(uuid "6cec8b81-e562-4f50-890f-d14ddcf2c791")
 	)
 	(label "DSI.D3_P"
-		(at 92.71 67.31 0)
+		(at 135.89 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3917,7 +3917,7 @@
 		(uuid "7102b054-e88e-474d-a7ad-2d8776ada708")
 	)
 	(label "DSI{DSI}"
-		(at 82.55 60.96 0)
+		(at 125.73 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3928,7 +3928,7 @@
 		(uuid "7bd686b1-b28c-4243-a2f0-a3422c2f6d80")
 	)
 	(label "DSI.D0_P"
-		(at 92.71 90.17 0)
+		(at 135.89 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3939,7 +3939,7 @@
 		(uuid "7cfc0a55-38c9-4787-a10c-5e0e2883ead0")
 	)
 	(label "DSI.CLK_N"
-		(at 92.71 95.25 0)
+		(at 135.89 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3950,7 +3950,7 @@
 		(uuid "88bba356-1f30-4ab3-b38a-0d8aec452254")
 	)
 	(label "DSI.D2_N"
-		(at 92.71 72.39 0)
+		(at 135.89 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3961,7 +3961,7 @@
 		(uuid "8e8c881b-a745-47da-8528-dca5a5e65e9e")
 	)
 	(label "DSI.D2_P"
-		(at 92.71 74.93 0)
+		(at 135.89 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3972,7 +3972,7 @@
 		(uuid "92635d4a-82d9-464c-8152-05eb1f69a86d")
 	)
 	(label "DSICtrl.~{RST}"
-		(at 118.11 92.71 0)
+		(at 161.29 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3983,7 +3983,7 @@
 		(uuid "a32992ec-3697-4263-9045-d82d122212fc")
 	)
 	(label "DSICtrl.DIM"
-		(at 118.11 95.25 0)
+		(at 161.29 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3994,7 +3994,7 @@
 		(uuid "a5be1d07-3b9a-4cc4-ace1-66c5b143de07")
 	)
 	(label "DSICtrl.~{RST}"
-		(at 204.47 109.22 0)
+		(at 243.84 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4005,7 +4005,7 @@
 		(uuid "a9c438b6-70f7-4777-9620-9288c2ddc10a")
 	)
 	(label "DSICtrl.~{IRQ2}"
-		(at 118.11 87.63 0)
+		(at 161.29 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4016,7 +4016,7 @@
 		(uuid "ad54f8b7-0b2f-422f-9bdc-67851eb7f979")
 	)
 	(label "DSICtrl.~{IRQ1}"
-		(at 118.11 85.09 0)
+		(at 161.29 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4027,7 +4027,7 @@
 		(uuid "d2840b70-a32b-46fb-9efc-a3ce9026e4b5")
 	)
 	(label "DSI.D0_N"
-		(at 92.71 87.63 0)
+		(at 135.89 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4038,7 +4038,7 @@
 		(uuid "d8800e4d-b35c-4282-adce-6c0d6c456a73")
 	)
 	(label "DSI.D3_N"
-		(at 92.71 64.77 0)
+		(at 135.89 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4049,7 +4049,7 @@
 		(uuid "e05ba05e-49cf-4072-a43b-266d2df92b29")
 	)
 	(label "DSICtrl.SCL"
-		(at 118.11 82.55 0)
+		(at 161.29 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4061,7 +4061,7 @@
 	)
 	(hierarchical_label "DSI{DSI}"
 		(shape bidirectional)
-		(at 82.55 60.96 180)
+		(at 125.73 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4073,7 +4073,7 @@
 	)
 	(hierarchical_label "DSICtrl{DSICtrl}"
 		(shape bidirectional)
-		(at 148.59 74.93 0)
+		(at 191.77 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4085,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 227.33 60.96 180)
+		(at 270.51 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4094,7 +4094,7 @@
 		(fields_autoplaced yes)
 		(uuid "08863345-d5a7-41c9-bdd5-97f232801cee")
 		(property "Reference" "TP3"
-			(at 222.25 60.9599 0)
+			(at 265.43 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 212.09 53.34 0)
+			(at 255.27 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4115,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 212.09 50.8 0)
+			(at 255.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 48.26 0)
+			(at 255.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,8 +4136,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 60.96 0)
+		(property "Description" "SMT test point"
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4146,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 212.09 45.72 0)
+			(at 255.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 212.09 43.18 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4168,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 227.33 60.96 0)
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,21 +4177,11 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 227.33 60.96 0)
+			(at 270.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 217.17 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4209,7 +4199,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 222.25 106.68 270)
+		(at 261.62 163.83 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4218,7 +4208,7 @@
 		(dnp no)
 		(uuid "0a67f679-51a1-42bf-894f-3256e3236f98")
 		(property "Reference" "R39"
-			(at 219.71 102.8699 90)
+			(at 259.08 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4218,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 209.55 86.36 0)
+			(at 248.92 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4229,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 207.01 86.36 0)
+			(at 246.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 204.47 86.36 0)
+			(at 243.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,8 +4250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 222.25 106.68 0)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 261.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4260,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 201.93 86.36 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4271,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 199.39 86.36 0)
+			(at 238.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4282,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 196.85 86.36 0)
+			(at 236.22 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4293,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 194.31 86.36 0)
+			(at 233.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4304,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 219.71 105.4099 90)
+			(at 259.08 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,17 +4314,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 212.09 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 191.77 86.36 0)
+			(at 251.46 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4340,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 123.19 59.69 0)
+		(at 166.37 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4368,7 +4348,7 @@
 		(dnp no)
 		(uuid "0d35027a-5d6e-4504-ba54-41dd106822a3")
 		(property "Reference" "#FLG01"
-			(at 123.19 57.785 0)
+			(at 166.37 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4357,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 123.825 55.88 0)
+			(at 167.005 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 59.69 0)
+			(at 166.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 59.69 0)
+			(at 166.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 59.69 0)
+			(at 166.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 222.25 115.57 90)
+		(at 261.62 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4434,7 +4414,7 @@
 		(fields_autoplaced yes)
 		(uuid "1208b991-33b5-40eb-bd0c-00a5f16885ae")
 		(property "Reference" "C43"
-			(at 224.79 111.7535 90)
+			(at 264.16 168.9035 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4424,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 232.41 95.25 0)
+			(at 271.78 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 234.95 95.25 0)
+			(at 274.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 237.49 95.25 0)
+			(at 276.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,8 +4456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 222.25 115.57 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 261.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4466,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 240.03 95.25 0)
+			(at 279.4 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4477,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 242.57 95.25 0)
+			(at 281.94 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4488,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 245.11 95.25 0)
+			(at 284.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4499,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 247.65 95.25 0)
+			(at 287.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4510,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 224.79 114.2935 90)
+			(at 264.16 171.4435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4520,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 250.19 95.25 0)
+			(at 289.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,17 +4530,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 255.27 95.25 0)
+			(at 292.1 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 116.84 115.57 0)
+		(at 160.02 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4595,7 +4565,7 @@
 		(fields_autoplaced yes)
 		(uuid "154e13e3-d18b-41f9-a44d-ff3b981f1116")
 		(property "Reference" "#PWR04"
-			(at 125.73 118.11 0)
+			(at 168.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4576,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 120.65 0)
+			(at 160.02 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 123.19 0)
+			(at 168.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 128.27 0)
+			(at 168.91 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 115.57 0)
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4616,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 125.73 123.19 0)
+			(at 168.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4627,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 125.73 125.73 0)
+			(at 168.91 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_470R_0402")
-		(at 227.33 67.31 90)
+		(at 270.51 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4690,7 +4660,7 @@
 		(fields_autoplaced yes)
 		(uuid "21f9b28a-9c11-4b45-b034-2a173d747ba4")
 		(property "Reference" "R2"
-			(at 229.87 63.5 90)
+			(at 273.05 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4670,7 @@
 			)
 		)
 		(property "Value" "R_470R_0402"
-			(at 240.03 46.99 0)
+			(at 283.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +4681,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 242.57 46.99 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4692,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 245.11 46.99 0)
+			(at 288.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,8 +4702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 67.31 0)
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 270.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4712,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4700GLF"
-			(at 247.65 46.99 0)
+			(at 290.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4723,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 250.19 46.99 0)
+			(at 293.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,7 +4734,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 252.73 46.99 0)
+			(at 295.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4745,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 255.27 46.99 0)
+			(at 298.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4756,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 229.87 66.04 90)
+			(at 273.05 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,17 +4766,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 237.49 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 257.81 46.99 0)
+			(at 280.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4792,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_2k2_0402")
-		(at 207.01 67.31 90)
+		(at 250.19 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4841,7 +4801,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f7be59a-6528-4169-898f-469dc0a7725c")
 		(property "Reference" "R1"
-			(at 209.55 63.4999 90)
+			(at 252.73 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4810,7 @@
 			)
 		)
 		(property "Value" "R_2k2_0402"
-			(at 219.71 46.99 0)
+			(at 262.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4821,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 222.25 46.99 0)
+			(at 265.43 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 224.79 46.99 0)
+			(at 267.97 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,8 +4842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 67.31 0)
+		(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 250.19 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +4852,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 229.87 46.99 0)
+			(at 273.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4863,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2201GLF"
-			(at 227.33 46.99 0)
+			(at 270.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4874,7 @@
 			)
 		)
 		(property "Val" "2k2"
-			(at 209.55 66.0399 90)
+			(at 252.73 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +4884,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 232.41 46.99 0)
+			(at 275.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4895,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 234.95 46.99 0)
+			(at 278.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,17 +4906,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 217.17 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 237.49 46.99 0)
+			(at 260.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4932,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 222.25 100.33 0)
+		(at 261.62 157.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4992,7 +4942,7 @@
 		(fields_autoplaced yes)
 		(uuid "44967080-8b97-46d9-97e8-32649fc58aee")
 		(property "Reference" "#PWR0128"
-			(at 207.01 102.87 0)
+			(at 246.38 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4953,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 222.25 95.25 0)
+			(at 261.62 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +4962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 107.95 0)
+			(at 246.38 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 110.49 0)
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +4984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 100.33 0)
+			(at 261.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +4993,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 207.01 107.95 0)
+			(at 246.38 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5004,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 207.01 110.49 0)
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5028,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 102.87 115.57 0)
+		(at 146.05 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5087,7 +5037,7 @@
 		(fields_autoplaced yes)
 		(uuid "485836d9-d95d-4a84-b32e-dc9be2a1edce")
 		(property "Reference" "#PWR03"
-			(at 111.76 118.11 0)
+			(at 154.94 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 120.65 0)
+			(at 146.05 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 123.19 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 128.27 0)
+			(at 154.94 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,7 +5079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 115.57 0)
+			(at 146.05 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5088,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 111.76 123.19 0)
+			(at 154.94 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5099,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 111.76 125.73 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5123,7 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_598-8D80-107F")
-		(at 227.33 73.66 90)
+		(at 270.51 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5182,17 +5132,17 @@
 		(fields_autoplaced yes)
 		(uuid "4a3eb883-4448-478c-9e9b-50ccf2ab28c4")
 		(property "Reference" "D2"
-			(at 229.87 69.85 90)
+			(at 266.7 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_G_0603_598-8D80-107F"
-			(at 234.95 50.8 0)
+			(at 278.13 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,8 +5152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 237.49 50.8 0)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
+			(at 280.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5164,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf"
-			(at 240.03 50.8 0)
+			(at 283.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,8 +5174,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 73.66 0)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
+			(at 270.51 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5184,7 @@
 			)
 		)
 		(property "MPN" "598-8D80-107F"
-			(at 242.57 50.8 0)
+			(at 285.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5195,7 @@
 			)
 		)
 		(property "Manufacturer" "Dialight"
-			(at 245.11 50.8 0)
+			(at 288.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5206,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 247.65 50.8 0)
+			(at 290.83 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5217,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 250.19 50.8 0)
+			(at 293.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,22 +5228,12 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 229.87 72.39 90)
+			(at 266.7 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Public" "False"
-			(at 245.11 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -5313,7 +5253,7 @@
 	)
 	(symbol
 		(lib_id "antmicroB2BConnectors:Plug_Molex_SlimStack_2x20_556500488")
-		(at 104.14 62.23 0)
+		(at 147.32 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5322,7 +5262,7 @@
 		(fields_autoplaced yes)
 		(uuid "542ef643-2d50-4b94-81e8-48179a65df9b")
 		(property "Reference" "J1"
-			(at 109.855 54.61 0)
+			(at 153.035 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5271,7 @@
 			)
 		)
 		(property "Value" "Plug_Molex_SlimStack_2x20_556500488"
-			(at 129.54 67.31 0)
+			(at 172.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5282,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Conn_Plug_Molex_SlimStack_2x20_556500488"
-			(at 129.54 69.85 0)
+			(at 172.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5293,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/556500488?display=pdf"
-			(at 129.54 72.39 0)
+			(at 172.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,8 +5303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 62.23 0)
+		(property "Description" "Mezzanine Connector, Header, 0.5 mm, 2 Rows, 40 Contacts, Surface Mount Straight, Brass"
+			(at 147.32 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5313,7 @@
 			)
 		)
 		(property "MPN" "556500488"
-			(at 109.855 57.15 0)
+			(at 153.035 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5322,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 129.54 74.93 0)
+			(at 172.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5333,7 @@
 			)
 		)
 		(property "Pitch" "0.5 mm"
-			(at 129.54 77.47 0)
+			(at 172.72 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5344,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 129.54 80.01 0)
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5355,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 129.54 82.55 0)
+			(at 172.72 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,15 +5499,15 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 254 77.47 90)
+		(at 297.18 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "59bad9d7-bc22-4df8-ba7c-d84d8d55c3fc")
 		(property "Reference" "TP19"
-			(at 254 71.12 0)
+			(at 297.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5516,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 257.81 66.675 0)
+			(at 300.99 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5527,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 260.35 66.675 0)
+			(at 303.53 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +5538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 59.69 0)
+			(at 309.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,8 +5548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 77.47 0)
+		(property "Description" "SMT test point"
+			(at 297.18 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +5558,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 265.43 66.675 0)
+			(at 308.61 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5569,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 260.35 66.675 0)
+			(at 303.53 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5580,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 262.89 66.675 0)
+			(at 306.07 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,21 +5591,11 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 265.43 66.675 0)
+			(at 308.61 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 267.97 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -5685,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 254 78.74 0)
+		(at 297.18 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5694,7 +5624,7 @@
 		(dnp no)
 		(uuid "5d91539c-facd-4865-baee-2c168188010b")
 		(property "Reference" "#PWR0301"
-			(at 245.11 81.28 0)
+			(at 288.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 82.55 0)
+			(at 297.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 86.36 0)
+			(at 288.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 91.44 0)
+			(at 288.29 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 78.74 0)
+			(at 297.18 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5675,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 245.11 86.36 0)
+			(at 288.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5686,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 245.11 88.9 0)
+			(at 288.29 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5710,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 222.25 116.84 0)
+		(at 261.62 173.99 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5790,7 +5720,7 @@
 		(fields_autoplaced yes)
 		(uuid "64343803-2816-4c64-adf1-a8939a7570df")
 		(property "Reference" "#PWR0129"
-			(at 213.36 119.38 0)
+			(at 252.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 121.92 0)
+			(at 261.62 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 124.46 0)
+			(at 252.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 129.54 0)
+			(at 252.73 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 116.84 0)
+			(at 261.62 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5771,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 213.36 124.46 0)
+			(at 252.73 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5782,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 213.36 127 0)
+			(at 252.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 129.54 58.42 0)
+		(at 172.72 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5885,7 +5815,7 @@
 		(fields_autoplaced yes)
 		(uuid "6716e33b-64ce-4c9c-9295-47fbf1465d9f")
 		(property "Reference" "#PWR02"
-			(at 144.78 58.42 0)
+			(at 187.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5826,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 129.54 53.34 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 66.04 0)
+			(at 187.96 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +5846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 68.58 0)
+			(at 187.96 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 58.42 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5866,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 144.78 60.96 0)
+			(at 187.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5877,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 144.78 63.5 0)
+			(at 187.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +5901,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 227.33 74.93 0)
+		(at 270.51 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +5910,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c19d03f-1efd-47b4-b9f5-512557d962e6")
 		(property "Reference" "#PWR079"
-			(at 236.22 77.47 0)
+			(at 279.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +5921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.3198 80.01 0)
+			(at 268.4998 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 82.55 0)
+			(at 279.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 87.63 0)
+			(at 279.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +5953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 74.93 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5962,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 236.22 82.55 0)
+			(at 279.4 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5973,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 236.22 85.09 0)
+			(at 279.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,15 +5997,15 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 248.92 77.47 90)
+		(at 292.1 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6cca6a50-ef9f-4eb0-9fff-6ee724ee6890")
 		(property "Reference" "TP17"
-			(at 248.92 71.12 0)
+			(at 292.1 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6014,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 252.73 66.675 0)
+			(at 295.91 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 255.27 66.675 0)
+			(at 298.45 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 59.69 0)
+			(at 304.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,8 +6046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 248.92 77.47 0)
+		(property "Description" "SMT test point"
+			(at 292.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6056,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 260.35 66.675 0)
+			(at 303.53 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6067,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 255.27 66.675 0)
+			(at 298.45 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6078,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 257.81 66.675 0)
+			(at 300.99 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,21 +6089,11 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 260.35 66.675 0)
+			(at 303.53 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 262.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -6193,7 +6113,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 118.11 58.42 0)
+		(at 161.29 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6203,7 +6123,7 @@
 		(fields_autoplaced yes)
 		(uuid "714cfdeb-ddd1-41f1-b0f2-1ed9f8f63ac6")
 		(property "Reference" "#PWR01"
-			(at 118.11 62.23 0)
+			(at 161.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6133,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 118.11 53.34 0)
+			(at 161.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 58.42 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +6150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 58.42 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 58.42 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6168,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 102.87 66.04 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6179,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 102.87 68.58 0)
+			(at 146.05 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6203,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 129.54 115.57 0)
+		(at 172.72 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6292,7 +6212,7 @@
 		(fields_autoplaced yes)
 		(uuid "97fb88b7-fa57-417c-a4fa-0fe70d4098b6")
 		(property "Reference" "#PWR05"
-			(at 138.43 118.11 0)
+			(at 181.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 120.65 0)
+			(at 172.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 123.19 0)
+			(at 181.61 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 128.27 0)
+			(at 181.61 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 115.57 0)
+			(at 172.72 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6263,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 138.43 123.19 0)
+			(at 181.61 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6274,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 138.43 125.73 0)
+			(at 181.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6298,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:MP_Pad6mm_Drill3mm")
-		(at 129.54 114.3 90)
+		(at 172.72 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6386,7 +6306,7 @@
 		(dnp no)
 		(uuid "9c0810ea-dcf4-4436-86eb-94fd6be9b476")
 		(property "Reference" "MP1"
-			(at 129.54 102.87 90)
+			(at 172.72 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6315,7 @@
 			)
 		)
 		(property "Value" "MP_Pad6mm_Drill3mm"
-			(at 120.015 105.41 90)
+			(at 163.195 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6325,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:MP_Pad6mm_Drill3mm"
-			(at 137.16 93.98 0)
+			(at 180.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6416,7 +6336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 145.11 97.46 0)
+			(at 188.29 154.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,8 +6346,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 114.3 0)
+		(property "Description" "Mechanical part"
+			(at 172.72 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6356,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 139.7 93.98 0)
+			(at 182.88 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,21 +6367,11 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 142.24 93.98 0)
+			(at 185.42 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -6481,7 +6391,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 207.01 74.93 0)
+		(at 250.19 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6490,7 +6400,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa0af31f-652b-4e27-90e8-658c3348a0db")
 		(property "Reference" "#PWR08"
-			(at 215.9 77.47 0)
+			(at 259.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.9998 80.01 0)
+			(at 248.1798 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 82.55 0)
+			(at 259.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 87.63 0)
+			(at 259.08 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 74.93 0)
+			(at 250.19 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6452,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 215.9 82.55 0)
+			(at 259.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6463,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 215.9 85.09 0)
+			(at 259.08 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6487,7 @@
 	)
 	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_598-8D80-107F")
-		(at 207.01 73.66 90)
+		(at 250.19 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6586,17 +6496,17 @@
 		(fields_autoplaced yes)
 		(uuid "b262efde-ded7-452d-9145-21ce96c27413")
 		(property "Reference" "D1"
-			(at 209.55 69.85 90)
+			(at 246.38 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_G_0603_598-8D80-107F"
-			(at 214.63 50.8 0)
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6606,8 +6516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 217.17 50.8 0)
+		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G_Right_Angle"
+			(at 260.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6528,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.dialight.com/wp-content/uploads/2021/07/DIA_Selector_Guide_SMD_042321.pdf"
-			(at 219.71 50.8 0)
+			(at 262.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,8 +6538,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 73.66 0)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.8 V, 525 nm, Right Angle"
+			(at 250.19 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6548,7 @@
 			)
 		)
 		(property "MPN" "598-8D80-107F"
-			(at 222.25 50.8 0)
+			(at 265.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6559,7 @@
 			)
 		)
 		(property "Manufacturer" "Dialight"
-			(at 224.79 50.8 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6570,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 227.33 50.8 0)
+			(at 270.51 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6581,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 229.87 50.8 0)
+			(at 273.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,22 +6592,12 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 209.55 72.39 90)
+			(at 246.38 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Public" "False"
-			(at 224.79 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6717,7 +6617,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 207.01 60.96 180)
+		(at 250.19 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6726,7 +6626,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc373812-ad12-4dcf-96a9-6cf46e76ff8c")
 		(property "Reference" "TP1"
-			(at 201.93 60.9599 0)
+			(at 245.11 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6636,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 191.77 53.34 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 191.77 50.8 0)
+			(at 234.95 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +6658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 48.26 0)
+			(at 234.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,8 +6668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 60.96 0)
+		(property "Description" "SMT test point"
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6678,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 191.77 45.72 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6689,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 191.77 43.18 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +6700,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 207.01 60.96 0)
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,21 +6709,11 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 207.01 60.96 0)
+			(at 250.19 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 196.85 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -6841,7 +6731,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 227.33 59.69 0)
+		(at 270.51 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6850,7 +6740,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1af43ca-ef4d-4019-b45e-7f7d8a9d73e4")
 		(property "Reference" "#PWR07"
-			(at 242.57 59.69 0)
+			(at 285.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6751,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 227.33 54.61 0)
+			(at 270.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 67.31 0)
+			(at 285.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +6771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 69.85 0)
+			(at 285.75 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 59.69 0)
+			(at 270.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6791,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 242.57 62.23 0)
+			(at 285.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6802,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 242.57 64.77 0)
+			(at 285.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6826,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 134.62 59.69 0)
+		(at 177.8 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6944,7 +6834,7 @@
 		(dnp no)
 		(uuid "e34e151a-42bc-478e-91f8-b6798e4b442a")
 		(property "Reference" "#FLG02"
-			(at 134.62 57.785 0)
+			(at 177.8 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6843,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 135.255 55.88 0)
+			(at 178.435 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 59.69 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 59.69 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 59.69 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +6891,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 207.01 59.69 0)
+		(at 250.19 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7010,7 +6900,7 @@
 		(fields_autoplaced yes)
 		(uuid "eab97523-915d-42d1-9fe0-e019befbb901")
 		(property "Reference" "#PWR06"
-			(at 222.25 62.23 0)
+			(at 265.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +6911,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 54.61 0)
+			(at 250.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +6920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 67.31 0)
+			(at 265.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +6931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 69.85 0)
+			(at 265.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +6942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 59.69 0)
+			(at 250.19 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +6951,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 222.25 67.31 0)
+			(at 265.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +6962,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 222.25 69.85 0)
+			(at 265.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +6986,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 248.92 78.74 0)
+		(at 292.1 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7105,7 +6995,7 @@
 		(dnp no)
 		(uuid "edd62d8f-0866-475f-860d-7d8089cf82f7")
 		(property "Reference" "#PWR080"
-			(at 240.03 81.28 0)
+			(at 283.21 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 82.55 0)
+			(at 292.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 86.36 0)
+			(at 283.21 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 91.44 0)
+			(at 283.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 78.74 0)
+			(at 292.1 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +7046,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 86.36 0)
+			(at 283.21 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7057,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 88.9 0)
+			(at 283.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,15 +7081,15 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 204.47 109.22 180)
+		(at 243.84 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5096c62-5c57-40e2-b227-446ddc7eb988")
 		(property "Reference" "TP13"
-			(at 198.12 109.22 0)
+			(at 237.49 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +7098,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 193.675 105.41 0)
+			(at 233.045 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7109,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 193.675 102.87 0)
+			(at 233.045 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 96.52 0)
+			(at 226.06 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,8 +7130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 109.22 0)
+		(property "Description" "SMT test point"
+			(at 243.84 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,7 +7140,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 193.675 97.79 0)
+			(at 233.045 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7151,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 193.675 102.87 0)
+			(at 233.045 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7162,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.675 100.33 0)
+			(at 233.045 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,21 +7173,11 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 193.675 97.79 0)
+			(at 233.045 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 194.31 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
