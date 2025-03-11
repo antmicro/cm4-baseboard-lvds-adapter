@@ -335,7 +335,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_1k_0402"
+		(property "Value" "R_1k5_0402"
 			(at -1.011843 1.772047 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -372,7 +372,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1.5 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
+		(property "MPN" "CR0402-FX-1501GLF"
 			(at 375.4155 62.3555 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -444,7 +444,7 @@
 				)
 			)
 		)
-		(property "Val" "1k"
+		(property "Val" "1k5"
 			(at 375.4155 62.3555 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -456,7 +456,7 @@
 				)
 			)
 		)
-		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/d79f4f60-389a-4ab9-b4a5-1fabbcd08251")
+		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/c2747911-c637-4a6e-a38b-2a7dc40204d5")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
@@ -1426,6 +1426,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KP-1608ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53586565-3b88-4e82-a8dd-e8542f1f553d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88d61e0a-b040-4346-a706-1b7bf2729f28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9d6a5e9-e8b0-4ebf-929b-8ff25857e0b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15285d9c-ce73-4059-b93d-6f1a9c580bb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5abce2af-b828-4262-97c7-d8e5c4947d35")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4566,7 +4631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_330R_0402"
+		(property "Value" "R_100R_0402"
 			(at -1.011843 1.772047 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4603,7 +4668,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 330 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 100 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4639,7 +4704,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-3300GLF"
+		(property "MPN" "CR0402-FX-1000GLF"
 			(at 369.5555 68.1955 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4675,7 +4740,7 @@
 				)
 			)
 		)
-		(property "Val" "330R"
+		(property "Val" "100R"
 			(at 369.5555 68.1955 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4687,7 +4752,7 @@
 				)
 			)
 		)
-		(path "/22d16469-9258-4636-9009-0bef153eb515/bf1f4210-3f6a-4bd2-9d45-3a8c96f6d398")
+		(path "/22d16469-9258-4636-9009-0bef153eb515/4bfe4840-5e47-4655-80cf-84606c73d453")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
 		(attr smd)
@@ -34410,6 +34475,71 @@
 				)
 			)
 		)
+		(property "MPN" "KP-1608ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e2a447-72b3-4f1a-9f91-f21f80e47757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e256f74f-8f64-4ca9-985e-eff9002da7e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e04a4cd-a4c1-41fd-8628-fd50d3061359")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fbb33e0-ede7-46e2-a94f-52498d670cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5624179f-254c-437a-a99d-e7cb3584d911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/177dc9b7-8742-40a5-9e11-bf081ff36709")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -45719,6 +45849,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81fe993a-40d6-4cba-8004-ae07a08479f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34a0f1f6-3e92-42f7-9c0c-7065624b6be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76ee1405-c465-4d76-a39f-57e1d50cddf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c46a2a1c-af2e-41a5-9c1d-7f26789a247d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -68140,6 +68322,58 @@
 				)
 			)
 		)
+		(property "Author" "Antmicro"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f013d50a-d759-4e16-a721-1246c774ad7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaea79e3-c6d0-4f59-9cbf-c33f8398a219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "466c3113-e218-4a2f-9d19-25cf8784c29a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3f1950f-5429-4a94-9dec-50cd35b09e20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/c8cc73ca-06c5-4066-a17e-65e3b9809aff")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -76597,6 +76831,71 @@
 				)
 			)
 		)
+		(property "MPN" "KP-1608ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c77d87a-fd0e-4edb-8677-4255c2e428e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2c9284-3fe8-48e5-8870-fd45570f6081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b37eef53-bb30-433b-b6e9-edc95655adf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7c3a9fc-d083-4bf0-b55e-ca4c2bb8b76b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94438e63-6ae9-4d3f-bad5-4d9690b02918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22d16469-9258-4636-9009-0bef153eb515/0f806a64-9357-4ea1-b8da-49a842b8c94c")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
@@ -79779,6 +80078,58 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "444979ba-088b-40de-971d-e5c2b76d7faa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53a31f2b-2bff-4615-9f05-200c5e9b8b90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78d3ca30-880f-4b39-9310-7ff7cbfd890d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2677e9fd-ff52-4356-bff6-51f9b8e039bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22d16469-9258-4636-9009-0bef153eb515/59bad9d7-bc22-4df8-ba7c-d84d8d55c3fc")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
@@ -79903,6 +80254,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcdd8fab-3c1d-4929-a571-2952f24c34d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e0a0475-58cc-4e51-8e3b-32c446e8b07c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b80e67e-7e76-4c8f-a5f4-28cab1433d51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6669820-20d1-4ee2-a90b-e3b742e28975")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -101818,6 +102221,71 @@
 				)
 			)
 		)
+		(property "MPN" "KP-1608ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e462f293-b2eb-40c0-9970-4f685fcb34c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19e82983-80a1-403c-aad5-0be4b2b0712f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3231fa5c-38cf-424d-a3be-acd6c9fd804a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ea4c0a-c653-4350-b5a3-a3f839f58354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa769b48-cc2f-46d9-8e87-1b0aa684c0cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/cf5e9747-9ad2-4e85-a9d9-e4395561a620")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -113131,6 +113599,58 @@
 				)
 			)
 		)
+		(property "Author" "Antmicro"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5983c4c-c6df-4e4f-80a2-5dce447790df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9417dd83-b63c-42e3-ba9e-f5c9ce07bee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0241e6a5-f1ac-44f8-a101-d2a60dd09af1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "603ef16b-0c1d-4ed3-9369-8f7e8cbb993b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/22d16469-9258-4636-9009-0bef153eb515/cc373812-ad12-4dcf-96a9-6cf46e76ff8c")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
@@ -120298,7 +120818,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_1k_0402"
+		(property "Value" "R_1k5_0402"
 			(at -1.011843 1.772046 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -120335,7 +120855,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1.5 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -120371,7 +120891,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-1001GLF"
+		(property "MPN" "CR0402-FX-1501GLF"
 			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -120407,7 +120927,7 @@
 				)
 			)
 		)
-		(property "Val" "1k"
+		(property "Val" "1k5"
 			(at 371.0555 66.6955 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -120419,7 +120939,7 @@
 				)
 			)
 		)
-		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/b3e18db1-b038-47f9-b748-09c99449a3d5")
+		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/58de2013-77de-4885-afb5-bc9ea92b0ca8")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
@@ -120690,6 +121210,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KP-1608ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd72a3ed-94a6-4244-844f-195317cacecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "220a3e21-8cad-4939-8817-eee02a8d1337")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Color" "Green"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f329fcf4-100a-432f-9b5b-c46e1e69a5c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc6b6c7-d0cb-474e-930e-9db363a6d202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d3c114-b290-4af9-8564-99d8c1ebcec0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -123872,6 +124457,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e69d88a8-5cb0-47d5-9a8a-6b80589a6e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e91d889-760f-4457-8c05-529c2f376893")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fccfa41b-3f34-4523-bac6-909668a4fb3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c58b294e-c249-4357-b893-e2cbea37061e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -153943,6 +154580,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c9d441f-5fec-4d0d-8034-db6c6f6554d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73ac33b9-74de-46df-ba36-311af29d82ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ebbeb13-d447-49d3-8f6a-90c1b534f066")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e5b014f-ba1e-4fec-a879-5e4c1fd7ebeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/2d1de823-8768-49dd-b811-8372ccbba276")
 		(sheetname "LVDS and Touchscreen Connectors")
 		(sheetfile "lvds-connector.kicad_sch")
@@ -161863,6 +162556,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12a6af1f-5856-4e9d-b63f-20cfe48423fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "818df626-1b74-483f-ab73-cb09b225bb5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80e46fa8-4c19-48e6-8d18-e748af2272c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d08244e-18e3-4bf2-9408-6d0f805b7d0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/c78f8215-202a-4b1d-bdf1-f926bd190b7a")
@@ -178890,7 +179639,7 @@
 		)
 		(fp_arc
 			(start 0.20089 0.346)
-			(mid 0.187424 0.340833)
+			(mid 0.187423 0.340829)
 			(end 0.17789 0.33)
 			(stroke
 				(width 0.02)
@@ -216956,6 +217705,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9846fc0a-691d-44b3-b91a-0e91ce858a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80a46ff9-60fb-41b8-a498-a0e1c4502937")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d7a763d-9f8c-4219-b3ee-2eaad201d508")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "94b844e1-e329-4be4-873b-eebabc05888b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22d16469-9258-4636-9009-0bef153eb515/f5096c62-5c57-40e2-b227-446ddc7eb988")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
@@ -226188,7 +226993,7 @@
 		)
 		(fp_arc
 			(start 0.20089 0.346)
-			(mid 0.187424 0.340833)
+			(mid 0.187423 0.340829)
 			(end 0.17789 0.33)
 			(stroke
 				(width 0.02)
@@ -241419,6 +242224,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9a5c68a1-a90c-461b-b05d-a65bc9080e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d764b4d2-669a-4eb9-8eef-bc76370ae477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2106ab91-6d67-4c2f-9ccb-6fa277d55a3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ddb9a7d-c332-4530-af89-da3b9b5dcab4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/13616744-3b50-4842-b068-e3e7231457a9")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -252453,6 +253314,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ac4c15f-f7c9-45d5-97aa-faaaf8787d4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed894216-0842-4c55-9a62-879d4d366ad8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bdf33d10-8d59-4ca8-ade0-03cc912e4f36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d58bbf7c-f169-4d2c-8a7d-197e4085c25f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/5040a86b-2bb0-4cb7-9f07-bc879161ac22")
@@ -268197,6 +269114,62 @@
 				)
 			)
 		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c9a1694-4469-43e3-94cb-8355670d5b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8378a8d1-c357-4296-b408-0cf514590dca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5c3d009-3f7f-4c1b-a512-b8875cff2c63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b99ed663-11aa-4550-8203-dad3d200028d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/db0083c7-3863-4e7c-b87b-694c9e85808f")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -268325,6 +269298,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96442090-f3a0-4916-9986-336750013f06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1480541-641d-45e8-9c5e-aca0be0cbc1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c97de3b4-79e6-4620-abda-f4570a1d183c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3dfcf235-c415-4c52-acb4-a8741eb7e1b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/a2bee1b6-bff1-437a-ae2e-523dca8109c4")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -268451,6 +269480,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81be1afa-94c9-4ad6-b3ee-cac8afdafd9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d23caea-cc0c-43f2-a9d2-003e5b11f3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff824dba-3cc8-4a5b-be59-37cbd021a798")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22bf30ad-d50e-4491-88ad-9d0ed3eb6b07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/96cbedfa-d8a9-486b-9439-f173cc3db30e")
@@ -290625,6 +291710,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6af70f60-e5d3-439a-a647-6353742bf2ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "231a5b10-30fc-402c-8334-42697f73a68e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a42959a6-326c-4c67-8955-5686826087a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d2e043e2-4d2b-45b7-9e32-e9a2f094538e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/2a66f9ba-5f97-4170-af1b-4f0884a2774e")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
@@ -304068,6 +305209,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e548555b-fd84-4130-ba1b-c986451dd445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "82ac1cbf-8bb3-4f9b-8c33-dc7e5b3986d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12114b4b-fe31-45c6-aad3-ca6ff6246cfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f38a6b0d-18ff-43b0-8093-f2674e3b0542")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/508230d1-9cba-4883-a60d-16643bfdc6cf")
 		(sheetname "LVDS and Touchscreen Connectors")
 		(sheetfile "lvds-connector.kicad_sch")
@@ -309075,6 +310272,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" "MPQ7235GQBE-AEC1-Z"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "58577d01-8faf-48e7-9174-e30471bd6af2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Monolithic Power Systems"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a78d5f9-5c64-4a3a-aae5-75b77fd3fe8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9f301c06-c65d-43dc-a4f4-d369df5415b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bee9d666-58b7-4269-828c-6166c351a2a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/92ce678d-cb66-43c6-8102-bd9557c3375d")
@@ -335137,6 +336390,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f41a3c6d-5868-4149-acd8-d168144d2d46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a78364b-1aa9-4325-b4a7-88fb331fca06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "66cb267b-e68c-495f-9ce2-674860c180e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a289519-d8a3-46f3-8ddb-596484b484d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/6aaa9cc7-d853-4824-b614-5367b60acf86")
 		(sheetname "LVDS and Touchscreen Connectors")
 		(sheetfile "lvds-connector.kicad_sch")
@@ -349449,6 +350758,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e0977ff-f81e-47d3-b51e-b85df9d33ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90ff1e18-ea12-420b-8355-53ca2e9f5b66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "570266eb-76bb-43c6-9dcd-bec4e9c112b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "42bbdfe4-c27f-40e0-9bc9-23ebaa582620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/22d16469-9258-4636-9009-0bef153eb515/6cca6a50-ef9f-4eb0-9fff-6ee724ee6890")
 		(sheetname "Antmicro CM4 Baseboard DSI Connector ")
 		(sheetfile "dsi-connector.kicad_sch")
@@ -349575,6 +350940,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa2e8461-e403-46ee-a886-9286db577c1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "74caff3a-a8f1-418d-a6b2-171e3d127fef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54dc9d28-48ae-42a3-8ed8-21877caaf5de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "940805cf-fc80-4559-9e0b-6e5f48557857")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/0b9803f6-0639-40c6-ab82-8be50b6c0cd0")
@@ -365825,6 +367246,62 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bde6ba8-2b06-4597-b019-d1ed391907dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49216ba6-175d-4cc2-962b-524a5c0fd255")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5a09ad1-3648-4ec4-a23f-c99c070eda4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e0fc51f-7d99-4459-9d8c-fad4c3b1462e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/9b020d3f-6e56-4b2e-87da-b8fe17fcc5ba")
 		(sheetname "LVDS and Touchscreen Connectors")
 		(sheetfile "lvds-connector.kicad_sch")
@@ -365951,6 +367428,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee605036-db19-4538-a66e-72c34809a1fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9023c105-326d-4773-8f3d-8e09d710bc5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a7c9fea8-0bfb-4251-b19c-de2e5b6b41fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0b63d125-9f39-4ae3-befd-3c88b44e858f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/08a1e442-f0a3-4779-ba71-f71979b0fc7c/49d9abab-ed9e-4af2-bee6-b7aa2e3fa122")
@@ -431185,6 +432718,62 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d7220b2-1466-4216-91a4-aeaf6bf2b5a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21f42a1e-6eeb-4c90-b7e8-8afb46110273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a86e5346-9e9a-46b0-8f9e-69204825c6f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "749a0e21-7c9c-4d07-a7b7-d510ef8c0518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
 			)
 		)
 		(path "/40370491-50e7-47c8-9afe-55574f0cd0f6/9c6c1fe7-80ac-44bc-aad1-ca3f2e58c493")
