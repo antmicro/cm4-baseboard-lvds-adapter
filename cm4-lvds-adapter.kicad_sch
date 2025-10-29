@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "60b842dc-0853-4a25-99ac-5784ddf94d0d")
 	(paper "A3")
 	(title_block
@@ -2183,6 +2183,10 @@
 	(sheet
 		(at 177.8 143.51)
 		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2212,13 +2216,13 @@
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
 			(at 177.8 154.94 180)
+			(uuid "baab00ad-62bb-4b5f-9821-ce66f1d780da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "baab00ad-62bb-4b5f-9821-ce66f1d780da")
 		)
 		(instances
 			(project "cm4-lvds-adapter"
@@ -2231,6 +2235,10 @@
 	(sheet
 		(at 116.84 105.41)
 		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2260,23 +2268,23 @@
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
 			(at 162.56 120.65 0)
+			(uuid "adb5339a-a9d6-4c92-abbc-02eade64608b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "adb5339a-a9d6-4c92-abbc-02eade64608b")
 		)
 		(pin "DSI{DSI}" bidirectional
 			(at 162.56 113.03 0)
+			(uuid "e4f6a341-fa8b-4112-993b-999a4d1692fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e4f6a341-fa8b-4112-993b-999a4d1692fd")
 		)
 		(instances
 			(project "cm4-lvds-adapter"
@@ -2289,6 +2297,10 @@
 	(sheet
 		(at 238.76 105.41)
 		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2318,23 +2330,23 @@
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
 			(at 238.76 120.65 180)
+			(uuid "425e6626-43ed-4c65-9554-f04df333136b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "425e6626-43ed-4c65-9554-f04df333136b")
 		)
 		(pin "LVDS{LVDS}" bidirectional
 			(at 238.76 113.03 180)
+			(uuid "dd6d5761-e706-4b48-ae47-e5e8c8f10d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dd6d5761-e706-4b48-ae47-e5e8c8f10d0d")
 		)
 		(instances
 			(project "cm4-lvds-adapter"
@@ -2347,6 +2359,10 @@
 	(sheet
 		(at 177.8 105.41)
 		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2376,33 +2392,33 @@
 		)
 		(pin "DSI{DSI}" bidirectional
 			(at 177.8 113.03 180)
+			(uuid "4980e68d-1afc-445d-b757-16428ddb0286")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4980e68d-1afc-445d-b757-16428ddb0286")
 		)
 		(pin "DSICtrl{DSICtrl}" bidirectional
 			(at 177.8 120.65 180)
+			(uuid "3e8c0b9c-1ab1-4959-b2ec-5c66de409f06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3e8c0b9c-1ab1-4959-b2ec-5c66de409f06")
 		)
 		(pin "LVDS{LVDS}" bidirectional
 			(at 223.52 113.03 0)
+			(uuid "7a656c5d-5a83-4a64-9932-d2facb689e22")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7a656c5d-5a83-4a64-9932-d2facb689e22")
 		)
 		(instances
 			(project "cm4-lvds-adapter"
@@ -2417,4 +2433,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
