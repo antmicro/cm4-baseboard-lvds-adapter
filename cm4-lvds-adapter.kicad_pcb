@@ -38,6 +38,7 @@
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -440360,11 +440361,11 @@
 	(gr_line
 		(start 160 180)
 		(end 108 180)
-		(locked yes)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "b071970e-fc7b-4c7f-b6ff-c078c4513591")
 	)
